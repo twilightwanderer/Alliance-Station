@@ -1,22 +1,16 @@
-## /tg/station codebase
+## Alience-Station codebase
 
-[![Build Status](https://github.com/tgstation/tgstation/workflows/CI%20Suite/badge.svg)](https://github.com/tgstation/tgstation/actions?query=workflow%3A%22CI+Suite%22)
-[![Percentage of issues still open](https://isitmaintained.com/badge/open/tgstation/tgstation.svg)](https://isitmaintained.com/project/tgstation/tgstation "Percentage of issues still open")
-[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/tgstation/tgstation.svg)](https://isitmaintained.com/project/tgstation/tgstation "Average time to resolve an issue")
-![Coverage](https://img.shields.io/badge/coverage---3%25-red.svg)
+Alliance Station is a fork of tgstation [/tg/station](https://github.com/tgstation/tgstation) whose goal is to create a Space Station 13 build in the style of the Mass Effect universe. 
 
-[![resentment](https://forthebadge.com/images/badges/built-with-resentment.svg)](https://www.monkeyuser.com/assets/images/2019/131-bug-free.png) [![resentment](https://forthebadge.com/images/badges/contains-technical-debt.svg)](https://user-images.githubusercontent.com/8171642/50290880-ffef5500-043a-11e9-8270-a2e5b697c86c.png) [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
+## Development status
 
-* **Website:** https://www.tgstation13.org
-* **Code:** https://github.com/tgstation/tgstation
-* **Wiki:** https://tgstation13.org/wiki/Main_Page
-* **Codedocs:** https://codedocs.tgstation13.org/
-* **/tg/station Discord:** https://tgstation13.org/phpBB/viewforum.php?f=60
-* **Coderbus Discord:** https://discord.gg/Vh8TJp9
-
-This is the codebase for the /tg/station flavoured fork of SpaceStation 13.
-
-Space Station 13 is a paranoia-laden round-based roleplaying game set against the backdrop of a nonsensical, metal death trap masquerading as a space station, with charming spritework designed to represent the sci-fi setting and its dangerous undertones. Have fun, and survive!
+There is a lot of work to be done to achieve the goal.
+At this point, the following things need to be done:
+- [ ] Adapt menus and other UI elements.
+- [ ] Work on sprites.
+- [ ] Develop your own map.
+- [ ] Rework the game factions.
+- [ ] Work on the soundtrack.
 
 ## DOWNLOADING
 [Downloading](.github/guides/DOWNLOADING.md)
@@ -26,8 +20,6 @@ Space Station 13 is a paranoia-laden round-based roleplaying game set against th
 [Maps and Away Missions](.github/guides/MAPS_AND_AWAY_MISSIONS.md)
 
 ## :exclamation: How to compile :exclamation:
-
-On **2021-01-04** we have changed the way to compile the codebase.
 
 **The quick way**. Find `bin/server.cmd` in this folder and double click it to automatically build and host the server on port 1337.
 
@@ -45,6 +37,8 @@ On **2021-01-04** we have changed the way to compile the codebase.
 [Interested in some starting lore?](https://github.com/tgstation/common_core)
 
 ## LICENSE
+
+Аlliance Station is a fork of tgstation from this [commit 7f114173bfe2c37651df70e14fe6347d56ceb497](https://github.com/tgstation/tgstation/commit/7f114173bfe2c37651df70e14fe6347d56ceb497).
 
 All code after [commit 333c566b88108de218d882840e61928a9b759d8f on 2014/31/12 at 4:38 PM PST](https://github.com/tgstation/tgstation/commit/333c566b88108de218d882840e61928a9b759d8f) is licensed under [GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.html).
 
