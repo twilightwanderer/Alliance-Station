@@ -4507,3 +4507,7 @@
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
 // END_INCLUDE
+
+// BEGIN INCLUDE ALLIENCE MODULES
+#include "modular_alliance\modules\alternative_textures\code\crates.dm"
+// END INCLUDE MODULES
