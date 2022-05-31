@@ -4506,6 +4506,8 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "modular_alliance\modules\alternative_textures\code\computers.dm"
+#include "modular_alliance\modules\alternative_textures\code\crates.dm"
 // END_INCLUDE
 
 // BEGIN INCLUDE ALLIENCE MODULES
