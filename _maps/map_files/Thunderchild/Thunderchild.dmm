@@ -2,11 +2,22 @@
 "a" = (
 /turf/open/space/basic,
 /area/space)
+"b" = (
+/obj/machinery/recycler,
+/turf/open/floor/iron/dark,
+/area/space)
 "d" = (
 /obj/machinery/shuttle_manipulator{
 	name = "Galaxy Overview"
 	},
 /turf/open/floor/mineral/titanium/tiled/yellow,
+/area/space)
+"e" = (
+/obj/structure/disposaloutlet{
+	eject_range = 1;
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "g" = (
 /obj/machinery/computer/med_data{
@@ -25,11 +36,20 @@
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/space)
 "j" = (
-/obj/structure/fluff/tram_rail/anchor,
-/obj/structure/fluff/tram_rail/anchor{
-	dir = 1
+/turf/open/floor/iron/dark/side{
+	dir = 10
+	},
+/area/space)
+"k" = (
+/obj/structure/fluff/tram_rail/end{
+	dir = 4;
+	name = "ship lattice"
 	},
 /turf/open/space/basic,
+/area/space)
+"l" = (
+/obj/machinery/door/poddoor/massdriver_chapel,
+/turf/open/floor/iron/dark,
 /area/space)
 "m" = (
 /obj/machinery/computer/communications{
@@ -39,10 +59,25 @@
 /area/space)
 "n" = (
 /obj/structure/fluff/tram_rail/end{
-	dir = 4
+	name = "ship lattice";
+	dir = 8
 	},
 /obj/structure/fluff/tram_rail/end{
+	dir = 4;
+	name = "ship lattice"
+	},
+/turf/open/openspace,
+/area/space)
+"o" = (
+/obj/structure/fluff/tram_rail/end{
+	name = "ship lattice";
 	dir = 8
+	},
+/turf/open/space/basic,
+/area/space)
+"q" = (
+/obj/structure/fluff/tram_rail{
+	name = "ship lattice"
 	},
 /turf/open/space/basic,
 /area/space)
@@ -51,7 +86,15 @@
 /area/space)
 "t" = (
 /obj/structure/fluff/tram_rail/end{
+	name = "ship lattice";
 	dir = 8
+	},
+/turf/open/openspace,
+/area/space)
+"u" = (
+/obj/structure/fluff/tram_rail{
+	dir = 1;
+	name = "ship lattice"
 	},
 /turf/open/space/basic,
 /area/space)
@@ -59,11 +102,29 @@
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/space)
+"w" = (
+/obj/machinery/conveyor/inverted{
+	dir = 9;
+	id = "TrashConv"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "x" = (
 /obj/structure/fluff/tram_rail{
 	dir = 1
 	},
-/turf/open/space/basic,
+/turf/open/openspace,
+/area/space)
+"y" = (
+/turf/open/floor/iron/dark/corner{
+	dir = 1
+	},
+/area/space)
+"z" = (
+/obj/machinery/conveyor{
+	id = "TrashConv"
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "A" = (
 /obj/structure/chair/comfy/shuttle{
@@ -76,8 +137,8 @@
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/space)
 "C" = (
-/obj/structure/fluff/tram_rail,
-/turf/open/space/basic,
+/obj/machinery/door/poddoor/massdriver_trash,
+/turf/open/floor/iron/dark,
 /area/space)
 "D" = (
 /obj/structure/chair/comfy/shuttle{
@@ -86,8 +147,7 @@
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/space)
 "E" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
+/turf/open/floor/iron/dark,
 /area/space)
 "F" = (
 /obj/machinery/computer/crew{
@@ -97,26 +157,62 @@
 /area/space)
 "G" = (
 /obj/structure/fluff/tram_rail/end{
-	dir = 4
+	dir = 4;
+	name = "ship lattice"
 	},
-/turf/open/space/basic,
+/turf/open/openspace,
+/area/space)
+"H" = (
+/turf/open/floor/iron/dark/corner{
+	dir = 8
+	},
+/area/space)
+"I" = (
+/obj/machinery/mass_driver/trash{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "K" = (
 /obj/machinery/computer/station_alert,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/space)
 "L" = (
-/obj/structure/fluff/tram_rail,
 /obj/structure/fluff/tram_rail{
-	dir = 1
+	dir = 1;
+	name = "ship lattice"
+	},
+/obj/structure/fluff/tram_rail{
+	name = "ship lattice"
 	},
 /turf/open/space/basic,
+/area/space)
+"M" = (
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/space)
+"N" = (
+/obj/machinery/mass_driver/chapelgun{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "O" = (
 /turf/open/openspace,
 /area/space)
+"P" = (
+/obj/machinery/conveyor_switch/oneway{
+	id = "TrashConv"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "Q" = (
 /turf/open/floor/mineral/titanium/tiled/yellow,
+/area/space)
+"R" = (
+/obj/structure/fluff/tram_rail,
+/turf/open/openspace,
 /area/space)
 "S" = (
 /obj/structure/shuttle/engine/large{
@@ -127,6 +223,11 @@
 "U" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/plating,
+/area/space)
+"V" = (
+/turf/open/floor/iron/dark/side{
+	dir = 9
+	},
 /area/space)
 "W" = (
 /obj/machinery/computer/monitor{
@@ -144,10 +245,16 @@
 /area/space)
 "Y" = (
 /obj/structure/fluff/tram_rail/anchor{
-	dir = 1
+	dir = 1;
+	name = "ship lattice anchor"
 	},
-/obj/structure/fluff/tram_rail/anchor,
+/obj/structure/fluff/tram_rail/anchor{
+	name = "ship lattice anchor"
+	},
 /turf/open/space/basic,
+/area/space)
+"Z" = (
+/turf/open/floor/iron,
 /area/space)
 
 (1,1,1) = {"
@@ -12867,17 +12974,17 @@ a
 a
 a
 a
+o
+a
+k
 a
 a
 a
 a
 a
+o
 a
-a
-a
-a
-a
-a
+k
 a
 a
 a
@@ -13124,17 +13231,17 @@ a
 a
 a
 a
+q
 a
-t
+u
 a
-G
+o
 a
+k
 a
+q
 a
-t
-a
-G
-a
+u
 a
 a
 a
@@ -13381,17 +13488,17 @@ a
 a
 a
 a
+q
 a
-C
+u
 a
-x
+q
 a
+u
 a
+q
 a
-C
-a
-x
-a
+u
 a
 a
 a
@@ -13638,17 +13745,17 @@ a
 a
 a
 a
-a
+r
 C
+r
 a
-x
+q
 a
+u
 a
-a
-C
-a
-x
-a
+r
+l
+r
 a
 a
 a
@@ -13894,19 +14001,19 @@ a
 a
 a
 a
-a
-a
 r
-E
 r
-a
-a
-a
+I
 r
-E
 r
+q
 a
-a
+u
+r
+r
+N
+r
+r
 a
 a
 a
@@ -14150,21 +14257,21 @@ a
 a
 a
 a
+r
+r
+E
+E
+E
+r
+r
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+r
+r
+V
+M
+j
+r
+r
 a
 a
 a
@@ -14406,23 +14513,23 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+r
+r
+E
+E
+E
+E
+e
+r
+r
+r
+E
+y
+Z
+H
+E
+r
+r
 a
 a
 a
@@ -14663,23 +14770,23 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+r
+E
+E
+E
+E
+E
+z
+w
+r
+E
+E
+Z
+Z
+Z
+E
+E
+r
 a
 a
 a
@@ -14920,23 +15027,23 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+r
+E
+E
+E
+P
+E
+E
+b
+r
+E
+E
+Z
+Z
+Z
+E
+E
+r
 a
 a
 a
@@ -15177,23 +15284,23 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+r
+E
+E
+E
+E
+E
+E
+E
+r
+E
+E
+E
+E
+E
+E
+E
+r
 a
 a
 a
@@ -77626,25 +77733,25 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
 a
 a
 a
@@ -77883,25 +77990,25 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
 n
-a
-a
-a
-a
-a
-a
-a
+O
+O
+O
+O
+O
+O
+O
 a
 a
 a
@@ -78140,25 +78247,25 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
 O
 O
 O
-a
+O
+O
+O
+O
+O
+O
+O
+O
 L
-a
 O
 O
 O
-a
-a
-a
+O
+O
+O
+O
 a
 a
 a
@@ -78397,13 +78504,13 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
+O
+O
+O
+O
+O
+O
+O
 O
 O
 O
@@ -78413,9 +78520,9 @@ G
 O
 O
 O
-a
-a
-a
+O
+O
+O
 a
 a
 a
@@ -78654,25 +78761,25 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
 O
 O
 O
-C
+O
+O
+O
+O
+O
+O
+O
+R
 L
 x
 O
 O
 O
-a
-a
-a
+O
+O
+O
 a
 a
 a
@@ -78911,13 +79018,13 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
+O
+O
+O
+O
+O
+O
+O
 O
 O
 O
@@ -78927,9 +79034,9 @@ r
 O
 O
 O
-a
-a
-a
+O
+O
+O
 a
 a
 a
@@ -79168,25 +79275,25 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
+O
+O
+O
+O
+O
+O
+O
 a
 O
 O
 r
-r
-j
-r
+Y
 r
 O
 O
 a
-a
-a
+O
+O
+O
 a
 a
 a
@@ -79425,25 +79532,25 @@ a
 a
 a
 a
+O
+O
+O
+O
+O
+O
+O
 a
-a
-a
-a
-a
-a
-a
-a
+O
 r
 r
-r
-j
-r
+Y
 r
 r
+O
 a
-a
-a
-a
+O
+O
+O
 a
 a
 a
@@ -79682,25 +79789,25 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-r
-r
-a
-a
-a
+O
+O
+O
+O
+O
+O
 a
 a
 r
 r
+O
+a
+O
+r
+r
 a
 a
-a
+O
+O
 a
 a
 a
@@ -79939,8 +80046,8 @@ a
 a
 a
 a
-a
-a
+O
+O
 a
 a
 a
@@ -80196,8 +80303,8 @@ a
 a
 a
 a
-a
-a
+O
+O
 a
 a
 a
@@ -80453,8 +80560,8 @@ a
 a
 a
 a
-a
-a
+O
+O
 a
 a
 a
