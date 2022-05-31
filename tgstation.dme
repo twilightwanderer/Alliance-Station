@@ -4514,4 +4514,5 @@
 #include "modular_alliance\modules\alternative_textures\code\signs.dm"
 #include "modular_alliance\modules\alternative_textures\code\storages.dm"
 #include "modular_alliance\modules\alternative_textures\code\walls.dm"
+#include "modular_alliance\modules\alternative_textures\code\windows.dm"
 // END INCLUDE MODULES
