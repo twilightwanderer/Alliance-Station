@@ -1,8 +1,8 @@
 {
 	"version": 1,
 	"map_name": "SSV Thunder Child",
-	"map_path": "map_files/Thunderchild",
-	"map_file": "Thunderchild.dmm",
+	"map_path": "map_files/ThunderChild",
+	"map_file": "ThunderChild.dmm",
 	"shuttles": {
 		"cargo": "cargo_box",
 		"ferry": "ferry_fancy",
@@ -12,13 +12,19 @@
 	"traits": [
 		{
 			"Up": 1,
-			"Baseturf": "/turf/open/misc/asteroid/airless",
-			"Linkage": "Cross"
+			"Baseturf": "/turf/open/floor/iron/dark",
+			"Linkage": null
 		},
 		{
 			"Down": -1,
-			"Baseturf": "/turf/open/openspace",
-			"Linkage": "Cross"
+			"Up": 1,
+			"Baseturf": "/turf/open/floor/iron/dark",
+			"Linkage": null
+		},
+		{
+			"Down": -1,
+			"Baseturf": "/turf/open/floor/mineral/titanium/tiled/yellow",
+			"Linkage": null
 		}
 	]
 }
