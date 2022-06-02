@@ -4518,4 +4518,5 @@
 #include "modular_alliance\modules\alternative_textures\code\vendings.dm"
 #include "modular_alliance\modules\alternative_textures\code\walls.dm"
 #include "modular_alliance\modules\alternative_textures\code\windows.dm"
+#include "modular_alliance\modules\modular_outfit\code\guns.dm"
 // END INCLUDE MODULES
