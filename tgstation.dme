@@ -4510,6 +4510,7 @@
 
 // BEGIN INCLUDE ALLIENCE MODULES
 #include "modular_alliance\modules\alternative_textures\code\computers.dm"
+#include "modular_alliance\modules\alternative_textures\code\contrabands.dm"
 #include "modular_alliance\modules\alternative_textures\code\crates.dm"
 #include "modular_alliance\modules\alternative_textures\code\signs.dm"
 #include "modular_alliance\modules\alternative_textures\code\storages.dm"
