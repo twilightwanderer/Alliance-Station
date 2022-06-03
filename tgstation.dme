@@ -4509,6 +4509,7 @@
 // END_INCLUDE
 
 // BEGIN INCLUDE ALLIANCE MODULES
+#include "modular_alliance\modules\alternative_textures\code\bots.dm"
 #include "modular_alliance\modules\alternative_textures\code\computers.dm"
 #include "modular_alliance\modules\alternative_textures\code\contrabands.dm"
 #include "modular_alliance\modules\alternative_textures\code\crates.dm"
