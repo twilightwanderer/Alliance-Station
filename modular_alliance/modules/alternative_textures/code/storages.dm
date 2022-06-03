@@ -3,4 +3,7 @@
 /obj/item/storage/medkit
 	icon = ICON_STORAGES_PATH
 
+/obj/item/storage/secure/safe
+	icon = ICON_STORAGES_PATH
+
 #undef ICON_STORAGES_PATH
