@@ -4523,5 +4523,6 @@
 #include "modular_alliance\modules\alternative_textures\code\walls.dm"
 #include "modular_alliance\modules\alternative_textures\code\windows.dm"
 #include "modular_alliance\modules\modular_outfit\code\guns.dm"
+#include "modular_alliance\modules\modular_outfit\code\modsuits.dm"
 #include "modular_alliance\modules\modular_shuttles\code\kodiak.dm"
 // END INCLUDE MODULES
