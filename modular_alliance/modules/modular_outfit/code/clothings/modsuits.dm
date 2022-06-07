@@ -1,5 +1,5 @@
-#define ICON_MOD_OVERRIDE 'modular_alliance/modules/modular_outfit/icons/obj/mod_clothing.dmi'
-#define ICON_MOD_WORN_OVERRIDE 'modular_alliance/modules/modular_outfit/icons/mob/mod_clothing.dmi'
+#define ICON_MOD_OVERRIDE 'modular_alliance/modules/modular_outfit/icons/obj/clothings/modsuits/mod_clothing.dmi'
+#define ICON_MOD_WORN_OVERRIDE 'modular_alliance/modules/modular_outfit/icons/mob/clothings/modsuits/mod_clothing.dmi'
 
 /datum/mod_theme/modulare_mod/cerberus
 	name = "cerberus"

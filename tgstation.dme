@@ -4530,6 +4530,7 @@
 #include "modular_alliance\modules\modular_jobs\code\security_officer.dm"
 #include "modular_alliance\modules\modular_jobs\code\warden.dm"
 #include "modular_alliance\modules\modular_outfit\code\guns.dm"
-#include "modular_alliance\modules\modular_outfit\code\modsuits.dm"
+#include "modular_alliance\modules\modular_outfit\code\clothings\modsuits.dm"
+#include "modular_alliance\modules\modular_outfit\code\clothings\suits.dm"
 #include "modular_alliance\modules\modular_shuttles\code\kodiak.dm"
 // END INCLUDE MODULES
