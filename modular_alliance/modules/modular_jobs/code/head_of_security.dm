@@ -1,11 +1,11 @@
 /datum/outfit/job/hos
-	uniform = /obj/item/clothing/under/rank/security/head_of_security
+	uniform = /obj/item/clothing/under/rank/security/uni/n7
 	suit = /obj/item/clothing/suit/armor/hos/trenchcoat
 	suit_store = /obj/item/gun/energy/e_gun
 	backpack_contents = list(
 		/obj/item/evidencebag = 1,
 		)
-	belt = /obj/item/clothing/under/rank/security/uni/n7
+	belt = /obj/item/modular_computer/tablet/pda/heads/hos
 	ears = /obj/item/radio/headset/heads/hos/alt
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses
 	gloves = /obj/item/clothing/gloves/color/black
