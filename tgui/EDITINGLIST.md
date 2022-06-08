@@ -8,3 +8,6 @@
 ## EDIT
 
 **tgui\packages\tgui\index.js** - add cerberus tgui theme
+**tgui\packages\tgui\index.js** - add alliance tgui theme
+**tgui\packages\tgui\styles\themes\ntos.scss** - replace logo
+**tgui\packages\tgui\styles\main.scss** - replace logo

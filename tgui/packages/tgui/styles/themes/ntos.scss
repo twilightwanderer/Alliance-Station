@@ -34,4 +34,10 @@ $nanotrasen: #384e68;
   @include meta.load-css('../layouts/TitleBar.scss', $with: (
     'background-color': color.scale($nanotrasen, $lightness: -25%),
   ));
+  // Alliance Add
+  // Necessary to replace the logo in all interfaces that use the NTOS theme. Otherwise, it is necessary to replace the theme in a huge number of interfaces.
+  .Layout__content {
+    background-image: url('../../assets/bg-alliance.svg');
+  }
+  // END Alliance Add
 }

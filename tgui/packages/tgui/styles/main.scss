@@ -77,7 +77,9 @@
 
 // NT Theme
 .Layout__content {
-  background-image: url('../assets/bg-nanotrasen.svg');
+  // background-image: url('../assets/bg-nanotrasen.svg'); //TG ORIGINAL
+  // Necessary to replace the logo in all interfaces that use the NTOS theme. Otherwise, it is necessary to replace the theme in a huge number of interfaces.
+  background-image: url('../assets/bg-alliance.svg'); // ALLIANCE ADD
   background-size: 70%;
   background-position: center;
   background-repeat: no-repeat;
