@@ -1,3 +1,4 @@
+#define ICON_KODIAK_ALLIANCE_TEXTURES_PATH 'modular_alliance/modules/modular_shuttles/icons/kodiak_alliance.dmi'
 #define ICON_KODIAK_CERBERUS_TEXTURES_PATH 'modular_alliance/modules/modular_shuttles/icons/kodiak_cerberus.dmi'
 
 /turf/closed/wall/mineral/titanium/shuttle_wall
@@ -36,6 +37,9 @@
 	icon = ICON_SHUTTLE_TEXTURES_PATH
 */
 
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance
+	icon = ICON_KODIAK_ALLIANCE_TEXTURES_PATH
+
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus
 	icon = ICON_KODIAK_CERBERUS_TEXTURES_PATH
 
@@ -48,10 +52,22 @@
 /datum/map_template/shuttle/ruin/modular_shuttle/kodiak
 	prefix = "modular_alliance/modules/modular_shuttles/maps/"
 
+/datum/map_template/shuttle/ruin/modular_shuttle/kodiak/alliance
+	suffix = "kodiak_alliance"
+	name = "Alliance UT-47 Kodiak"
+	shuttle_id = "kodiak_alliance"
+
 /datum/map_template/shuttle/ruin/modular_shuttle/kodiak/cerberus
 	suffix = "kodiak_cerberus"
 	name = "Cerberus UT-47 Kodiak"
 	shuttle_id = "kodiak_cerberus"
+
+/obj/machinery/computer/shuttle/modular_shuttle/kodiak/alliance
+	name = "UT-47 Kodiak Control"
+	desc = "Used to control the UT-47 Kodiak"
+	circuit = /obj/item/circuitboard/computer/kodiak_alliance
+	shuttleId = "kodiak_alliance"
+	possible_destinations = "kodiak_alliance_custom;whiteship_home"
 
 /obj/machinery/computer/shuttle/modular_shuttle/kodiak/cerberus
 	name = "UT-47 Kodiak Control"
@@ -59,6 +75,15 @@
 	circuit = /obj/item/circuitboard/computer/kodiak_cerberus
 	shuttleId = "kodiak_cerberus"
 	possible_destinations = "kodiak_cerberus_custom;whiteship_home"
+
+/obj/machinery/computer/camera_advanced/shuttle_docker/kodiak/alliance
+	name = "UT-47 Kodiak Navigation Computer"
+	desc = "The Navigation console for the UT-47 Kodiak Control"
+	shuttleId = "kodiak_alliance"
+	lock_override = NONE
+	shuttlePortId = "kodiak_alliance_custom"
+	jump_to_ports = list("whiteship_home" = 1)
+	view_range = 0
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/kodiak/cerberus
 	name = "UT-47 Kodiak Navigation Computer"
@@ -69,6 +94,13 @@
 	jump_to_ports = list("whiteship_home" = 1)
 	view_range = 0
 
+/obj/item/circuitboard/computer/kodiak_alliance
+	name = "UT-47 Kodiak Control Console (Computer Board)"
+	build_path = /obj/machinery/computer/shuttle/modular_shuttle/kodiak/alliance
+
 /obj/item/circuitboard/computer/kodiak_cerberus
 	name = "UT-47 Kodiak Control Console (Computer Board)"
 	build_path = /obj/machinery/computer/shuttle/modular_shuttle/kodiak/cerberus
+
+#undef ICON_KODIAK_ALLIANCE_TEXTURES_PATH
+#undef ICON_KODIAK_CERBERUS_TEXTURES_PATH
