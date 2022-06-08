@@ -4510,6 +4510,7 @@
 
 // BEGIN INCLUDE ALLIANCE MODULES
 #include "modular_alliance\modules\alternative_textures\code\bots.dm"
+#include "modular_alliance\modules\alternative_textures\code\closet.dm"
 #include "modular_alliance\modules\alternative_textures\code\computers.dm"
 #include "modular_alliance\modules\alternative_textures\code\clothings\backs.dm"
 #include "modular_alliance\modules\alternative_textures\code\clothings\glasses.dm"
