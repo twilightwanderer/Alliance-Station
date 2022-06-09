@@ -1,5 +1,5 @@
-#define ICON_OBJECT_UNDER_SECURITY_PATH 'modular_alliance/modules/modular_outfit/icons/mob/clothings/under/security.dmi'
-#define ICON_MOB_UNDER_SECURITY_PATH 'modular_alliance/modules/modular_outfit/icons/obj/clothings/under/security.dmi'
+#define ICON_OBJECT_UNDER_SECURITY_PATH 'modular_alliance/modules/modular_outfit/icons/obj/clothings/under/security.dmi'
+#define ICON_MOB_UNDER_SECURITY_PATH 'modular_alliance/modules/modular_outfit/icons/mob/clothings/under/security.dmi'
 
 /obj/item/clothing/under/rank/security/uni
 	name = "military utilitarian form"
