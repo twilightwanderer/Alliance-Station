@@ -4530,6 +4530,8 @@
 #include "modular_alliance\modules\modular_jobs\code\head_of_security.dm"
 #include "modular_alliance\modules\modular_jobs\code\security_officer.dm"
 #include "modular_alliance\modules\modular_jobs\code\warden.dm"
+#include "modular_alliance\modules\modular_languages\code\language_holder.dm"
+#include "modular_alliance\modules\modular_languages\code\languages.dm"
 #include "modular_alliance\modules\modular_outfit\code\guns.dm"
 #include "modular_alliance\modules\modular_outfit\code\clothings\modsuits.dm"
 #include "modular_alliance\modules\modular_outfit\code\clothings\suits.dm"
