@@ -3,14 +3,14 @@
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "0,3"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "aM" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 9
 	},
-/obj/machinery/computer/shuttle/modular_shuttle/ruin/kodiak/alliance,
+/obj/machinery/computer/shuttle/modular_shuttle/labour/kodiak/alliance,
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "bn" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 5
@@ -19,72 +19,72 @@
 	name = "Vault"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "bN" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "0,9"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "fc" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "3,1"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "fp" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 1
 	},
-/obj/machinery/computer/camera_advanced/shuttle_docker/ruin/kodiak/alliance,
+/obj/machinery/computer/camera_advanced/shuttle_docker/labour/kodiak/alliance,
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "jy" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "2,1"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "jE" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "0,7"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "jG" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "4,10"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "kd" = (
 /obj/structure/chair/comfy/shuttle/tactical{
 	dir = 1
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "lL" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 5
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "mv" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "4,8"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "mR" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "0,4"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "mU" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "4,3"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "nk" = (
 /obj/docking_port/mobile{
 	dir = 8;
 	height = 5;
-	id = "kodiak_alliance";
-	name = "Cerberus UT-47 Kodiak";
+	id = "labour_kodiak_alliance";
+	name = "Alliance UT-47 Kodiak";
 	preferred_direction = 4;
 	width = 11
 	},
@@ -95,51 +95,51 @@
 	name = "Vault"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "nq" = (
 /obj/structure/closet/crate,
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "qb" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "2,10"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "rP" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "4,0"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "sy" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "3,10"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "sY" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "1,1"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "tH" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "4,7"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "uc" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "3,0"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "vk" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "0,8"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "vv" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "3,2"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "vZ" = (
 /obj/structure/chair/comfy/shuttle/tactical{
 	dir = 1
@@ -149,7 +149,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "wF" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 10
@@ -158,7 +158,7 @@
 	name = "Vault"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "xm" = (
 /obj/effect/turf_decal/siding/blue/corner{
 	dir = 8
@@ -167,7 +167,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "xJ" = (
 /obj/structure/chair/comfy/shuttle/tactical{
 	dir = 8
@@ -176,12 +176,12 @@
 	dir = 6
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "yj" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "4,2"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "Aj" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 9
@@ -190,7 +190,7 @@
 	name = "Vault"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "Ax" = (
 /obj/structure/chair/comfy/shuttle/tactical{
 	dir = 4
@@ -199,30 +199,30 @@
 	dir = 10
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "AE" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "0,2"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "Cg" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "0,10"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "CS" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "1,10"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "De" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "1,0"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "DQ" = (
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "Gy" = (
 /obj/structure/tank_dispenser/oxygen{
 	pixel_x = -1;
@@ -235,19 +235,19 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "GQ" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "4,4"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "JX" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/siding/blue{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "Kh" = (
 /obj/effect/turf_decal/siding/blue/corner{
 	dir = 1
@@ -256,17 +256,17 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "Ly" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "0,1"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "OE" = (
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/siding/blue,
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "OJ" = (
 /obj/structure/chair/comfy/shuttle/tactical{
 	dir = 4
@@ -278,17 +278,17 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "OW" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "4,9"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "Pu" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "2,2"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "PP" = (
 /obj/effect/turf_decal/siding/blue/corner{
 	dir = 4
@@ -297,27 +297,27 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "SF" = (
 /obj/effect/turf_decal/siding/blue/corner,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "SR" = (
 /turf/open/space/basic,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "TH" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "0,0"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "Vx" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "1,2"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "Xs" = (
 /obj/structure/chair/comfy/shuttle/tactical{
 	dir = 8
@@ -329,19 +329,19 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "XQ" = (
 /obj/machinery/light/directional/east,
 /obj/effect/turf_decal/siding/blue{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "YK" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
 	icon_state = "4,1"
 	},
-/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+/area/shuttle/modular_shuttle/kodiak/labour/alliance)
 
 (1,1,1) = {"
 Cg
