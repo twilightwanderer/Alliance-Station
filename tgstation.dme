@@ -4509,6 +4509,7 @@
 // END_INCLUDE
 
 // BEGIN INCLUDE ALLIANCE MODULES
+#include "modular_alliance\modules\alternative_textures\code\airlocks.dm"
 #include "modular_alliance\modules\alternative_textures\code\bots.dm"
 #include "modular_alliance\modules\alternative_textures\code\closet.dm"
 #include "modular_alliance\modules\alternative_textures\code\computers.dm"
@@ -4532,6 +4533,7 @@
 #include "modular_alliance\modules\modular_jobs\code\warden.dm"
 #include "modular_alliance\modules\modular_languages\code\language_holder.dm"
 #include "modular_alliance\modules\modular_languages\code\languages.dm"
+#include "modular_alliance\modules\modular_objects\code\large_doors.dm"
 #include "modular_alliance\modules\modular_outfit\code\guns.dm"
 #include "modular_alliance\modules\modular_outfit\code\clothings\modsuits.dm"
 #include "modular_alliance\modules\modular_outfit\code\clothings\suits.dm"
