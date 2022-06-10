@@ -17,6 +17,7 @@
 	dir = 5
 	},
 /obj/structure/fans/tiny,
+/obj/machinery/door/airlock/titanium/glass,
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "bN" = (
@@ -99,10 +100,8 @@
 	port_direction = 4;
 	dwidth = 5
 	},
-/obj/machinery/door/airlock/multi_tile/metal{
-	dir = 8
-	},
 /obj/structure/fans/tiny,
+/obj/machinery/door/airlock/titanium/glass,
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "nq" = (
@@ -172,9 +171,7 @@
 	dir = 10
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/multi_tile/metal{
-	dir = 4
-	},
+/obj/machinery/door/airlock/titanium/glass,
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "xm" = (
@@ -206,6 +203,7 @@
 	dir = 9
 	},
 /obj/structure/fans/tiny,
+/obj/machinery/door/airlock/titanium/glass,
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "Ax" = (

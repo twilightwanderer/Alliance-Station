@@ -16,6 +16,7 @@
 	dir = 5
 	},
 /obj/structure/fans/tiny,
+/obj/machinery/door/airlock/titanium/glass,
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "bN" = (
@@ -91,9 +92,7 @@
 	dir = 6
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/multi_tile/metal{
-	dir = 8
-	},
+/obj/machinery/door/airlock/titanium/glass,
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "nq" = (
@@ -155,9 +154,7 @@
 	dir = 10
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/multi_tile/metal{
-	dir = 4
-	},
+/obj/machinery/door/airlock/titanium/glass,
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "xm" = (
@@ -188,6 +185,7 @@
 	dir = 9
 	},
 /obj/structure/fans/tiny,
+/obj/machinery/door/airlock/titanium/glass,
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/modular_shuttle/kodiak/labour/alliance)
 "Ax" = (
