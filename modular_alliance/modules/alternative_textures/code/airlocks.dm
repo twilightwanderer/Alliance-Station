@@ -12,6 +12,45 @@
 #define AIRLOCK_DENY	5
 #define AIRLOCK_EMAG	6
 
+#define AIRLOCK_CLOSED 1
+#define AIRLOCK_CLOSING 2
+#define AIRLOCK_OPEN 3
+#define AIRLOCK_OPENING 4
+#define AIRLOCK_DENY 5
+#define AIRLOCK_EMAG 6
+
+#define AIRLOCK_FRAME_CLOSED "closed"
+#define AIRLOCK_FRAME_CLOSING "closing"
+#define AIRLOCK_FRAME_OPEN "open"
+#define AIRLOCK_FRAME_OPENING "opening"
+
+#define AIRLOCK_LIGHT_BOLTS "bolts"
+#define AIRLOCK_LIGHT_EMERGENCY "emergency"
+#define AIRLOCK_LIGHT_DENIED "denied"
+#define AIRLOCK_LIGHT_CLOSING "closing"
+#define AIRLOCK_LIGHT_OPENING "opening"
+
+#define AIRLOCK_SECURITY_NONE 0 //Normal airlock //Wires are not secured
+#define AIRLOCK_SECURITY_IRON 1 //Medium security airlock //There is a simple iron plate over wires (use welder)
+#define AIRLOCK_SECURITY_PLASTEEL_I_S 2 //Sliced inner plating (use crowbar), jumps to 0
+#define AIRLOCK_SECURITY_PLASTEEL_I 3 //Removed outer plating, second layer here (use welder)
+#define AIRLOCK_SECURITY_PLASTEEL_O_S 4 //Sliced outer plating (use crowbar)
+#define AIRLOCK_SECURITY_PLASTEEL_O 5 //There is first layer of plasteel (use welder)
+#define AIRLOCK_SECURITY_PLASTEEL 6 //Max security airlock //Fully secured wires (use wirecutters to remove grille, that is electrified)
+
+#define AIRLOCK_INTEGRITY_N  300 // Normal airlock integrity
+#define AIRLOCK_INTEGRITY_MULTIPLIER 1.5 // How much reinforced doors health increases
+/// How much extra health airlocks get when braced with a seal
+#define AIRLOCK_SEAL_MULTIPLIER  2
+#define AIRLOCK_DAMAGE_DEFLECTION_N  21  // Normal airlock damage deflection
+#define AIRLOCK_DAMAGE_DEFLECTION_R  30  // Reinforced airlock damage deflection
+
+#define AIRLOCK_DENY_ANIMATION_TIME (0.6 SECONDS) /// The amount of time for the airlock deny animation to show
+
+#define DOOR_CLOSE_WAIT 60 /// Time before a door closes, if not overridden
+
+#define DOOR_VISION_DISTANCE 11 ///The maximum distance a door will see out to
+
 /obj/machinery/door/airlock
 	var/obj/effect/overlay/vis_airlock/vis_overlay1
 	var/obj/effect/overlay/vis_airlock/vis_overlay2
@@ -24,6 +63,54 @@
 	var/door_light_range = AIRLOCK_LIGHT_RANGE
 	var/door_light_power = AIRLOCK_LIGHT_POWER
 	var/external = FALSE
+
+/obj/machinery/door/airlock/Initialize(mapload)
+	vis_overlay1 = new()
+	vis_overlay1.icon = overlays_file
+	vis_overlay2 = new()
+	vis_overlay2.icon = overlays_file
+	vis_overlay2.layer = layer
+	vis_overlay2.plane = 1
+	vis_contents += vis_overlay1
+	vis_contents += vis_overlay2
+	. = ..()
+	if(multi_tile)
+		SetBounds()
+	if(multi_tile)
+		vis_overlay1.dir = src.dir
+		vis_overlay2.dir = src.dir
+	update_overlays()
+	wires = set_wires()
+	if(frequency)
+		set_frequency(frequency)
+	if(glass)
+		airlock_material = "glass"
+	if(security_level > AIRLOCK_SECURITY_IRON)
+		atom_integrity = normal_integrity * AIRLOCK_INTEGRITY_MULTIPLIER
+		max_integrity = normal_integrity * AIRLOCK_INTEGRITY_MULTIPLIER
+	else
+		atom_integrity = normal_integrity
+		max_integrity = normal_integrity
+	if(damage_deflection == AIRLOCK_DAMAGE_DEFLECTION_N && security_level > AIRLOCK_SECURITY_IRON)
+		damage_deflection = AIRLOCK_DAMAGE_DEFLECTION_R
+
+	prepare_huds()
+	for(var/datum/atom_hud/data/diagnostic/diag_hud in GLOB.huds)
+		diag_hud.add_atom_to_hud(src)
+
+	diag_hud_set_electrified()
+
+	RegisterSignal(src, COMSIG_MACHINERY_BROKEN, .proc/on_break)
+	RegisterSignal(src, COMSIG_COMPONENT_NTNET_RECEIVE, .proc/ntnet_receive)
+
+	// Click on the floor to close airlocks
+	var/static/list/connections = list(
+		COMSIG_ATOM_ATTACK_HAND = .proc/on_attack_hand
+	)
+	AddElement(/datum/element/connect_loc, connections)
+
+	return INITIALIZE_HINT_LATELOAD
+
 
 /obj/machinery/door/airlock/external
 	external = TRUE
@@ -532,10 +619,6 @@
 /obj/structure/door_assembly/door_assembly_hydro
 	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/botany.dmi'
 
-/obj/structure/door_assembly/
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/public.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/overlays.dmi'
-
 #undef AIRLOCK_LIGHT_POWER
 #undef AIRLOCK_LIGHT_RANGE
 
@@ -551,3 +634,30 @@
 #undef AIRLOCK_OPENING
 #undef AIRLOCK_DENY
 #undef AIRLOCK_EMAG
+
+#undef AIRLOCK_CLOSED
+#undef AIRLOCK_CLOSING
+#undef AIRLOCK_OPEN
+#undef AIRLOCK_OPENING
+#undef AIRLOCK_DENY
+#undef AIRLOCK_EMAG
+
+#undef AIRLOCK_SECURITY_NONE
+#undef AIRLOCK_SECURITY_IRON
+#undef AIRLOCK_SECURITY_PLASTEEL_I_S
+#undef AIRLOCK_SECURITY_PLASTEEL_I
+#undef AIRLOCK_SECURITY_PLASTEEL_O_S
+#undef AIRLOCK_SECURITY_PLASTEEL_O
+#undef AIRLOCK_SECURITY_PLASTEEL
+
+#undef AIRLOCK_INTEGRITY_N
+#undef AIRLOCK_INTEGRITY_MULTIPLIER
+#undef AIRLOCK_SEAL_MULTIPLIER
+#undef AIRLOCK_DAMAGE_DEFLECTION_N
+#undef AIRLOCK_DAMAGE_DEFLECTION_R
+
+#undef AIRLOCK_DENY_ANIMATION_TIME
+
+#undef DOOR_CLOSE_WAIT
+
+#undef DOOR_VISION_DISTANCE
