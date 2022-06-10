@@ -9971,6 +9971,14 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/kitchen_coldroom,
 /area/station/medical/coldroom)
+"dII" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/closed/wall,
+/area/station/maintenance/port/fore)
 "dIK" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -15346,6 +15354,18 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/station/command/teleporter)
+"fHg" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	height = 5;
+	id = "labourcamp_home";
+	name = "fore bay 1";
+	roundstart_template = /datum/map_template/shuttle/labour/modular_shuttle/kodiak/alliance;
+	width = 11;
+	dwidth = 5
+	},
+/turf/open/space/basic,
+/area/space)
 "fHk" = (
 /obj/machinery/newscaster/directional/east,
 /obj/effect/decal/cleanable/dirt,
@@ -17814,7 +17834,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "gES" = (
-/obj/machinery/computer/shuttle/labor{
+/obj/machinery/computer/shuttle/modular_shuttle/labour/kodiak/alliance{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/smooth_large,
@@ -51575,7 +51595,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
+/turf/closed/wall,
 /area/station/maintenance/port/fore)
 "sja" = (
 /obj/effect/turf_decal/siding/white{
@@ -55855,6 +55875,17 @@
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
+"tIj" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/closed/wall,
+/area/station/maintenance/port/fore)
 "tIk" = (
 /obj/structure/table,
 /obj/item/stack/sheet/glass/fifty,
@@ -63919,13 +63950,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/maintenance{
-	name = "Brig Infirmary Maintenance"
-	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/access/all/security/general,
-/turf/open/floor/plating,
+/turf/closed/wall/r_wall,
 /area/station/maintenance/port/fore)
 "wwt" = (
 /obj/machinery/door/airlock/research{
@@ -66375,6 +66402,13 @@
 "xpo" = (
 /turf/open/floor/carpet,
 /area/station/commons/dorms)
+"xpv" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Brig Infirmary Maintenance"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/turf/open/floor/plating,
+/area/station/maintenance/port/fore)
 "xpB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
@@ -67743,18 +67777,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
-"xOF" = (
-/obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 2;
-	height = 5;
-	id = "laborcamp_home";
-	name = "fore bay 1";
-	roundstart_template = /datum/map_template/shuttle/labour/generic;
-	width = 9
-	},
-/turf/open/space/basic,
-/area/space)
 "xOO" = (
 /obj/machinery/status_display/evac/directional/east,
 /obj/effect/turf_decal/tile/blue{
@@ -68386,7 +68408,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/turf/open/floor/plating,
+/turf/closed/wall,
 /area/station/maintenance/fore/lesser)
 "xZb" = (
 /obj/effect/spawner/random/structure/grille,
@@ -91527,9 +91549,9 @@ aaa
 bxr
 jXu
 rOz
-sHu
+xpv
 siY
-jXu
+aaa
 aaa
 aaa
 aaa
@@ -91786,7 +91808,7 @@ hZQ
 jXu
 jXu
 siY
-jXu
+aaa
 aaa
 aaa
 aaa
@@ -92042,8 +92064,8 @@ kZF
 hZQ
 qmO
 fsQ
-oyO
-jXu
+dII
+aaa
 aaa
 aaa
 aaa
@@ -92299,8 +92321,7 @@ eva
 hZQ
 qmO
 dqc
-wfn
-jXu
+tIj
 aaa
 aaa
 aaa
@@ -92310,7 +92331,8 @@ aaa
 aaa
 aaa
 aaa
-avK
+aaa
+aaa
 avK
 avK
 avK
@@ -92557,17 +92579,17 @@ hZQ
 hZQ
 hZQ
 wwj
-hZQ
 aaa
 aaa
 aaa
 aaa
 aaa
+fHg
 aaa
-xOF
 aaa
 aaa
-mFi
+aaa
+aaa
 xYW
 ipy
 ipy

@@ -36,7 +36,7 @@
 /turf/closed/mineral/random/labormineral/volcanic,
 /area/lavaland/surface/outdoors)
 "ao" = (
-/obj/machinery/computer/shuttle/modular_shuttle/labour/kodiak/alliance{
+/obj/machinery/computer/shuttle/labor/one_way{
 	dir = 4
 	},
 /turf/open/floor/iron,
@@ -4473,11 +4473,11 @@
 "Xh" = (
 /obj/docking_port/stationary{
 	dir = 8;
-	dwidth = 5;
+	dwidth = 2;
 	height = 5;
-	id = "labourcamp_away";
+	id = "laborcamp_away";
 	name = "labor camp";
-	width = 11
+	width = 9
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors/explored)
@@ -8937,9 +8937,9 @@ KT
 KT
 KT
 KT
+KT
+KT
 Xh
-KT
-KT
 KT
 KT
 KT

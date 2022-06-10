@@ -15,9 +15,7 @@
 /obj/effect/turf_decal/siding/blue{
 	dir = 5
 	},
-/obj/machinery/door/airlock/vault{
-	name = "Vault"
-	},
+/obj/structure/fans/tiny,
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/modular_shuttle/kodiak/ruin/alliance)
 "bN" = (
@@ -85,14 +83,16 @@
 	height = 5;
 	id = "kodiak_alliance";
 	name = "Cerberus UT-47 Kodiak";
-	preferred_direction = 4;
-	width = 11
+	width = 11;
+	dwidth = 5;
+	preferred_direction = 4
 	},
 /obj/effect/turf_decal/siding/blue{
 	dir = 6
 	},
-/obj/machinery/door/airlock/vault{
-	name = "Vault"
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/multi_tile/metal{
+	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/modular_shuttle/kodiak/ruin/alliance)
@@ -154,8 +154,9 @@
 /obj/effect/turf_decal/siding/blue{
 	dir = 10
 	},
-/obj/machinery/door/airlock/vault{
-	name = "Vault"
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/multi_tile/metal{
+	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/modular_shuttle/kodiak/ruin/alliance)
@@ -186,9 +187,7 @@
 /obj/effect/turf_decal/siding/blue{
 	dir = 9
 	},
-/obj/machinery/door/airlock/vault{
-	name = "Vault"
-	},
+/obj/structure/fans/tiny,
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/modular_shuttle/kodiak/ruin/alliance)
 "Ax" = (
