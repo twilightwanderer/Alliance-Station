@@ -4,14 +4,14 @@
 	icon_state = "0,3";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "aM" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 9
 	},
-/obj/machinery/computer/shuttle/modular_shuttle/kodiak/cerberus,
+/obj/machinery/computer/shuttle/modular_shuttle/ruin/kodiak/cerberus,
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "bn" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 5
@@ -20,74 +20,74 @@
 	name = "Vault"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "bN" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "0,9";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "fc" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "3,1";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "fp" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 1
 	},
-/obj/machinery/computer/camera_advanced/shuttle_docker/kodiak/cerberus,
+/obj/machinery/computer/camera_advanced/shuttle_docker/ruin/kodiak/cerberus,
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "jy" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "2,1";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "jE" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "0,7";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "jG" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "4,10";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "kd" = (
 /obj/structure/chair/comfy/shuttle/tactical{
 	dir = 1
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "lL" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 5
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "mv" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "4,8";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "mR" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "0,4";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "mU" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "4,3";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "nk" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 6
@@ -104,59 +104,59 @@
 	width = 11
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "nq" = (
 /obj/structure/closet/crate,
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "qb" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "2,10";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "rP" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "4,0";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "sy" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "3,10";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "sY" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "1,1";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "tH" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "4,7";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "uc" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "3,0";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "vk" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "0,8";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "vv" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "3,2";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "vZ" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 8
@@ -166,7 +166,7 @@
 	},
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "wF" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 10
@@ -175,7 +175,7 @@
 	name = "Vault"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "xm" = (
 /obj/effect/turf_decal/siding/brown/corner{
 	dir = 8
@@ -184,7 +184,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "xJ" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 6
@@ -193,13 +193,13 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "yj" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "4,2";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "Aj" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 9
@@ -208,7 +208,7 @@
 	name = "Vault"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "Ax" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 10
@@ -217,34 +217,34 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "AE" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "0,2";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "Cg" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "0,10";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "CS" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "1,10";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "De" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "1,0";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "DQ" = (
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "Gy" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 8
@@ -257,20 +257,20 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "GQ" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "4,4";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "JX" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 4
 	},
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "Kh" = (
 /obj/effect/turf_decal/siding/brown/corner{
 	dir = 1
@@ -279,18 +279,18 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "Ly" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "0,1";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "OE" = (
 /obj/effect/turf_decal/siding/brown,
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "OJ" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 8
@@ -302,19 +302,19 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "OW" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "4,9";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "Pu" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "2,2";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "PP" = (
 /obj/effect/turf_decal/siding/brown/corner{
 	dir = 4
@@ -323,32 +323,32 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "SF" = (
 /obj/effect/turf_decal/siding/brown/corner,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "SR" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "2,0";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "TH" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "0,0";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "Vx" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "1,2";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "Xs" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 4
@@ -360,20 +360,20 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "XQ" = (
 /obj/effect/turf_decal/siding/brown{
 	dir = 4
 	},
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 "YK" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/cerberus{
 	icon_state = "4,1";
 	base_icon_state = ""
 	},
-/area/shuttle/modular_shuttle/kodiak/cerberus)
+/area/shuttle/modular_shuttle/kodiak/ruin/cerberus)
 
 (1,1,1) = {"
 Cg

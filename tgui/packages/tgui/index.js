@@ -18,6 +18,10 @@ import './styles/themes/retro.scss';
 import './styles/themes/syndicate.scss';
 import './styles/themes/wizard.scss';
 import './styles/themes/admin.scss';
+//ALLIANCE STATION ADD
+import './styles/themes/alliance.scss';
+import './styles/themes/cerberus.scss';
+//END ALLIANCE STATION ADD
 
 import { perf } from 'common/perf';
 import { setupHotReloading } from 'tgui-dev-server/link/client.cjs';

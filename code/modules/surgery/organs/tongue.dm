@@ -17,6 +17,10 @@
 	var/taste_sensitivity = 15 // lower is more sensitive.
 	var/modifies_speech = FALSE
 	var/static/list/languages_possible_base = typecacheof(list(
+		// ALLIANCE STATION ADD
+		/datum/language/human,
+		/datum/language/thessian,
+		// END ALLIANCE STATION ADD
 		/datum/language/common,
 		/datum/language/uncommon,
 		/datum/language/draconic,

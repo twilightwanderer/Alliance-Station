@@ -1,0 +1,410 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aE" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,3"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"aM" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 9
+	},
+/obj/machinery/computer/shuttle/modular_shuttle/ruin/kodiak/alliance,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"bn" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 5
+	},
+/obj/machinery/door/airlock/vault{
+	name = "Vault"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"bN" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,9"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"fc" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "3,1"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"fp" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 1
+	},
+/obj/machinery/computer/camera_advanced/shuttle_docker/ruin/kodiak/alliance,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"jy" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "2,1"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"jE" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,7"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"jG" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,10"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"kd" = (
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"lL" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 5
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"mv" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,8"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"mR" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,4"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"mU" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,3"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"nk" = (
+/obj/docking_port/mobile{
+	dir = 8;
+	height = 5;
+	id = "kodiak_alliance";
+	name = "Cerberus UT-47 Kodiak";
+	preferred_direction = 4;
+	width = 11
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 6
+	},
+/obj/machinery/door/airlock/vault{
+	name = "Vault"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"nq" = (
+/obj/structure/closet/crate,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"qb" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "2,10"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"rP" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,0"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"sy" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "3,10"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"sY" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "1,1"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"tH" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,7"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"uc" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "3,0"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"vk" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,8"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"vv" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "3,2"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"vZ" = (
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 1
+	},
+/obj/machinery/light/directional/west,
+/obj/effect/turf_decal/siding/blue{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"wF" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 10
+	},
+/obj/machinery/door/airlock/vault{
+	name = "Vault"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"xm" = (
+/obj/effect/turf_decal/siding/blue/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"xJ" = (
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 6
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"yj" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,2"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"Aj" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 9
+	},
+/obj/machinery/door/airlock/vault{
+	name = "Vault"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"Ax" = (
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 10
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"AE" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,2"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"Cg" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,10"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"CS" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "1,10"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"De" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "1,0"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"DQ" = (
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"Gy" = (
+/obj/structure/tank_dispenser/oxygen{
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"GQ" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,4"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"JX" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/siding/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"Kh" = (
+/obj/effect/turf_decal/siding/blue/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"Ly" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,1"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"OE" = (
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/siding/blue,
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"OJ" = (
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"OW" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,9"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"Pu" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "2,2"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"PP" = (
+/obj/effect/turf_decal/siding/blue/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"SF" = (
+/obj/effect/turf_decal/siding/blue/corner,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"SR" = (
+/turf/open/space/basic,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"TH" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,0"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"Vx" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "1,2"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"Xs" = (
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"XQ" = (
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/siding/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+"YK" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,1"
+	},
+/area/shuttle/modular_shuttle/kodiak/ruin/alliance)
+
+(1,1,1) = {"
+Cg
+bN
+vk
+jE
+Aj
+wF
+mR
+aE
+AE
+Ly
+TH
+"}
+(2,1,1) = {"
+CS
+aM
+vZ
+Gy
+Kh
+xm
+OJ
+Ax
+Vx
+sY
+De
+"}
+(3,1,1) = {"
+qb
+fp
+kd
+nq
+DQ
+DQ
+DQ
+OE
+Pu
+jy
+SR
+"}
+(4,1,1) = {"
+sy
+lL
+XQ
+JX
+PP
+SF
+Xs
+xJ
+vv
+fc
+uc
+"}
+(5,1,1) = {"
+jG
+OW
+mv
+tH
+bn
+nk
+GQ
+mU
+yj
+YK
+rP
+"}
