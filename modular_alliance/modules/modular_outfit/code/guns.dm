@@ -105,3 +105,28 @@
 /obj/item/gun/ballistic/automatic/pistol/modular_alliance/m_3/cerberus
 	icon_state = "m_3_cerberus"
 	inhand_icon_state = "m_3_cerberus"
+
+// M-23 SHOTGUN
+
+/obj/item/gun/ballistic/shotgun/modular_alliance/m_23
+	name = "M-23 shotgun"
+	desc = "Standard army shotgun. Deals extremely high damage at short range, and practically ineffective at long range."
+	icon = ICON_GUNS_PATH
+	lefthand_file = ICON_RIGHTHAND_GUNS_PATH
+	righthand_file = ICON_RIGHTHAND_GUNS_PATH
+	icon_state = "m_23_alliance"
+	inhand_icon_state = "m_23_alliance"
+	inhand_x_dimension = 32
+	inhand_y_dimension = 32
+	burst_size = 1
+	fire_delay = 8
+	empty_indicator = TRUE
+	mag_type = /obj/item/ammo_box/magazine/internal/shot
+	sawn_desc = "Come with me if you want to live."
+	can_be_sawn_off = TRUE
+
+/obj/item/gun/ballistic/shotgun/modular_alliance/m_23/alliance
+
+/obj/item/gun/ballistic/shotgun/modular_alliance/m_23/cerberus
+	icon_state = "m_23_cerberus"
+	inhand_icon_state = "m_23_cerberus"
