@@ -537,6 +537,8 @@
 /obj/docking_port/mobile/proc/transit_failure()
 	message_admins("Shuttle [src] repeatedly failed to create transit zone.")
 
+/* ALLIANCE EDIT REMOVAL - MOVED TO MODULAR modular_alliance\modules\modular_shuttles\code\shuttle.dm
+
 //call the shuttle to destination S
 /obj/docking_port/mobile/proc/request(obj/docking_port/stationary/S)
 	if(!check_dock(S))
@@ -565,6 +567,8 @@
 			destination = S
 			mode = SHUTTLE_IGNITING
 			setTimer(ignitionTime)
+
+END ALLIANCE EDIT REMOVAL */
 
 //recall the shuttle to where it was previously
 /obj/docking_port/mobile/proc/cancel()
@@ -716,6 +720,7 @@
 				return
 			if(rechargeTime)
 				mode = SHUTTLE_RECHARGING
+				unbolt_all_doors() //ALLIANCE EDIT ADDITION
 				setTimer(rechargeTime)
 				return
 		if(SHUTTLE_RECALL)
@@ -732,6 +737,8 @@
 				enterTransit()
 				return
 
+	admin_forced = FALSE //ALLIANCE EDIT ADDITION
+	unbolt_all_doors() //ALLIANCE EDIT ADDITION
 	mode = SHUTTLE_IDLE
 	timer = 0
 	destination = null
@@ -742,6 +749,8 @@
 			var/tl = timeLeft(1)
 			if(tl <= SHUTTLE_RIPPLE_TIME)
 				create_ripples(destination, tl)
+				play_engine_sound(src, FALSE) //ALLIANCE EDIT ADDITION
+				play_engine_sound(destination, FALSE) //ALLIANCE EDIT ADDITION
 
 	var/obj/docking_port/stationary/S0 = get_docked()
 	if(istype(S0, /obj/docking_port/stationary/transit) && timeLeft(1) <= PARALLAX_LOOP_TIME)
