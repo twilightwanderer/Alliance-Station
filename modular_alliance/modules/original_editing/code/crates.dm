@@ -1,4 +1,4 @@
-#define ICON_CRATES_PATH 'modular_alliance/modules/alternative_textures/icons/obj/crates.dmi'
+#define ICON_CRATES_PATH 'modular_alliance/modules/original_editing/icons/obj/crates.dmi'
 
 /obj/structure/closet/crate
 	icon = ICON_CRATES_PATH

@@ -1,6 +1,6 @@
-#define ICON_COMPUTERS_PATH 'modular_alliance/modules/alternative_textures/icons/obj/computer.dmi'
-#define ICON_COMPUTER_STOCK_PARTS_PATH 'modular_alliance/modules/alternative_textures/icons/obj/stock_parts.dmi'
-#define ICON_MODULAR_CONSOLE_PATH 'modular_alliance/modules/alternative_textures/icons/obj/modular_console.dmi'
+#define ICON_COMPUTERS_PATH 'modular_alliance/modules/original_editing/icons/obj/computer.dmi'
+#define ICON_COMPUTER_STOCK_PARTS_PATH 'modular_alliance/modules/original_editing/icons/obj/stock_parts.dmi'
+#define ICON_MODULAR_CONSOLE_PATH 'modular_alliance/modules/original_editing/icons/obj/modular_console.dmi'
 
 /obj/machinery/computer
 	icon = ICON_COMPUTERS_PATH

@@ -1,5 +1,5 @@
-#define ICON_OBJECT_SUITS_PATH 'modular_alliance/modules/alternative_textures/icons/obj/clothing/suits.dmi'
-#define ICON_MOB_SUITS_PATH 'modular_alliance/modules/alternative_textures/icons/mob/clothing/suit.dmi'
+#define ICON_OBJECT_SUITS_PATH 'modular_alliance/modules/original_editing/icons/obj/clothing/suits.dmi'
+#define ICON_MOB_SUITS_PATH 'modular_alliance/modules/original_editing/icons/mob/clothing/suit.dmi'
 
 /obj/item/clothing/suit/armor/vest
 	icon = ICON_OBJECT_SUITS_PATH

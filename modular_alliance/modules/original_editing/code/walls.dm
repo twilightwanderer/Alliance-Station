@@ -1,17 +1,17 @@
 /turf/closed/wall
-	icon = 'modular_alliance/modules/alternative_textures/icons/turf/walls/wall.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/turf/walls/wall.dmi'
 	canSmoothWith = list(SMOOTH_GROUP_WALLS, SMOOTH_GROUP_WINDOW_FULLTILE, SMOOTH_GROUP_AIRLOCK)
 
 /turf/closed/wall/r_wall
-	icon = 'modular_alliance/modules/alternative_textures/icons/turf/walls/reinforced_wall.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/turf/walls/reinforced_wall.dmi'
 
 /turf/closed/wall/rust
-	icon = 'modular_alliance/modules/alternative_textures/icons/turf/walls/wall.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/turf/walls/wall.dmi'
 	icon_state = "wall-0"
 	base_icon_state = "wall"
 
 /turf/closed/wall/r_wall/rust
-	icon = 'modular_alliance/modules/alternative_textures/icons/turf/walls/reinforced_wall.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/turf/walls/reinforced_wall.dmi'
 	icon_state = "reinforced_wall-0"
 	base_icon_state = "reinforced_wall"
 

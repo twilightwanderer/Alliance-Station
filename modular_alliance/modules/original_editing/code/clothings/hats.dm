@@ -1,5 +1,5 @@
-#define ICON_OBJECT_HATS_PATH 'modular_alliance/modules/alternative_textures/icons/obj/clothing/hats.dmi'
-#define ICON_MOB_HEADS_PATH 'modular_alliance/modules/alternative_textures/icons/mob/clothing/head.dmi'
+#define ICON_OBJECT_HATS_PATH 'modular_alliance/modules/original_editing/icons/obj/clothing/hats.dmi'
+#define ICON_MOB_HEADS_PATH 'modular_alliance/modules/original_editing/icons/mob/clothing/head.dmi'
 #define CLOTHING_SNOUTED_VARIATION_NO_NEW_ICON (1<<4)
 
 /obj/item/clothing/head/beret/sec

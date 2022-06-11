@@ -1,4 +1,4 @@
-#define ICON_TERMINALS_PATH 'modular_alliance/modules/alternative_textures/icons/obj/terminals.dmi'
+#define ICON_TERMINALS_PATH 'modular_alliance/modules/original_editing/icons/obj/terminals.dmi'
 
 /obj/machinery/newscaster
 	icon = ICON_TERMINALS_PATH

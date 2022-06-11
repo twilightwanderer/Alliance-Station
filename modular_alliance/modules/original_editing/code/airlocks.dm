@@ -257,17 +257,17 @@
 		vis_overlay2.dir = src.dir
 
 /obj/machinery/door/airlock
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/public.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/public.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/overlays.dmi'
 
 /obj/machinery/door/airlock/command
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/command.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/command.dmi'
 
 /obj/machinery/door/airlock/security
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/security.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/security.dmi'
 
 /obj/machinery/door/airlock/security/old
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/security2.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/security2.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_sec/old
 
 /obj/machinery/door/airlock/security/old/glass
@@ -276,38 +276,38 @@
 	normal_integrity = 400
 
 /obj/machinery/door/airlock/engineering
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/engineering.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/engineering.dmi'
 
 /obj/machinery/door/airlock/medical
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/medical.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/medical.dmi'
 
 /obj/machinery/door/airlock/maintenance
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/maintenance.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/maintenance.dmi'
 
 /obj/machinery/door/airlock/maintenance/external
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/maintenanceexternal.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/maintenanceexternal.dmi'
 
 /obj/machinery/door/airlock/mining
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/mining.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/mining.dmi'
 
 /obj/machinery/door/airlock/atmos
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/atmos.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/atmos.dmi'
 
 /obj/machinery/door/airlock/research
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/research.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/research.dmi'
 
 /obj/machinery/door/airlock/freezer
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/freezer.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/freezer.dmi'
 
 /obj/machinery/door/airlock/science
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/science.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/science.dmi'
 
 /obj/machinery/door/airlock/virology
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/virology.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/virology.dmi'
 
 //STATION CUSTOM ARILOCKS
 /obj/machinery/door/airlock/corporate
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/corporate.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/corporate.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_corporate
 	normal_integrity = 450
 
@@ -317,7 +317,7 @@
 	normal_integrity = 400
 
 /obj/machinery/door/airlock/service
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/service.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/service.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_service
 
 /obj/machinery/door/airlock/service/glass
@@ -325,13 +325,13 @@
 	glass = TRUE
 
 /obj/machinery/door/airlock/captain
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/cap.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/cap.dmi'
 
 /obj/machinery/door/airlock/hop
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/hop.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/hop.dmi'
 
 /obj/machinery/door/airlock/hos
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/hos.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/hos.dmi'
 
 /obj/machinery/door/airlock/hos/glass
 	opacity = FALSE
@@ -339,7 +339,7 @@
 	normal_integrity = 400
 
 /obj/machinery/door/airlock/ce
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/ce.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/ce.dmi'
 
 /obj/machinery/door/airlock/ce/glass
 	opacity = FALSE
@@ -347,7 +347,7 @@
 	normal_integrity = 400
 
 /obj/machinery/door/airlock/rd
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/rd.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/rd.dmi'
 
 /obj/machinery/door/airlock/rd/glass
 	opacity = FALSE
@@ -355,7 +355,7 @@
 	normal_integrity = 400
 
 /obj/machinery/door/airlock/qm
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/qm.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/qm.dmi'
 
 /obj/machinery/door/airlock/qm/glass
 	opacity = FALSE
@@ -363,7 +363,7 @@
 	normal_integrity = 400
 
 /obj/machinery/door/airlock/cmo
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/cmo.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/cmo.dmi'
 
 /obj/machinery/door/airlock/cmo/glass
 	opacity = FALSE
@@ -371,253 +371,253 @@
 	normal_integrity = 400
 
 /obj/machinery/door/airlock/psych
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/psych.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/psych.dmi'
 
 /obj/machinery/door/airlock/asylum
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/asylum.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/asylum.dmi'
 
 /obj/machinery/door/airlock/bathroom
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/bathroom.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/bathroom.dmi'
 
 //STATION MINERAL AIRLOCKS
 /obj/machinery/door/airlock/gold
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/gold.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/gold.dmi'
 
 /obj/machinery/door/airlock/silver
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/silver.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/silver.dmi'
 
 /obj/machinery/door/airlock/diamond
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/diamond.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/diamond.dmi'
 
 /obj/machinery/door/airlock/uranium
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/uranium.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/uranium.dmi'
 
 /obj/machinery/door/airlock/plasma
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/plasma.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/plasma.dmi'
 
 /obj/machinery/door/airlock/bananium
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/bananium.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/bananium.dmi'
 
 /obj/machinery/door/airlock/sandstone
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/sandstone.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/sandstone.dmi'
 
 /obj/machinery/door/airlock/wood
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/wood.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/wood.dmi'
 
 //STATION 2 AIRLOCKS
 
 /obj/machinery/door/airlock/public
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station2/glass.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station2/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station2/glass.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station2/overlays.dmi'
 
 //EXTERNAL AIRLOCKS
 /obj/machinery/door/airlock/external
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/external/external.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/external/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/external/external.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/external/overlays.dmi'
 
 //CENTCOMM
 /obj/machinery/door/airlock/centcom
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/centcom/centcom.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/centcom/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/centcom/centcom.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/centcom/overlays.dmi'
 
 /obj/machinery/door/airlock/grunge
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/centcom/centcom.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/centcom/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/centcom/centcom.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/centcom/overlays.dmi'
 
 //VAULT
 /obj/machinery/door/airlock/vault
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/vault/vault.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/vault/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/vault/vault.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/vault/overlays.dmi'
 
 //HATCH
 /obj/machinery/door/airlock/hatch
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/hatch/centcom.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/hatch/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/hatch/centcom.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/hatch/overlays.dmi'
 
 /obj/machinery/door/airlock/maintenance_hatch
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/hatch/maintenance.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/hatch/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/hatch/maintenance.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/hatch/overlays.dmi'
 
 //HIGH SEC
 /obj/machinery/door/airlock/highsecurity
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/highsec/highsec.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/highsec/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/highsec/highsec.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/highsec/overlays.dmi'
 
 //GLASS
 /obj/machinery/door/airlock/glass_large
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/multi_tile/multi_tile.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/multi_tile/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/multi_tile/multi_tile.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/multi_tile/overlays.dmi'
 	multi_tile = TRUE
 
 //ASSEMBLYS
 /obj/structure/door_assembly/door_assembly_public
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station2/glass.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station2/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station2/glass.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station2/overlays.dmi'
 
 /obj/structure/door_assembly/door_assembly_com
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/command.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/command.dmi'
 
 /obj/structure/door_assembly/door_assembly_sec
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/security.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/security.dmi'
 
 /obj/structure/door_assembly/door_assembly_sec/old
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/security2.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/security2.dmi'
 
 /obj/structure/door_assembly/door_assembly_eng
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/engineering.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/engineering.dmi'
 
 /obj/structure/door_assembly/door_assembly_min
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/mining.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/mining.dmi'
 
 /obj/structure/door_assembly/door_assembly_atmo
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/atmos.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/atmos.dmi'
 
 /obj/structure/door_assembly/door_assembly_research
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/research.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/research.dmi'
 
 /obj/structure/door_assembly/door_assembly_science
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/science.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/science.dmi'
 
 /obj/structure/door_assembly/door_assembly_viro
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/virology.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/virology.dmi'
 
 /obj/structure/door_assembly/door_assembly_med
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/medical.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/medical.dmi'
 
 /obj/structure/door_assembly/door_assembly_mai
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/maintenance.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/maintenance.dmi'
 
 /obj/structure/door_assembly/door_assembly_extmai
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/maintenanceexternal.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/maintenanceexternal.dmi'
 
 /obj/structure/door_assembly/door_assembly_ext
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/external/external.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/external/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/external/external.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/external/overlays.dmi'
 
 /obj/structure/door_assembly/door_assembly_fre
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/freezer.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/freezer.dmi'
 
 /obj/structure/door_assembly/door_assembly_hatch
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/hatch/centcom.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/hatch/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/hatch/centcom.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/hatch/overlays.dmi'
 
 /obj/structure/door_assembly/door_assembly_mhatch
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/hatch/maintenance.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/hatch/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/hatch/maintenance.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/hatch/overlays.dmi'
 
 /obj/structure/door_assembly/door_assembly_highsecurity
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/highsec/highsec.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/highsec/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/highsec/highsec.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/highsec/overlays.dmi'
 
 /obj/structure/door_assembly/door_assembly_vault
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/vault/vault.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/vault/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/vault/vault.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/vault/overlays.dmi'
 
 
 /obj/structure/door_assembly/door_assembly_centcom
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/centcom/centcom.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/centcom/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/centcom/centcom.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/centcom/overlays.dmi'
 
 /obj/structure/door_assembly/door_assembly_grunge
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/centcom/centcom.dmi'
-	overlays_file = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/centcom/overlays.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/centcom/centcom.dmi'
+	overlays_file = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/centcom/overlays.dmi'
 
 /obj/structure/door_assembly/door_assembly_gold
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/gold.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/gold.dmi'
 
 /obj/structure/door_assembly/door_assembly_silver
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/silver.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/silver.dmi'
 
 /obj/structure/door_assembly/door_assembly_diamond
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/diamond.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/diamond.dmi'
 
 /obj/structure/door_assembly/door_assembly_uranium
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/uranium.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/uranium.dmi'
 
 /obj/structure/door_assembly/door_assembly_plasma
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/plasma.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/plasma.dmi'
 
 /obj/structure/door_assembly/door_assembly_bananium
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/bananium.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/bananium.dmi'
 
 /obj/structure/door_assembly/door_assembly_sandstone
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/sandstone.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/sandstone.dmi'
 
 /obj/structure/door_assembly/door_assembly_wood
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/wood.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/wood.dmi'
 
 /obj/structure/door_assembly/door_assembly_corporate
 	name = "corporate airlock assembly"
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/corporate.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/corporate.dmi'
 	glass_type = /obj/machinery/door/airlock/corporate/glass
 	airlock_type = /obj/machinery/door/airlock/corporate
 
 /obj/structure/door_assembly/door_assembly_service
 	name = "service airlock assembly"
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/service.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/service.dmi'
 	base_name = "service airlock"
 	glass_type = /obj/machinery/door/airlock/service/glass
 	airlock_type = /obj/machinery/door/airlock/service
 
 /obj/structure/door_assembly/door_assembly_captain
 	name = "captain airlock assembly"
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/cap.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/cap.dmi'
 	glass_type = /obj/machinery/door/airlock/command/glass
 	airlock_type = /obj/machinery/door/airlock/captain
 
 /obj/structure/door_assembly/door_assembly_hop
 	name = "head of personnel airlock assembly"
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/hop.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/hop.dmi'
 	glass_type = /obj/machinery/door/airlock/command/glass
 	airlock_type = /obj/machinery/door/airlock/hop
 
 /obj/structure/door_assembly/hos
 	name = "head of security airlock assembly"
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/hos.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/hos.dmi'
 	glass_type = /obj/machinery/door/airlock/hos/glass
 	airlock_type = /obj/machinery/door/airlock/hos
 
 /obj/structure/door_assembly/door_assembly_cmo
 	name = "chief medical officer airlock assembly"
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/cmo.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/cmo.dmi'
 	glass_type = /obj/machinery/door/airlock/cmo/glass
 	airlock_type = /obj/machinery/door/airlock/cmo
 
 /obj/structure/door_assembly/door_assembly_ce
 	name = "chief engineer airlock assembly"
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/ce.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/ce.dmi'
 	glass_type = /obj/machinery/door/airlock/ce/glass
 	airlock_type = /obj/machinery/door/airlock/ce
 
 /obj/structure/door_assembly/door_assembly_rd
 	name = "research director airlock assembly"
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/rd.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/rd.dmi'
 	glass_type = /obj/machinery/door/airlock/rd/glass
 	airlock_type = /obj/machinery/door/airlock/rd
 
 /obj/structure/door_assembly/door_assembly_qm
 	name = "quartermaster airlock assembly"
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/qm.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/qm.dmi'
 	glass_type = /obj/machinery/door/airlock/qm/glass
 	airlock_type = /obj/machinery/door/airlock/qm
 
 /obj/structure/door_assembly/door_assembly_psych
 	name = "psychologist airlock assembly"
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/psych.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/psych.dmi'
 	glass_type = /obj/machinery/door/airlock/medical/glass
 	airlock_type = /obj/machinery/door/airlock/psych
 
 /obj/structure/door_assembly/door_assembly_asylum
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/asylum.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/asylum.dmi'
 
 /obj/structure/door_assembly/door_assembly_bathroom
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/bathroom.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/bathroom.dmi'
 
 /obj/machinery/door/airlock/hydroponics
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/botany.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/botany.dmi'
 
 /obj/structure/door_assembly/door_assembly_hydro
-	icon = 'modular_alliance/modules/alternative_textures/icons/obj/doors/airlocks/station/botany.dmi'
+	icon = 'modular_alliance/modules/original_editing/icons/obj/doors/airlocks/station/botany.dmi'
 
 #undef AIRLOCK_LIGHT_POWER
 #undef AIRLOCK_LIGHT_RANGE

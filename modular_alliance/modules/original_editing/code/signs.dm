@@ -1,4 +1,4 @@
-#define ICON_SIGNS_PATH 'modular_alliance/modules/alternative_textures/icons/obj/decals.dmi'
+#define ICON_SIGNS_PATH 'modular_alliance/modules/original_editing/icons/obj/decals.dmi'
 
 /obj/structure/sign
 	icon = ICON_SIGNS_PATH

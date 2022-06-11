@@ -1,4 +1,4 @@
-#define ICON_CONTRABANDS_PATH 'modular_alliance/modules/alternative_textures/icons/obj/contraband.dmi'
+#define ICON_CONTRABANDS_PATH 'modular_alliance/modules/original_editing/icons/obj/contraband.dmi'
 
 /obj/structure/sign/poster/contraband/random
 	random_basetype = /obj/structure/sign/poster/contraband/modular_alliance

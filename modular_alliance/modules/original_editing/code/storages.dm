@@ -1,4 +1,4 @@
-#define ICON_STORAGES_PATH 'modular_alliance/modules/alternative_textures/icons/obj/storage.dmi'
+#define ICON_STORAGES_PATH 'modular_alliance/modules/original_editing/icons/obj/storage.dmi'
 
 /obj/item/storage/medkit
 	icon = ICON_STORAGES_PATH

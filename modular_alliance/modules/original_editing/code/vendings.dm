@@ -1,4 +1,4 @@
-#define ICON_VENDINGS_PATH 'modular_alliance/modules/alternative_textures/icons/obj/vending.dmi'
+#define ICON_VENDINGS_PATH 'modular_alliance/modules/original_editing/icons/obj/vending.dmi'
 
 /obj/machinery/vending/wardrobe/sec_wardrobe
 	icon = ICON_VENDINGS_PATH

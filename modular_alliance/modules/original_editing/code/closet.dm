@@ -1,4 +1,4 @@
-#define ICON_CLOSETS_PATH 'modular_alliance/modules/alternative_textures/icons/obj/closet.dmi'
+#define ICON_CLOSETS_PATH 'modular_alliance/modules/original_editing/icons/obj/closet.dmi'
 
 /obj/structure/closet/secure_closet/security
 	icon = ICON_CLOSETS_PATH
