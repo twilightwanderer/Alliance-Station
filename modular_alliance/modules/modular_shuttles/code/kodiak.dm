@@ -76,7 +76,7 @@
 	desc = "Used to control the UT-47 Kodiak"
 	circuit = /obj/item/circuitboard/computer/ruin/kodiak_cerberus
 	shuttleId = "ruin_kodiak_cerberus"
-	possible_destinations = "ruin_kodiak_cerberus_custom;whiteship_home"
+	possible_destinations = "ruin_kodiak_cerberus_custom;cerberus_home;whiteship_home"
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/ruin/kodiak/alliance
 	name = "UT-47 Kodiak Navigation Computer"
@@ -93,7 +93,7 @@
 	shuttleId = "ruin_kodiak_cerberus"
 	lock_override = NONE
 	shuttlePortId = "ruin_kodiak_cerberus_custom"
-	jump_to_ports = list("whiteship_home" = 1)
+	jump_to_ports = list("cerberus_home" = 1, "whiteship_home" = 1)
 	view_range = 0
 
 /obj/item/circuitboard/computer/ruin/kodiak_alliance
