@@ -4522,6 +4522,7 @@
 #include "modular_alliance\modules\modular_shuttles\code\shuttle.dm"
 #include "modular_alliance\modules\original_editing\code\airlocks.dm"
 #include "modular_alliance\modules\original_editing\code\bots.dm"
+#include "modular_alliance\modules\original_editing\code\card.dm"
 #include "modular_alliance\modules\original_editing\code\closet.dm"
 #include "modular_alliance\modules\original_editing\code\computers.dm"
 #include "modular_alliance\modules\original_editing\code\clothings\backs.dm"
