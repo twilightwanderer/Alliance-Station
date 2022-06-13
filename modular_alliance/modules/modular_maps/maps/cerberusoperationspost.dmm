@@ -826,7 +826,8 @@
 "mr" = (
 /obj/machinery/power/rtg/advanced,
 /obj/structure/cable,
-/turf/open/floor/plating,
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
 /area/space/nearstation)
 "ms" = (
 /obj/machinery/door/airlock/virology{
@@ -1058,9 +1059,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
-	dir = 4
-	},
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
 "oY" = (
@@ -1159,10 +1157,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
-"qi" = (
-/obj/machinery/power/apc/auto_name/directional/north,
-/turf/closed/wall/r_wall,
-/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
 "qj" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
 	dir = 4
@@ -3421,9 +3415,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
-"ZT" = (
-/turf/open/misc/ashplanet/ash,
-/area/ruin/unpowered/no_grav)
 "ZU" = (
 /obj/effect/turf_decal/tile/yellow/anticorner{
 	dir = 4
@@ -3514,11 +3505,11 @@ pg
 pg
 pg
 pg
-ZT
-ZT
-ZT
-ZT
-ZT
+pg
+pg
+pg
+pg
+pg
 pg
 pg
 pg
@@ -3783,13 +3774,13 @@ pg
 pg
 pg
 pg
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+pg
+pg
+pg
+pg
+pg
+pg
+pg
 pg
 Fa
 XP
@@ -3802,7 +3793,7 @@ XP
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -3875,15 +3866,15 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
 Fa
-ZT
-ZT
-ZT
-ZT
+pg
+pg
+pg
+pg
 Fa
 XP
 ap
@@ -3895,7 +3886,7 @@ sV
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -3960,14 +3951,14 @@ pg
 pg
 pg
 pg
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
 Fa
 Fa
 Fa
@@ -3988,7 +3979,7 @@ sV
 XP
 XP
 XP
-ZT
+pg
 pg
 pg
 pg
@@ -4047,12 +4038,12 @@ pg
 pg
 pg
 pg
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+pg
+pg
+pg
+pg
+pg
+pg
 Fa
 Fa
 Fa
@@ -4081,7 +4072,7 @@ sV
 Vn
 Xo
 XP
-ZT
+pg
 pg
 pg
 pg
@@ -4138,7 +4129,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -4174,7 +4165,7 @@ VP
 eC
 os
 XP
-ZT
+pg
 pg
 pg
 pg
@@ -4267,7 +4258,7 @@ sV
 XP
 XP
 XP
-ZT
+pg
 pg
 pg
 pg
@@ -4360,7 +4351,7 @@ XP
 Vn
 Xo
 XP
-ZT
+pg
 pg
 pg
 pg
@@ -4502,8 +4493,8 @@ pB
 oM
 oM
 oM
-HF
-HF
+oM
+oM
 pB
 pB
 pB
@@ -5735,7 +5726,7 @@ es
 es
 es
 Zr
-qi
+rY
 Me
 Ap
 dP
@@ -6870,7 +6861,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -6964,7 +6955,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -7057,7 +7048,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -7150,7 +7141,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -7243,7 +7234,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -7336,7 +7327,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -7389,7 +7380,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -7429,7 +7420,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -7482,8 +7473,8 @@ pg
 pg
 pg
 pg
-ZT
-ZT
+pg
+pg
 Fa
 Fa
 Fa
@@ -7522,7 +7513,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -7576,9 +7567,9 @@ pg
 pg
 pg
 pg
-ZT
-ZT
-ZT
+pg
+pg
+pg
 Fa
 Fa
 Fa
@@ -7615,7 +7606,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -7671,7 +7662,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -7708,7 +7699,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -7764,7 +7755,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -7801,7 +7792,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -7857,7 +7848,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -7894,7 +7885,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -7950,7 +7941,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -7987,7 +7978,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -8043,7 +8034,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -8080,7 +8071,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -8136,7 +8127,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -8173,7 +8164,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -8229,7 +8220,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -8266,7 +8257,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -8323,7 +8314,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -8359,7 +8350,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -8416,7 +8407,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -8452,7 +8443,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -8509,7 +8500,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -8545,7 +8536,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -8604,7 +8595,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -8638,7 +8629,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -8697,7 +8688,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -8730,8 +8721,8 @@ Fa
 Fa
 Fa
 Fa
-ZT
-ZT
+pg
+pg
 pg
 pg
 pg
@@ -8790,7 +8781,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -8823,7 +8814,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -8883,7 +8874,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -8916,7 +8907,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -8976,7 +8967,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -9008,8 +8999,8 @@ Fa
 Fa
 Fa
 Fa
-ZT
-ZT
+pg
+pg
 pg
 pg
 pg
@@ -9070,8 +9061,8 @@ pg
 pg
 pg
 pg
-ZT
-ZT
+pg
+pg
 Fa
 Fa
 Fa
@@ -9101,7 +9092,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -9164,7 +9155,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -9194,7 +9185,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -9257,7 +9248,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -9287,7 +9278,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -9350,7 +9341,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -9379,8 +9370,8 @@ Fa
 Fa
 Fa
 Fa
-ZT
-ZT
+pg
+pg
 pg
 pg
 pg
@@ -9443,9 +9434,9 @@ pg
 pg
 pg
 pg
-ZT
-ZT
-ZT
+pg
+pg
+pg
 Fa
 Fa
 Fa
@@ -9471,8 +9462,8 @@ Fa
 Fa
 Fa
 Fa
-ZT
-ZT
+pg
+pg
 pg
 pg
 pg
@@ -9538,7 +9529,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -9563,8 +9554,8 @@ Fa
 Fa
 Fa
 Fa
-ZT
-ZT
+pg
+pg
 pg
 pg
 pg
@@ -9631,10 +9622,10 @@ pg
 pg
 pg
 pg
-ZT
-ZT
-ZT
-ZT
+pg
+pg
+pg
+pg
 Fa
 Fa
 Fa
@@ -9656,7 +9647,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -9727,7 +9718,7 @@ pg
 pg
 pg
 pg
-ZT
+pg
 Fa
 Fa
 Fa
@@ -9749,7 +9740,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -9820,8 +9811,8 @@ pg
 pg
 pg
 pg
-ZT
-ZT
+pg
+pg
 Fa
 Fa
 Fa
@@ -9842,7 +9833,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -9914,8 +9905,8 @@ pg
 pg
 pg
 pg
-ZT
-ZT
+pg
+pg
 Fa
 Fa
 Fa
@@ -9934,7 +9925,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -10009,9 +10000,9 @@ pg
 pg
 pg
 pg
-ZT
-ZT
-ZT
+pg
+pg
+pg
 Fa
 Fa
 Fa
@@ -10027,7 +10018,7 @@ Fa
 Fa
 Fa
 Fa
-ZT
+pg
 pg
 pg
 pg
@@ -10105,12 +10096,12 @@ pg
 pg
 pg
 pg
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+pg
+pg
+pg
+pg
+pg
+pg
 Fa
 Fa
 Fa
@@ -10204,14 +10195,14 @@ pg
 pg
 pg
 pg
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
-ZT
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
 pg
 pg
 pg

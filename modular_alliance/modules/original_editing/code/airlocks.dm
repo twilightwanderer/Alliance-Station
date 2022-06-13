@@ -100,8 +100,8 @@
 
 	diag_hud_set_electrified()
 
-	RegisterSignal(src, COMSIG_MACHINERY_BROKEN, .proc/on_break)
-	RegisterSignal(src, COMSIG_COMPONENT_NTNET_RECEIVE, .proc/ntnet_receive)
+	//RegisterSignal(src, COMSIG_MACHINERY_BROKEN, .proc/on_break)
+	//RegisterSignal(src, COMSIG_COMPONENT_NTNET_RECEIVE, .proc/ntnet_receive)
 
 	// Click on the floor to close airlocks
 	var/static/list/connections = list(
