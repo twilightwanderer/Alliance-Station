@@ -39,8 +39,10 @@
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
 "ba" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 4
+	},
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "be" = (
@@ -162,10 +164,8 @@
 "cu" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
-	dir = 8
-	},
 /obj/effect/turf_decal/tile/yellow/half,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "cC" = (
@@ -210,7 +210,7 @@
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "dl" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "dn" = (
@@ -372,6 +372,7 @@
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 1
 	},
+/obj/machinery/suit_storage_unit/alliance_modular/cerberus,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
 "fy" = (
@@ -399,6 +400,13 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"fU" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "gc" = (
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible{
 	dir = 4
@@ -908,13 +916,13 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
 "nr" = (
-/obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/structure/cable,
-/obj/machinery/door/poddoor/shuttledock{
+/obj/machinery/door/poddoor{
 	name = "Cerberus Post Engineering Isolation";
 	id = "Cerberus Post Engineering Isolation"
 	},
+/obj/machinery/door/airlock/external,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "ny" = (
@@ -981,13 +989,12 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "os" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shuttledock{
-	name = "Cerberus Post Command Windows";
-	id = "Cerberus Post Command Windows"
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/obj/effect/mob_spawn/ghost_role/human/alliance_modular/cerberus_operator{
+	dir = 1
 	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
 "ov" = (
 /obj/structure/sign/departments/chemistry/pharmacy/directional/north,
 /obj/structure/extinguisher_cabinet/directional/east,
@@ -1255,10 +1262,10 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "su" = (
-/obj/machinery/autolathe,
 /obj/effect/turf_decal/tile/yellow/anticorner{
 	dir = 4
 	},
+/obj/machinery/rnd/destructive_analyzer,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "sx" = (
@@ -1329,9 +1336,6 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
 "tn" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
 /obj/effect/turf_decal/tile/yellow/half,
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/turf_decal/delivery/red,
@@ -1428,16 +1432,11 @@
 	},
 /turf/open/floor/grass,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
-"uf" = (
-/mob/living/simple_animal/bot/secbot/beepsky/armsky{
-	name = "Biba"
-	},
-/turf/open/floor/iron/white/smooth_large,
-/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
 "uh" = (
 /obj/effect/turf_decal/tile/yellow/anticorner{
 	dir = 4
 	},
+/obj/machinery/suit_storage_unit/alliance_modular/cerberus,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
 "uj" = (
@@ -1449,6 +1448,7 @@
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
 "um" = (
 /obj/structure/table/optable,
+/obj/item/surgical_drapes,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
 "uv" = (
@@ -1477,7 +1477,7 @@
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
 "uM" = (
 /obj/structure/fans/tiny,
-/obj/machinery/door/poddoor/shuttledock{
+/obj/machinery/door/poddoor{
 	name = "Cerberus Post Supply Dock";
 	id = "Cerberus Post Supply Dock"
 	},
@@ -1867,10 +1867,8 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "AL" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
 /obj/effect/turf_decal/tile/yellow/anticorner,
+/obj/machinery/autolathe,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "AU" = (
@@ -2072,6 +2070,7 @@
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 1
 	},
+/obj/machinery/computer/rdconsole,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "DS" = (
@@ -2194,6 +2193,7 @@
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 1
 	},
+/obj/machinery/suit_storage_unit/alliance_modular/cerberus,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
 "Ft" = (
@@ -2334,14 +2334,14 @@
 /turf/template_noop,
 /area/space/nearstation)
 "HZ" = (
-/obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
-/obj/machinery/door/poddoor/shuttledock{
+/obj/machinery/door/poddoor{
 	name = "Cerberus Post Hall Isolation";
 	id = "Cerberus Post Hall Isolation"
 	},
+/obj/machinery/door/airlock/external,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
 "Ic" = (
@@ -2749,6 +2749,7 @@
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 1
 	},
+/obj/machinery/suit_storage_unit/alliance_modular/cerberus,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
 "Og" = (
@@ -2817,8 +2818,8 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
-	dir = 1
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
@@ -2872,11 +2873,11 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
 "Qo" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shuttledock{
-	name = s;
+/obj/machinery/door/poddoor{
+	name = "Cerberus Post Command Windows";
 	id = "Cerberus Post Command Windows"
 	},
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
 "Qs" = (
@@ -2907,6 +2908,9 @@
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
 "QQ" = (
 /obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "Rb" = (
@@ -3213,6 +3217,7 @@
 	dir = 1
 	},
 /obj/machinery/firealarm/directional/north,
+/obj/machinery/suit_storage_unit/alliance_modular/cerberus,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
 "WO" = (
@@ -4167,7 +4172,7 @@ tJ
 OB
 VP
 eC
-Ba
+os
 XP
 ZT
 pg
@@ -4446,7 +4451,7 @@ Ng
 TC
 VP
 eC
-Ba
+os
 XP
 pg
 pg
@@ -4725,7 +4730,7 @@ Zj
 Ba
 VP
 eC
-Ba
+os
 XP
 pg
 pB
@@ -4820,8 +4825,8 @@ Zi
 Zi
 Zi
 Zi
-os
-os
+Qo
+Qo
 Zi
 pg
 HF
@@ -4915,7 +4920,7 @@ wt
 iT
 JS
 CP
-os
+Qo
 pB
 HF
 pg
@@ -5008,7 +5013,7 @@ aJ
 Br
 lC
 MM
-os
+Qo
 pg
 HF
 pg
@@ -5101,7 +5106,7 @@ pO
 pO
 pO
 TT
-os
+Qo
 pg
 HF
 pg
@@ -5194,7 +5199,7 @@ Qz
 zy
 gy
 XX
-os
+Qo
 pB
 HF
 pg
@@ -5286,7 +5291,7 @@ Zi
 Zi
 Zi
 Qo
-os
+Qo
 Zi
 pg
 HF
@@ -5437,7 +5442,7 @@ Av
 pa
 mM
 dl
-Ek
+fU
 XD
 Xs
 In
@@ -5644,7 +5649,7 @@ uR
 Vz
 dQ
 uR
-uf
+uR
 uR
 ZK
 uR

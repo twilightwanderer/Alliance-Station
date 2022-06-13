@@ -128,7 +128,11 @@
 	///which role to check for a job ban (ROLE_LAVALAND is the default ghost role ban)
 	var/role_ban = ROLE_LAVALAND
 	/// Typepath indicating the kind of job datum this ghost role will have. PLEASE inherit this with a new job datum, it's not hard. jobs come with policy configs.
-	var/spawner_job_path = /datum/job/ghost_role
+	var/spawner_job_path = /datum/job/
+	// ALLIANCE EDIT ADDITION
+	/// Do we use a random appearance for this ghost role?
+	var/random_appearance = FALSE
+	// ALLIANCE EDIT END
 
 /obj/effect/mob_spawn/ghost_role/Initialize(mapload)
 	. = ..()
@@ -168,6 +172,14 @@
 
 /obj/effect/mob_spawn/ghost_role/special(mob/living/spawned_mob, mob/mob_possessor)
 	. = ..()
+	// ALLIANCE EDIT ADDITION
+	if(!random_appearance && mob_possessor && ishuman(spawned_mob) && mob_possessor.client)
+		var/appearance_choice = tgui_alert(mob_possessor, "Use currently loaded character preferences?", "Appearance Type", list("Yes", "No"))
+		if(appearance_choice == "Yes")
+			var/mob/living/carbon/human/spawned_human = spawned_mob
+			mob_possessor?.client?.prefs?.safe_transfer_prefs_to(spawned_human)
+			spawned_human.dna.update_dna_identity()
+	// ALLIANCE EDIT END
 	if(mob_possessor)
 		spawned_mob.ckey = mob_possessor.ckey
 	if(show_flavor)

@@ -1,5 +1,5 @@
 /datum/outfit/job/warden
-	uniform = /obj/item/clothing/under/rank/security/uni
+	uniform = /obj/item/clothing/under/rank/security/alliance_modular/uni
 	suit = /obj/item/clothing/suit/armor/vest/warden
 	belt = /obj/item/modular_computer/tablet/pda/warden
 	ears = /obj/item/radio/headset/headset_sec/alt
