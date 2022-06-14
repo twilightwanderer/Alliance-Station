@@ -9,4 +9,7 @@
 /obj/structure/closet/secure_closet/warden
 	icon = ICON_CLOSETS_PATH
 
+/obj/structure/closet/secure_closet/medical3
+	icon = ICON_CLOSETS_PATH
+
 #undef ICON_CLOSETS_PATH
