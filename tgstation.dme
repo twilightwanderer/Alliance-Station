@@ -4521,6 +4521,7 @@
 #include "modular_alliance\modules\modular_objects\code\large_doors.dm"
 #include "modular_alliance\modules\modular_objects\code\suit_storage_units.dm"
 #include "modular_alliance\modules\modular_outfit\code\guns.dm"
+#include "modular_alliance\modules\modular_outfit\code\radio.dm"
 #include "modular_alliance\modules\modular_outfit\code\clothings\modsuits.dm"
 #include "modular_alliance\modules\modular_outfit\code\clothings\suits.dm"
 #include "modular_alliance\modules\modular_shuttles\code\kodiak.dm"

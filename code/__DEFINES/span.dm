@@ -116,6 +116,7 @@
 #define span_warning(str) ("<span class='warning'>" + str + "</span>")
 #define span_yell(str) ("<span class='yell'>" + str + "</span>")
 #define span_yellowteamradio(str) ("<span class='yellowteamradio'>" + str + "</span>")
+#define span_cerberusradio(str) ("<span class='cerberusradio'>" + str + "</span>") // ALLIANCE EDIT ADD
 
 // Spans that use embedded tgui components:
 // Sorted alphabetically

@@ -1991,10 +1991,11 @@
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
 "CA" = (
 /obj/structure/rack,
-/obj/item/multitool,
 /obj/effect/turf_decal/tile/yellow/anticorner{
 	dir = 1
 	},
+/obj/item/storage/toolbox/electrical,
+/obj/item/multitool,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "CG" = (
@@ -3047,6 +3048,7 @@
 /obj/effect/turf_decal/tile/yellow/anticorner{
 	dir = 4
 	},
+/obj/machinery/telecomms/relay/preset/alliance_modular/cerberus,
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
 "TC" = (

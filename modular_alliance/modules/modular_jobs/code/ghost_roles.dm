@@ -17,6 +17,7 @@
 	name = "Cerberus Operator"
 	uniform = /obj/item/clothing/under/rank/alliance_modular/cerberus/uni
 	shoes = /obj/item/clothing/shoes/combat
+	ears = /obj/item/radio/headset/alliance_modular/headset_cerberus/alt
 	suit = /obj/item/clothing/suit/armor/vest
 	gloves = /obj/item/clothing/gloves/color/black
 	l_pocket = /obj/item/tank/internals/emergency_oxygen
