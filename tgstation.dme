@@ -4509,6 +4509,8 @@
 // END_INCLUDE
 
 // BEGIN INCLUDE ALLIANCE MODULES
+#include "modular_alliance\modules\modular_antagonists\objectives.dm"
+#include "modular_alliance\modules\modular_antagonists\space_ninja\space_ninja.dm"
 #include "modular_alliance\modules\modular_jobs\code\ghost_roles.dm"
 #include "modular_alliance\modules\modular_jobs\code\head_of_security.dm"
 #include "modular_alliance\modules\modular_jobs\code\security_officer.dm"

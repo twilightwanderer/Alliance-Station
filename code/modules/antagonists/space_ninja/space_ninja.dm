@@ -7,7 +7,8 @@
 	show_name_in_check_antagonists = TRUE
 	show_to_ghosts = TRUE
 	antag_moodlet = /datum/mood_event/focused
-	suicide_cry = "FOR THE SPIDER CLAN!!"
+	suicide_cry = "FOR THE CERBERUS!!" // ALLIANCE EDIT ADD
+	//suicide_cry = "FOR THE SPIDER CLAN!!" TG ORIGINAL
 	preview_outfit = /datum/outfit/ninja
 	///Whether or not this ninja will obtain objectives
 	var/give_objectives = TRUE
@@ -31,7 +32,8 @@
  * Proc that adds the ninja starting memories to the owner of the antagonist datum.
  */
 /datum/antagonist/ninja/proc/addMemories()
-	antag_memory += "I am an elite mercenary of the mighty Spider Clan. A <font color='red'><B>SPACE NINJA</B></font>!<br>"
+	antag_memory += "I am an elite mercenary in the service of Cerberus. A <font color='red'><B>SPACE NINJA</B></font>!<br>" // ALLIANCE EDIT ADD
+	//antag_memory += "I am an elite mercenary of the mighty Spider Clan. A <font color='red'><B>SPACE NINJA</B></font>!<br>" TG ORIGINAL
 	antag_memory += "Surprise is my weapon. Shadows are my armor. Without them, I am nothing. (//initialize your suit by clicking the initialize UI button, to use abilities like stealth)!<br>"
 
 /datum/objective/cyborg_hijack
@@ -59,6 +61,19 @@
  * Proc that adds all the ninja's objectives to the antag datum.  Called when the datum is gained.
  */
 /datum/antagonist/ninja/proc/addObjectives()
+
+	// ALLIANCE EDIT ADD BEGIN
+
+	var/datum/objective/ninja_objective = new /datum/objective/space_ninja()
+	objectives += ninja_objective
+
+	var/datum/objective/ninja_objective_second = new /datum/objective/space_ninja/second()
+	objectives += ninja_objective_second
+
+	// ALLIANCE EDIT ADD END
+
+	/* TG ORIGINAL BEGIN
+
 	//Cyborg Hijack: Flag set to complete in the DrainAct in ninjaDrainAct.dm
 	var/datum/objective/hijack = new /datum/objective/cyborg_hijack()
 	objectives += hijack
@@ -98,10 +113,13 @@
 	survival.owner = owner
 	objectives += survival
 
+	TG ORIGINAL END */
+
 /datum/antagonist/ninja/greet()
 	. = ..()
 	SEND_SOUND(owner.current, sound('sound/effects/ninja_greeting.ogg'))
-	to_chat(owner.current, "I am an elite mercenary of the mighty Spider Clan!")
+	to_chat(owner.current, "I am an elite mercenary in the service of Cerberus!") // ALLIANCE EDIT ADD
+	//to_chat(owner.current, "I am an elite mercenary of the mighty Spider Clan!") TG ORIGINAL
 	to_chat(owner.current, "Surprise is my weapon. Shadows are my armor. Without them, I am nothing. (//initialize your suit by right clicking on it, to use abilities like stealth)!")
 	owner.announce_objectives()
 
