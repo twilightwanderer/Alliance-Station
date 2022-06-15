@@ -2,6 +2,9 @@
 //#define ICON_LEFTHAND_CARDS_PATH ''
 //#define ICON_RIGHTHAND_CARDS_PATH ''
 
+/datum/id_trim
+	trim_icon = ICON_CARDS_PATH
+
 /obj/item/card
 	icon = ICON_CARDS_PATH
 
