@@ -195,7 +195,7 @@ const CodewordsSection = (props, context) => {
           <>
             <Stack.Item grow basis={0}>
               <BlockQuote>
-                The Syndicate have provided you with the following
+                The Ceberus have provided you with the following
                 codewords to identify fellow agents. Use the codewords
                 during regular conversation to identify other agents.
                 Proceed with caution, however, as everyone is a

@@ -30,3 +30,5 @@
 **code\modules\shuttle\shuttle.dm** - Transferring the procedure to modular_alliance\modules\modular_shuttles\code\shuttle.dm
 
 **code\modules\antagonists\space_ninja\space_ninja.dm** - Changing antagonists
+**code\modules\antagonists\traitor\datum_traitor.dm**  - Changing antagonists
+**code\ __DEFINES\antagonists.dm** - Shutting down organizations

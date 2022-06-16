@@ -126,7 +126,7 @@
 
 ///employers that are from the syndicate
 GLOBAL_LIST_INIT(syndicate_employers, list(
-	"Animal Rights Consortium",
+	/*"Animal Rights Consortium",
 	"Bee Liberation Front",
 	"Cybersun Industries",
 	"Donk Corporation",
@@ -134,29 +134,32 @@ GLOBAL_LIST_INIT(syndicate_employers, list(
 	"MI13",
 	"Tiger Cooperative Fanatic",
 	"Waffle Corporation Terrorist",
-	"Waffle Corporation",
+	"Waffle Corporation",*/
+	"Cerberus", // ALLIANCE ADD
 ))
 ///employers that are from nanotrasen
 GLOBAL_LIST_INIT(nanotrasen_employers, list(
-	"Champions of Evil",
+	/*"Champions of Evil",
 	"Corporate Climber",
 	"Gone Postal",
 	"Internal Affairs Agent",
-	"Legal Trouble",
+	"Legal Trouble",*/
+	"Cerberus", // ALLIANCE ADD
 ))
 
 ///employers who hire agents to do the hijack
 GLOBAL_LIST_INIT(hijack_employers, list(
-	"Animal Rights Consortium",
+	/*"Animal Rights Consortium",
 	"Bee Liberation Front",
 	"Gone Postal",
 	"Tiger Cooperative Fanatic",
-	"Waffle Corporation Terrorist",
+	"Waffle Corporation Terrorist",*/
+	"Cerberus", // ALLIANCE ADD
 ))
 
 ///employers who hire agents to do a task and escape... or martyrdom. whatever
 GLOBAL_LIST_INIT(normal_employers, list(
-	"Champions of Evil",
+	/*"Champions of Evil",
 	"Corporate Climber",
 	"Cybersun Industries",
 	"Donk Corporation",
@@ -164,7 +167,8 @@ GLOBAL_LIST_INIT(normal_employers, list(
 	"Internal Affairs Agent",
 	"Legal Trouble",
 	"MI13",
-	"Waffle Corporation",
+	"Waffle Corporation",*/
+	"Cerberus", // ALLIANCE ADD
 ))
 
 ///employers for malfunctioning ais. they do not have sides, unlike traitors.
@@ -179,6 +183,7 @@ GLOBAL_LIST_INIT(ai_employers, list(
 	"Spam Virus",
 	"SyndOS",
 	"Unshackled",
+	"Cerberus", // ALLIANCE ADD
 ))
 
 ///all the employers that are syndicate

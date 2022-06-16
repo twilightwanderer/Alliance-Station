@@ -64,10 +64,10 @@
 
 	// ALLIANCE EDIT ADD BEGIN
 
-	var/datum/objective/ninja_objective = new /datum/objective/space_ninja()
+	var/datum/objective/ninja_objective = new /datum/objective/cerberus()
 	objectives += ninja_objective
 
-	var/datum/objective/ninja_objective_second = new /datum/objective/space_ninja/second()
+	var/datum/objective/ninja_objective_second = new /datum/objective/cerberus/second()
 	objectives += ninja_objective_second
 
 	// ALLIANCE EDIT ADD END

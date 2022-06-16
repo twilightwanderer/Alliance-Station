@@ -7,12 +7,14 @@
 	antag_hud_name = "traitor"
 	hijack_speed = 0.5 //10 seconds per hijack stage by default
 	ui_name = "AntagInfoTraitor"
-	suicide_cry = "FOR THE SYNDICATE!!"
+	suicide_cry = "FOR THE CERBERUS!!" // ALLIANCE EDIT
+	//suicide_cry = "FOR THE SYNDICATE!!" // TG ORIGINAL
 	preview_outfit = /datum/outfit/traitor
 	var/give_objectives = TRUE
 	var/should_give_codewords = TRUE
 	///give this traitor an uplink?
-	var/give_uplink = TRUE
+	var/give_uplink = FALSE // ALLIANCE EDIT
+	//var/give_uplink = TRUE // TG ORIGINAL
 	///if TRUE, this traitor will always get hijacking as their final objective
 	var/is_hijacker = FALSE
 
@@ -30,15 +32,27 @@
 
 	var/uplink_sale_count = 3
 
+	var/give_equipment = TRUE // ALLIANCE ADD
+
 /datum/antagonist/traitor/New(give_objectives = TRUE)
 	. = ..()
 	src.give_objectives = give_objectives
+
+// ALLIANCE ADD BEGIN
+/datum/antagonist/traitor/proc/equip_traitor(mob/living/carbon/human/traitor = owner.current)
+	return traitor.equipOutfit(/datum/outfit/traitor_cerberus)
+// ALLIANCE ADD END
 
 /datum/antagonist/traitor/on_gain()
 	owner.special_role = job_rank
 
 	if(give_uplink)
 		owner.give_uplink(silent = TRUE, antag_datum = src)
+
+	// ALLIANCE ADD BEGIN
+	if(give_equipment)
+		equip_traitor(owner.current)
+	// ALLIANCE ADD END
 
 	var/datum/component/uplink/uplink = owner.find_syndicate_uplink()
 	uplink_ref = WEAKREF(uplink)
@@ -204,6 +218,17 @@
 /datum/antagonist/traitor/proc/forge_traitor_objectives()
 	objectives.Cut()
 
+	//ALLIANCE ADD BEGIN
+	var/datum/objective/traitor_objective = new /datum/objective/cerberus()
+	traitor_objective.owner = owner
+	objectives += traitor_objective
+
+	var/datum/objective/traitor_objective_second = new /datum/objective/cerberus/second()
+	traitor_objective_second.owner = owner
+	objectives += traitor_objective_second
+	//ALLIANCE ADD END
+
+	/* TG ORIGINAL
 	var/datum/objective/traitor_progression/final_objective = new /datum/objective/traitor_progression()
 	final_objective.owner = owner
 	objectives += final_objective
@@ -211,6 +236,7 @@
 	var/datum/objective/traitor_objectives/objective_completion = new /datum/objective/traitor_objectives()
 	objective_completion.owner = owner
 	objectives += objective_completion
+	*/
 
 
 /datum/antagonist/traitor/apply_innate_effects(mob/living/mob_override)
