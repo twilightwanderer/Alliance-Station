@@ -62,6 +62,8 @@ SUBSYSTEM_DEF(ticker)
 	/// Why an emergency shuttle was called
 	var/emergency_reason
 
+	var/real_round_start_time = 0 // ALLIANCE EDIT ADDITION
+
 /datum/controller/subsystem/ticker/Initialize(timeofday)
 	var/list/byond_sound_formats = list(
 		"mid" = TRUE,
@@ -261,6 +263,7 @@ SUBSYSTEM_DEF(ticker)
 	LAZYCLEARLIST(round_start_events)
 
 	SEND_SIGNAL(src, COMSIG_TICKER_ROUND_STARTING)
+	real_round_start_time = world.timeofday // ALLIANCE EDIT ADDITION
 
 	log_world("Game start took [(world.timeofday - init_start)/10]s")
 	round_start_time = world.time

@@ -327,6 +327,19 @@
 				ROLE_TRAITOR,
 				ROLE_WIZARD,
 			),
+			// ALLIANCE ADD BEGIN
+			"Alliance Ban Options" = list(
+				BAN_PACIFICATION,
+				BAN_DONOTREVIVE,
+				BAN_RESPAWN,
+				BAN_MOB_CONTROL,
+				BAN_GHOST_ROLE_SPAWNER,
+				BAN_GHOST_TAKEOVER,
+				BAN_EORG,
+				BAN_ANTAGONIST,
+				BAN_OPFOR,
+			),
+			// ALLIANCE ADD END
 		)
 		for(var/department in long_job_lists)
 			output += "<div class='column'><label class='rolegroup long [ckey(department)]'>[tgui_fancy ? "<input type='checkbox' name='[department]' class='hidden' onClick='header_click_all_checkboxes(this)'>" : ""][department]</label><div class='content'>"

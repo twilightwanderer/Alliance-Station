@@ -191,5 +191,7 @@
 
 	dat += build_antag_listing()
 
+	dat += SSopposing_force.get_check_antag_listing() // ALLIANCE ADD
+
 	dat += "</body></html>"
 	usr << browse(dat.Join(), "window=roundstatus;size=500x500")

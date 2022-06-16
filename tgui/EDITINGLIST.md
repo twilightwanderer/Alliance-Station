@@ -4,6 +4,7 @@
 **tgui\packages\tgui\assets\bg-cerberus.svg**
 **tgui\packages\tgui\styles\themes\alliance.scss**
 **tgui\packages\tgui\styles\themes\cerberus.scss**
+**tgui\packages\tgui\interfaces\OpposingForcePanel.js**
 
 ## EDIT
 
@@ -15,3 +16,6 @@
 **tgui\packages\tgui-panel\styles\goon\chat-dark.scss** -- Add cerberus radio color. Change med and sec radio color.
 **tgui\packages\tgui-panel\styles\goon\chat-light.scss**
 **tgui\packages\tgui-panel\chat\constants.js** -- Add cerberus radio color
+
+**tgui\packages\tgui-panel\styles\goon\chat-light.scss** - Add pink style
+**tgui\packages\tgui-panel\styles\goon\chat-dark.scss** - Add pink style
