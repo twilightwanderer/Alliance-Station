@@ -23,6 +23,7 @@
 **code\modules\mob\living\living_say.dm** 
 
 **code\modules\mob\living\carbon\human\human.dm** - Add give opfor button
+**code\modules\mob\living\carbon\human\species.dm** - Disabling mention of the bonus language
 
 **code\modules\mob\mob.dm** - Edit hub from modular_alliance\modules\original_editing\icons\mob\huds\hud.dmi
 **code\modules\mob_spawn\mob_spawn.dm** - Adding a non-random spawn option
@@ -32,3 +33,4 @@
 **code\modules\antagonists\space_ninja\space_ninja.dm** - Changing antagonists
 **code\modules\antagonists\traitor\datum_traitor.dm**  - Changing antagonists
 **code\ __DEFINES\antagonists.dm** - Shutting down organizations
+

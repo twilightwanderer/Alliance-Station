@@ -310,6 +310,8 @@ ROUNDSTART_RACES human
 #ROUNDSTART_RACES moth
 #ROUNDSTART_RACES plasmaman
 #ROUNDSTART_RACES shadow
+ROUNDSTART_RACES asari
+ROUNDSTART_RACES quarian
 
 ## Races that are better than humans in some ways, but worse in others
 #ROUNDSTART_RACES ethereal

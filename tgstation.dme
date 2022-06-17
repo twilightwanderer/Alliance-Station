@@ -4582,4 +4582,6 @@
 #include "modular_alliance\modules\modular_outfit\code\clothings\suits.dm"
 #include "modular_alliance\modules\modular_shuttles\code\kodiak.dm"
 #include "modular_alliance\modules\modular_shuttles\code\shuttle.dm"
+#include "modular_alliance\modules\modular_races\code\asari\asari.dm"
+#include "modular_alliance\modules\modular_races\code\asari\bodyparts.dm"
 // END INCLUDE MODULES

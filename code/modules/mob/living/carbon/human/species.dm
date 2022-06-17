@@ -2275,6 +2275,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 		bonus_languages += initial(language_type.name)
 
 	// If we have any languages we can speak: create a perk for them all
+	/* TG ORIGINAL
 	if(length(bonus_languages))
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
@@ -2282,6 +2283,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 			SPECIES_PERK_NAME = "Native Speaker",
 			SPECIES_PERK_DESC = "Alongside [initial(common_language.name)], [plural_form] gain the ability to speak [english_list(bonus_languages)].",
 		))
+	*/
 
 	qdel(temp_holder)
 
