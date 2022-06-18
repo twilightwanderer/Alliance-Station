@@ -5,6 +5,8 @@
 **code\ __DEFINES\~alliance_defines\ **
 **code\controllers\subsystem\ticker.dm** - Add real_round_start_time
 
+**code\datums\mutations\telekinesis.dm** - Replace telekinesis to Biotics
+
 **code\ __HELPERS\roundend.dm** - Add opfor report
 **code\game\gamemodes\dynamic\dynamic_rulesets.dm** - Add opfor ban Remove candidates
 **code\game\gamemodes\objective.dm** - Work on OPFOR

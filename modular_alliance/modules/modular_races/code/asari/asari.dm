@@ -6,10 +6,6 @@
 		TRAIT_ADVANCEDTOOLUSER,
 		TRAIT_CAN_STRIP,
 		TRAIT_CAN_USE_FLIGHT_POTION,
-		TRAIT_RESISTCOLD,
-		TRAIT_RESISTHEAT,
-		TRAIT_RESISTHIGHPRESSURE,
-		TRAIT_RESISTLOWPRESSURE,
 		TRAIT_SPECIAL_TRAUMA_BOOST,
 	)
 	sexes = FALSE
@@ -66,28 +62,20 @@
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "icicles",
-			SPECIES_PERK_NAME = "She doesn't freeze.",
-			SPECIES_PERK_DESC = "She won't freeze in outer space",
-		),
-		list(
-			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "temperature-high",
-			SPECIES_PERK_NAME = "She doesn't warming up.",
-			SPECIES_PERK_DESC = "She's sure to out-sit everyone in a hot bath.",
-		),
-		list(
-			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "shield-alt",
-			SPECIES_PERK_NAME = "Resistant to pressure fluctuations",
+			SPECIES_PERK_ICON = "0",
+			SPECIES_PERK_NAME = "Born to be biotic.",
 			SPECIES_PERK_DESC = "The main thing is not to forget to wear an oxygen mask.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "heart",
 			SPECIES_PERK_NAME = "Beauty requires sacrifice",
-			SPECIES_PERK_DESC = "Your body is quite fragile. Try not to fight with the krogan.",
+			SPECIES_PERK_DESC = "Every Asari is biotic. Here you have some of that power.",
 		),
 	)
 
 	return to_add
+
+/datum/species/asari/on_species_gain(mob/living/carbon/C, datum/species/old_species)
+	. = ..()
+	C.dna.add_mutation(/datum/mutation/human/telekinesis)

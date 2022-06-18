@@ -1,10 +1,13 @@
 ///Telekinesis lets you interact with objects from range, and gives you a light blue halo around your head.
 /datum/mutation/human/telekinesis
-	name = "Telekinesis"
-	desc = "A strange mutation that allows the holder to interact with objects through thought."
+	name = "Biotics" // ALLIANCE EDIT
+	//name = "Telekinesis" TG ORIGINAL
+	desc = "A strange mutation caused by the effect of Element Zero on the embryo's nervous system." // ALLIANCE EDIT
+	//desc = "A strange mutation that allows the holder to interact with objects through thought."
 	quality = POSITIVE
 	difficulty = 18
-	text_gain_indication = "<span class='notice'>You feel smarter!</span>"
+	text_gain_indication = "<span class='notice'>You want to identify with the Asari</span>" // ALLIANCE EDIT
+	//text_gain_indication = "<span class='notice'>You feel smarter!</span>" TG ORIGINAL
 	limb_req = BODY_ZONE_HEAD
 	instability = 30
 	///Typecache of atoms that TK shouldn't interact with
@@ -12,8 +15,14 @@
 
 /datum/mutation/human/telekinesis/New(class_ = MUT_OTHER, timer, datum/mutation/human/copymut)
 	..()
+	// ALLIANCE EDIT BEGIN
+	if(!(type in visual_indicators))
+		visual_indicators[type] = list()
+	// ALLIANCE EDIT END
+	/* TG ORIGINAL
 	if(!(type in visual_indicators))
 		visual_indicators[type] = list(mutable_appearance('icons/effects/genetics.dmi', "telekinesishead", -MUTATIONS_LAYER))
+	TG ORIGINAL END*/
 
 /datum/mutation/human/telekinesis/on_acquiring(mob/living/carbon/human/H)
 	. = ..()
