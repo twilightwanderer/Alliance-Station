@@ -4551,6 +4551,7 @@
 #include "modular_alliance\modules\original_editing\code\crates.dm"
 #include "modular_alliance\modules\original_editing\code\floor.dm"
 #include "modular_alliance\modules\original_editing\code\flora.dm"
+#include "modular_alliance\modules\original_editing\code\pda.dm"
 #include "modular_alliance\modules\original_editing\code\signs.dm"
 #include "modular_alliance\modules\original_editing\code\status_display.dm"
 #include "modular_alliance\modules\original_editing\code\storages.dm"
