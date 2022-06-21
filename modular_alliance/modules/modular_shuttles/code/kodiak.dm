@@ -144,5 +144,14 @@
 /obj/item/circuitboard/computer/labour/kodiak_alliance
 	name = "UT-47 Kodiak Control Console (Computer Board)"
 
+/datum/map_template/shuttle/arrival/modular_shuttle/kodiak
+	prefix = "modular_alliance/modules/modular_shuttles/maps/"
+
+/datum/map_template/shuttle/arrival/modular_shuttle/kodiak/alliance
+	suffix = "kodiak_alliance"
+	name = "Alliance UT-47 Kodiak"
+	shuttle_id = "arrival_kodiak_alliance"
+
+
 #undef ICON_KODIAK_ALLIANCE_TEXTURES_PATH
 #undef ICON_KODIAK_CERBERUS_TEXTURES_PATH

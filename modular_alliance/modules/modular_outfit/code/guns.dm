@@ -19,6 +19,19 @@
 	icon_state = "m_25_cerberus_9mm-24"
 	base_icon_state = "m_25_cerberus_9mm"
 
+/obj/item/ammo_casing/c9mm/rubber
+	name = "9mm rubber bullet casing"
+	desc = "A 9mm rubber bullet casing"
+	projectile_type = /obj/projectile/bullet/c9mm/rubber
+/obj/projectile/bullet/c9mm/rubber
+	name = "9mm rubber bullet"
+	damage = 10
+	stamina = 55
+	wound_bonus = 20
+	sharpness = NONE
+	embedding = null
+
+
 /obj/item/gun/ballistic/automatic/modular_alliance/m_25
 	name = "\improper M-25 SMG"
 	desc = "Prototype submachine gun M-25."
