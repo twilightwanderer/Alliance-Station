@@ -4574,6 +4574,7 @@
 #include "modular_alliance\modules\modular_maps\code\maps.dm"
 #include "modular_alliance\modules\modular_maps\code\cerberus_operations_post\areas.dm"
 #include "modular_alliance\modules\modular_maps\code\cerberus_operations_post\map.dm"
+#include "modular_alliance\modules\modular_objects\code\floors.dm"
 #include "modular_alliance\modules\modular_objects\code\large_doors.dm"
 #include "modular_alliance\modules\modular_objects\code\suit_storage_units.dm"
 #include "modular_alliance\modules\modular_outfit\code\card.dm"
