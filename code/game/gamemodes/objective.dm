@@ -1,4 +1,5 @@
 GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
+GLOBAL_LIST_EMPTY(objectives) // ALLIANCE EDIT ADDITION
 
 /datum/objective
 	var/datum/mind/owner //The primary owner of the objective. !!SOMEWHAT DEPRECATED!! Prefer using 'team' for new code.
@@ -194,7 +195,8 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 /datum/objective/assassinate/update_explanation_text()
 	..()
 	if(target?.current)
-		explanation_text = "Assassinate [target.name], the [!target_role_type ? target.assigned_role.title : target.special_role]."
+		explanation_text = "Assassinate [target.name], the [!target_role_type ? target.assigned_role.title : target.special_role] ONCE." //ALLIANCE EDIT CHANGE
+		//explanation_text = "Assassinate [target.name], the [!target_role_type ? target.assigned_role.title : target.special_role]." TG ORIGINAL
 	else
 		explanation_text = "Free Objective"
 

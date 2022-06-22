@@ -1,0 +1,10467 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aj" = (
+/obj/machinery/shower{
+	pixel_y = 12
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"ap" = (
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"as" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"aw" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"aJ" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"aU" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/external,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"ba" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"be" = (
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"bg" = (
+/obj/structure/cable,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"bh" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/monitored{
+	dir = 1;
+	chamber_id = "cerberus-n2"
+	},
+/turf/open/floor/engine/n2,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"bo" = (
+/obj/machinery/seed_extractor,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"bA" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"bP" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"bQ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"ca" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"cc" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"ce" = (
+/obj/machinery/airalarm/all_access{
+	dir = 1;
+	pixel_y = 23
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/structure/table/wood,
+/obj/machinery/computer/libraryconsole/bookmanagement,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"cf" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"cg" = (
+/obj/structure/cable,
+/obj/machinery/light/directional/west,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"cn" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/public,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"ct" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"cu" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"cC" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"cG" = (
+/turf/closed/wall/r_wall,
+/area/space/nearstation)
+"cN" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"cZ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"df" = (
+/obj/effect/turf_decal/tile/yellow,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"dj" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"dl" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"dn" = (
+/obj/structure/table/reinforced,
+/obj/item/clothing/gloves/color/latex,
+/obj/item/reagent_containers/spray/cleaner,
+/obj/machinery/airalarm/all_access{
+	dir = 1;
+	pixel_y = 23
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"dp" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/obj/machinery/hydroponics/constructable,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"dt" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"dy" = (
+/obj/machinery/airalarm/all_access{
+	dir = 1;
+	pixel_y = 23
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"dC" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/structure/railing,
+/obj/machinery/computer/station_alert{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"dL" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"dP" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/obj/structure/sign/warning/cold_temp/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"dQ" = (
+/obj/structure/chair/stool/bar/directional/north,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"dT" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"dW" = (
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/coldroom)
+"ea" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/supply/hidden{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"ei" = (
+/turf/closed/wall/r_wall/rust,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"em" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"eq" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"es" = (
+/turf/closed/wall/r_wall/rust,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"eC" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"eM" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/door/airlock/public,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"eN" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/flora/bush/flowers_pp/style_random,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"eS" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"eT" = (
+/obj/machinery/oven,
+/obj/machinery/airalarm/all_access{
+	dir = 1;
+	pixel_y = 23
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"eU" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"fg" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"fn" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"fy" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"fC" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/light/directional/west,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/machinery/washing_machine,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"fG" = (
+/turf/open/misc/ashplanet/ash{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"fU" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"gc" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"gg" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"gj" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/obj/structure/extinguisher_cabinet/directional/west,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"gn" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"gy" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/obj/machinery/computer/med_data/syndie{
+	dir = 8;
+	req_access = list("cerberus");
+	req_one_access = list("cerberus")
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"gB" = (
+/obj/structure/table/glass,
+/obj/item/storage/box/beakers{
+	pixel_x = -4;
+	pixel_y = 17
+	},
+/obj/machinery/reagentgrinder,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"gD" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/coldroom)
+"gG" = (
+/obj/machinery/door/airlock/research/glass{
+	name = "Pharmacy"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"gP" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"gS" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"gU" = (
+/obj/machinery/atmospherics/components/binary/pump/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"gV" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/hidden,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"gY" = (
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"gZ" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/external,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"ha" = (
+/obj/machinery/light/small/directional/east,
+/obj/structure/closet/crate/freezer{
+	name = "fruits and veggies freezer"
+	},
+/obj/item/food/grown/potato,
+/obj/item/food/grown/potato,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/pineapple,
+/obj/item/food/grown/pineapple,
+/obj/item/food/grown/cherries,
+/obj/item/food/grown/cherries,
+/obj/item/food/grown/citrus/orange,
+/obj/item/food/grown/citrus/orange,
+/obj/item/food/grown/bell_pepper,
+/obj/item/food/grown/bell_pepper,
+/obj/item/food/grown/chili,
+/obj/item/food/grown/chili,
+/obj/item/food/grown/parsnip,
+/obj/item/food/grown/parsnip,
+/obj/item/food/grown/redbeet,
+/obj/item/food/grown/redbeet,
+/obj/item/food/grown/watermelon,
+/obj/item/food/grown/watermelon,
+/obj/item/food/grown/peas,
+/obj/item/food/grown/peas,
+/obj/item/food/grown/onion,
+/obj/item/food/grown/onion,
+/obj/item/food/grown/eggplant,
+/obj/item/food/grown/eggplant,
+/obj/item/food/grown/banana,
+/obj/item/food/grown/banana,
+/obj/item/food/grown/apple,
+/obj/item/food/grown/apple,
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/coldroom)
+"hk" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"hn" = (
+/obj/machinery/air_sensor/nitrogen_tank{
+	chamber_id = "cerberus-n2"
+	},
+/turf/open/floor/engine/n2,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"hr" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"hv" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"hD" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"hJ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"hQ" = (
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"hT" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"ia" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"ij" = (
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"iy" = (
+/obj/structure/sign/departments/cargo/directional/west,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"iz" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"iK" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"iO" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"iT" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"iW" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"iX" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"jl" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"jH" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"jL" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"kl" = (
+/obj/machinery/atmospherics/components/unary/passive_vent,
+/turf/template_noop,
+/area/space/nearstation)
+"ku" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/coldroom)
+"kz" = (
+/obj/structure/table/glass,
+/obj/item/screwdriver{
+	pixel_x = 1;
+	pixel_y = 23
+	},
+/obj/item/clothing/glasses/science,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"kD" = (
+/obj/machinery/air_sensor/oxygen_tank{
+	chamber_id = "cerberus-o2"
+	},
+/turf/open/floor/engine/o2,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"kH" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/west,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"kK" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/hidden,
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"kU" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"kW" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"lp" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"lq" = (
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/obj/structure/railing,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"lz" = (
+/obj/structure/cable,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"lC" = (
+/obj/structure/chair/office,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"lI" = (
+/obj/machinery/light/directional/north,
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"lL" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
+/obj/machinery/atmospherics/pipe/bridge_pipe/green/visible{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"lM" = (
+/obj/structure/rack,
+/obj/item/storage/box/beakers{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/storage/box/syringes,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"lP" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/public,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"lS" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"lW" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"mf" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"mk" = (
+/obj/structure/rack{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"ml" = (
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"mp" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"mr" = (
+/obj/machinery/power/rtg/advanced,
+/obj/structure/cable,
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/space/nearstation)
+"ms" = (
+/obj/machinery/door/airlock/virology{
+	autoclose = 0;
+	frequency = 1449;
+	id_tag = "virology_airlock_exterior";
+	name = "Virology Exterior Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"mx" = (
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"my" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"mG" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"mI" = (
+/obj/structure/rack,
+/obj/item/crowbar/red,
+/obj/item/wrench,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"mL" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/chem_dispenser/drinks{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"mM" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"mN" = (
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 1;
+	name = "O2 to Airmix"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"mS" = (
+/obj/machinery/chem_dispenser{
+	layer = 2.7
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"mY" = (
+/obj/structure/table/glass,
+/obj/item/reagent_containers/glass/beaker/large{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = 8;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/dropper{
+	pixel_x = 5;
+	pixel_y = 14
+	},
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"mZ" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/structure/railing,
+/obj/machinery/computer/atmos_control/noreconnect{
+	atmos_chambers = list("cerberus-o2"="Oxygen Supply");
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"nr" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/cable,
+/obj/machinery/door/poddoor{
+	name = "Cerberus Post Engineering Isolation";
+	id = "Cerberus Post Engineering Isolation"
+	},
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"ny" = (
+/obj/structure/urinal/directional/north,
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"nA" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"nB" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"nD" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
+	},
+/obj/machinery/hydroponics/constructable,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"nH" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/layer2{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/scrubber,
+/obj/machinery/light/directional/west,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"nO" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"oa" = (
+/obj/machinery/rnd/production/protolathe/offstation,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"of" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/hidden,
+/obj/structure/rack{
+	dir = 8
+	},
+/obj/item/pickaxe,
+/obj/item/storage/bag/ore,
+/obj/item/mining_scanner,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"os" = (
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/obj/effect/mob_spawn/ghost_role/human/alliance_modular/cerberus_operator{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"ov" = (
+/obj/structure/sign/departments/chemistry/pharmacy/directional/north,
+/obj/structure/extinguisher_cabinet/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"oA" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"oB" = (
+/obj/structure/extinguisher_cabinet/directional/east,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"oC" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"oG" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"oK" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/obj/structure/rack,
+/obj/item/knife/kitchen,
+/obj/item/kitchen/rollingpin,
+/obj/item/reagent_containers/food/condiment/enzyme{
+	layer = 5
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"oL" = (
+/obj/structure/bodycontainer/morgue{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"oM" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/template_noop,
+/area/space/nearstation)
+"oU" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"oY" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"pa" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/structure/frame/machine,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"pg" = (
+/turf/template_noop,
+/area/template_noop)
+"pj" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"pk" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/obj/machinery/photocopier{
+	pixel_y = 3
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"pp" = (
+/turf/closed/wall/r_wall/rust,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"ps" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/flora/rock/pile/jungle/style_random,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"pB" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space/nearstation)
+"pF" = (
+/obj/structure/tank_dispenser/oxygen{
+	oxygentanks = 4
+	},
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"pH" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"pK" = (
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"pO" = (
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"pS" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"pW" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"pY" = (
+/turf/open/floor/engine/o2,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"qf" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"qj" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/door/airlock/public,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"qv" = (
+/obj/machinery/mecha_part_fabricator,
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"qx" = (
+/obj/machinery/chem_mass_spec,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"qL" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"qT" = (
+/turf/closed/mineral/random{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"qX" = (
+/turf/open/floor/engine/n2,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"rk" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"rl" = (
+/obj/machinery/atmospherics/components/binary/pump/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"rC" = (
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"rD" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"rE" = (
+/obj/machinery/atmospherics/components/trinary/filter/atmos/n2{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"rM" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/hidden,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"rQ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored{
+	dir = 1;
+	chamber_id = "s"
+	},
+/turf/open/floor/engine/o2,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"rS" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/hidden{
+	dir = 5
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"rY" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"so" = (
+/obj/machinery/rnd/production/circuit_imprinter/offstation,
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet/directional/west,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"su" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/obj/machinery/rnd/destructive_analyzer,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"sx" = (
+/obj/machinery/door/airlock/freezer,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/coldroom)
+"sD" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"sN" = (
+/obj/machinery/vending/hydroseeds{
+	slogan_delay = 700
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"sU" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"sV" = (
+/turf/closed/wall/r_wall/rust,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"sY" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/obj/structure/chair/sofa/corp/left{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"sZ" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"td" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/public,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"te" = (
+/obj/structure/sink{
+	pixel_y = 22
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"tn" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/structure/reagent_dispensers/watertank,
+/obj/effect/turf_decal/delivery/red,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"ts" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/medkit/brute{
+	pixel_y = 10
+	},
+/obj/item/storage/medkit/fire{
+	pixel_y = 5
+	},
+/obj/item/storage/medkit/toxin,
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"tx" = (
+/turf/closed/wall/r_wall/rust,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"tC" = (
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"tF" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/item/food/grown/banana,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"tJ" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"tL" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"tM" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"tN" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"tP" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"ua" = (
+/obj/machinery/door/window{
+	dir = 4;
+	name = "monkey door"
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"uh" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/obj/machinery/suit_storage_unit/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"uj" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"um" = (
+/obj/structure/table/optable,
+/obj/item/surgical_drapes,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"uv" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"uw" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/belt/medical,
+/obj/item/healthanalyzer,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"uH" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/public,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"uM" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/poddoor{
+	name = "Cerberus Post Supply Dock";
+	id = "Cerberus Post Supply Dock"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"uQ" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"uR" = (
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"uZ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"vb" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"vg" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/obj/structure/chair/sofa/corp/corner,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"vw" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"vN" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"vR" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 12
+	},
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/obj/structure/reagent_dispensers/watertank/high,
+/obj/item/reagent_containers/glass/bucket,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"vS" = (
+/turf/closed/wall/r_wall/rust,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"vU" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"wo" = (
+/obj/machinery/atmospherics/components/trinary/mixer/airmix/flipped{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"wt" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/item/toy/plush/space_lizard_plushie,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"wv" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
+	},
+/obj/structure/bookcase/random,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"wz" = (
+/obj/machinery/chem_master,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"wM" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/public,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"wR" = (
+/obj/structure/table/glass,
+/obj/item/stack/sheet/mineral/plasma{
+	pixel_y = 10
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"wT" = (
+/obj/machinery/door/airlock/virology{
+	autoclose = 0;
+	frequency = 1449;
+	id_tag = "virology_airlock_interior";
+	name = "Virology Interior Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"xh" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"xq" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"xA" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"xB" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"xF" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"xK" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/reagentgrinder{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"xO" = (
+/obj/machinery/computer/pandemic,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"xT" = (
+/obj/structure/table/reinforced,
+/obj/item/defibrillator/loaded,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"xU" = (
+/obj/machinery/chem_heater/withbuffer,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"xV" = (
+/obj/machinery/hydroponics/constructable,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"yh" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/structure/lattice/catwalk,
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"yi" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/hidden,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"yD" = (
+/obj/structure/rack,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"yF" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"yY" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"zd" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"zg" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"zh" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"zo" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/public,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"zr" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"zs" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"zy" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/light/directional/east,
+/obj/machinery/button/door/directional{
+	id = "Cerberus Post Supply Dock";
+	name = "Cerberus Post Supply Dock";
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/machinery/button/door/directional{
+	name = "Cerberus Post Engineering Isolation";
+	id = "Cerberus Post Engineering Isolation";
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/machinery/button/door/directional{
+	id = "Cerberus Post Hall Isolation";
+	name = "Cerberus Post Hall Isolation";
+	pixel_x = -6;
+	pixel_y = -3
+	},
+/obj/machinery/button/door/directional{
+	name = "Cerberus Post Command Windows";
+	id = "Cerberus Post Command Windows";
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"zH" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"zO" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"zQ" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/coldroom)
+"Ad" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/airalarm/all_access{
+	dir = 8;
+	pixel_x = -23
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Ae" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"Ap" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Aq" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"Av" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"AA" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"AF" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/machinery/shower{
+	pixel_y = 19
+	},
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"AG" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/obj/effect/turf_decal/delivery/red,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"AL" = (
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/obj/machinery/autolathe,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"AU" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"AZ" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Ba" = (
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"Bm" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/chem_dispenser/drinks/beer{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Br" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"Bv" = (
+/obj/structure/closet/crate/freezer,
+/obj/item/reagent_containers/blood/random,
+/obj/item/reagent_containers/blood/random,
+/obj/item/reagent_containers/blood/random,
+/obj/item/reagent_containers/blood/random,
+/obj/item/reagent_containers/blood/o_plus{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/obj/item/reagent_containers/blood/o_minus,
+/obj/item/reagent_containers/blood/b_plus,
+/obj/item/reagent_containers/blood/b_minus,
+/obj/item/reagent_containers/blood/a_plus,
+/obj/item/reagent_containers/blood/a_minus,
+/obj/item/reagent_containers/blood/lizard,
+/obj/item/reagent_containers/blood/ethereal,
+/obj/item/reagent_containers/blood{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/reagent_containers/blood{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/reagent_containers/blood{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"BE" = (
+/obj/structure/flora/bush/flowers_pp/style_random,
+/mob/living/carbon/human/species/monkey,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"BH" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/coldroom)
+"BJ" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"BL" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/machinery/door/firedoor,
+/obj/structure/railing,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"BM" = (
+/obj/structure/table/reinforced,
+/obj/machinery/reagentgrinder{
+	pixel_y = 8
+	},
+/obj/item/stack/sheet/mineral/plasma,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"BN" = (
+/obj/structure/cable,
+/obj/machinery/power/port_gen/pacman{
+	anchored = 1
+	},
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"BP" = (
+/obj/structure/closet/crate/freezer/surplus_limbs,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"BW" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Ce" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Ch" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Cv" = (
+/turf/closed/wall/r_wall/rust,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"CA" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
+	},
+/obj/item/storage/toolbox/electrical,
+/obj/item/multitool,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"CG" = (
+/obj/machinery/smartfridge/organ,
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"CP" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-21"
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"CR" = (
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"CS" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"CV" = (
+/obj/machinery/light/directional/north,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/structure/chair/sofa/corp/right{
+	desc = "Looks like someone threw it out. Covered in donut crumbs.";
+	name = "couch"
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"CX" = (
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 8;
+	name = "Air to Distro"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"CY" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/obj/structure/frame/machine,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Dh" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"DB" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/structure/sign/departments/botany/directional/north,
+/obj/machinery/griddle,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"DO" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/machinery/computer/rdconsole,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"DS" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/power/port_gen/pacman{
+	anchored = 1
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"DW" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored{
+	dir = 1;
+	chamber_id = "cerberus-n2"
+	},
+/turf/open/floor/engine/n2,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Ec" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"Ee" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"Ek" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Eo" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Ep" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/monitored{
+	dir = 1;
+	chamber_id = "cerberus-o2"
+	},
+/turf/open/floor/engine/o2,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Er" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Eu" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"ED" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"EJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"EK" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"EM" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"EY" = (
+/obj/machinery/smartfridge,
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Fa" = (
+/turf/closed/mineral/random,
+/area/ruin/unpowered/no_grav)
+"Fi" = (
+/obj/machinery/smartfridge/chemistry/preloaded,
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Fl" = (
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"Fn" = (
+/obj/machinery/light/directional/west,
+/obj/machinery/biogenerator,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"Fs" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"Ft" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/structure/chair/stool/bar/directional/north,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"FM" = (
+/obj/machinery/airalarm/all_access{
+	dir = 1;
+	pixel_y = 23
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"FR" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"FX" = (
+/obj/structure/flora/bush/jungle/c/style_random,
+/obj/structure/flora/bush/flowers_pp/style_random,
+/mob/living/carbon/human/species/monkey,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"FY" = (
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"FZ" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Gb" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"GG" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/door/window/left/directional,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"GH" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"GJ" = (
+/obj/machinery/light/directional/west,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"GM" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"GN" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"GP" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"GQ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"GS" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/hidden{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Hi" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Hx" = (
+/turf/open/misc/ashplanet/ash{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Hy" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"HA" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/public,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"HF" = (
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/space/nearstation)
+"HZ" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/machinery/door/poddoor{
+	name = "Cerberus Post Hall Isolation";
+	id = "Cerberus Post Hall Isolation"
+	},
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Ic" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/external,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Ij" = (
+/obj/machinery/airalarm/all_access{
+	dir = 1;
+	pixel_y = 23
+	},
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/coldroom)
+"Il" = (
+/obj/structure/extinguisher_cabinet/directional/south,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"In" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/structure/rack{
+	dir = 8
+	},
+/obj/item/stack/sheet/glass{
+	amount = 50
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Iz" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"IN" = (
+/turf/closed/mineral/random{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/unpowered/no_grav)
+"IR" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/effect/turf_decal/tile/yellow,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"IT" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/obj/structure/extinguisher_cabinet/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"IV" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Jq" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Auxilliary Surgery"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Js" = (
+/obj/structure/table/wood,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Ju" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Jv" = (
+/obj/machinery/door/airlock/multi_tile/glass,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"JS" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/machinery/computer/communications/syndicate{
+	dir = 4;
+	req_access = list("cerberus")
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"Ka" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"Kc" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Kh" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Ks" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"Kt" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"KC" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"KY" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"Ll" = (
+/obj/machinery/computer/operating,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Ln" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/obj/structure/rack{
+	dir = 8
+	},
+/obj/item/stack/sheet/iron{
+	amount = 25
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Lo" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/structure/railing,
+/obj/machinery/computer/atmos_control/noreconnect{
+	atmos_chambers = list("cerberus-n2"="Nitrogen Supply");
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Lt" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/structure/rack{
+	dir = 8
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 6
+	},
+/obj/item/storage/toolbox/electrical,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Lw" = (
+/obj/structure/closet/secure_closet/medical2,
+/obj/machinery/airalarm/all_access{
+	dir = 1;
+	pixel_y = 23
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Lx" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"LD" = (
+/obj/structure/closet/l3closet,
+/obj/machinery/airalarm/all_access{
+	dir = 1;
+	pixel_y = 23
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"LO" = (
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"LX" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Ma" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/glass/bottle/multiver{
+	pixel_y = 12
+	},
+/obj/item/reagent_containers/glass/bottle/epinephrine{
+	pixel_y = 8;
+	pixel_x = 9
+	},
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Me" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/obj/machinery/deepfryer,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Ms" = (
+/obj/machinery/vending/hydronutrients,
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"Mu" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Mz" = (
+/obj/machinery/light/directional/south,
+/obj/machinery/firealarm/directional/east,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"MA" = (
+/obj/machinery/hydroponics/constructable,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"MB" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"MG" = (
+/obj/structure/closet/crate/freezer{
+	name = "meat freezer"
+	},
+/obj/item/food/meat/slab/bear,
+/obj/item/food/meat/slab/bear,
+/obj/item/food/meat/slab/bear,
+/obj/item/food/meat/slab/bear,
+/obj/item/food/meat/slab/gondola,
+/obj/item/food/meat/slab/xeno,
+/obj/item/food/meat/slab/xeno,
+/obj/item/food/meat/slab/xeno,
+/obj/item/food/meat/slab/killertomato,
+/obj/item/food/meat/slab/killertomato,
+/obj/item/food/meat/slab/killertomato,
+/obj/item/food/meat/slab/spider,
+/obj/item/food/meat/slab/penguin,
+/obj/item/food/meat/slab/rawcrab,
+/obj/item/food/grown/carrot,
+/obj/item/food/grown/carrot,
+/obj/item/food/grown/garlic,
+/obj/item/food/grown/garlic,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/tomato,
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/coldroom)
+"MH" = (
+/turf/closed/wall/r_wall,
+/area/template_noop)
+"MI" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/structure/chair/sofa/corp,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"MM" = (
+/obj/machinery/computer/message_monitor{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"MW" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"MY" = (
+/turf/closed/mineral/random{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Nd" = (
+/obj/item/food/grown/banana,
+/mob/living/carbon/human/species/monkey,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Ng" = (
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"Nm" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"Ny" = (
+/obj/structure/closet/crate/freezer{
+	name = "pantry crate"
+	},
+/obj/item/reagent_containers/food/condiment/rice{
+	pixel_y = 12
+	},
+/obj/item/reagent_containers/food/condiment/rice{
+	pixel_y = 12
+	},
+/obj/item/reagent_containers/food/condiment/saltshaker,
+/obj/item/reagent_containers/food/condiment/peppermill,
+/obj/item/food/grown/wheat,
+/obj/item/food/grown/wheat,
+/obj/item/reagent_containers/food/condiment/sugar,
+/obj/item/reagent_containers/food/condiment/sugar,
+/obj/item/food/grown/soybeans,
+/obj/item/food/grown/soybeans,
+/obj/item/food/grown/vanillapod,
+/obj/item/food/grown/vanillapod,
+/obj/item/food/grown/herbs,
+/obj/item/food/grown/herbs,
+/obj/item/food/grown/cocoapod,
+/obj/item/food/grown/cocoapod,
+/obj/item/food/grown/aloe,
+/obj/item/food/grown/coffee,
+/obj/item/food/grown/coffee,
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/coldroom)
+"ND" = (
+/obj/machinery/smartfridge/chemistry/virology/preloaded,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"NJ" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"NM" = (
+/obj/structure/table/glass,
+/obj/item/reagent_containers/glass/bottle/epinephrine{
+	pixel_x = -4;
+	pixel_y = 12
+	},
+/obj/item/reagent_containers/glass/bottle/multiver{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"NP" = (
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"NS" = (
+/obj/structure/flora/bush/large/style_random{
+	pixel_y = 0
+	},
+/obj/structure/water_source/puddle,
+/turf/open/floor/grass,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"NT" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"Of" = (
+/obj/machinery/airalarm/all_access{
+	dir = 1;
+	pixel_y = 23
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"Og" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"On" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Ow" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"OB" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"OK" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/structure/bookcase/random,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"ON" = (
+/obj/structure/cable,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"OO" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"OP" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"OR" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"OZ" = (
+/obj/structure/cable,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Pe" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Pj" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Pm" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/machinery/hydroponics/constructable,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"PC" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"PG" = (
+/obj/structure/rack,
+/obj/machinery/light/directional/north,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/item/radio{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/radio{
+	pixel_y = 4
+	},
+/obj/item/radio{
+	pixel_y = 4;
+	pixel_x = 7
+	},
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Qb" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"Qo" = (
+/obj/machinery/door/poddoor{
+	name = "Cerberus Post Command Windows";
+	id = "Cerberus Post Command Windows"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"Qs" = (
+/obj/structure/mirror/directional/north,
+/obj/structure/sink{
+	pixel_y = 22
+	},
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"Qt" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"Qz" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"QQ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Rb" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Rh" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"Rm" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/light/directional/north,
+/obj/machinery/shower{
+	pixel_y = 19
+	},
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"Rr" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"Rs" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"RJ" = (
+/obj/docking_port/stationary{
+	dir = 2;
+	height = 5;
+	id = "cerberus_home";
+	name = "Cerberus Post";
+	roundstart_template = /datum/map_template/shuttle/ruin/modular_shuttle/kodiak/cerberus;
+	width = 11;
+	dwidth = 5
+	},
+/turf/template_noop,
+/area/template_noop)
+"RK" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"RV" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"Sz" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"SB" = (
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"SC" = (
+/obj/machinery/light/directional/west,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/machinery/chem_master/condimaster{
+	name = "CondiMaster Neo"
+	},
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"SG" = (
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/structure/rack{
+	dir = 8
+	},
+/obj/item/storage/belt/utility,
+/obj/item/pipe_dispenser,
+/obj/item/clothing/gloves/color/yellow,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"SK" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"SN" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/airalarm/all_access{
+	dir = 1;
+	pixel_y = 23
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"SS" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/door/airlock/public,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"SW" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/structure/sign/departments/botany/directional/west,
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Ta" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"Te" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/structure/railing,
+/obj/machinery/computer/monitor{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Tr" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/public,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"Tz" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 4
+	},
+/obj/machinery/telecomms/relay/preset/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"TC" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"TM" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"TT" = (
+/obj/machinery/computer/camera_advanced{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"Ue" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Ul" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"Up" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"UE" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/machinery/modular_computer/console,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"UQ" = (
+/obj/structure/table/reinforced,
+/obj/item/clothing/gloves/color/latex,
+/obj/item/reagent_containers/spray/cleaner,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"UU" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"Vg" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/coldroom)
+"Vm" = (
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Vn" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
+	},
+/obj/structure/dresser,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"Vp" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/layer4{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/pump,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Vy" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/external,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Vz" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"VH" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"VM" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"VP" = (
+/obj/machinery/door/airlock/public,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/any/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"VT" = (
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/obj/machinery/vending/coffee{
+	default_price = 0;
+	extra_price = 0;
+	fair_market_price = 0;
+	name = "\improper Jim Norton's Quebecois Coffee"
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"Wf" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/structure/table/wood,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"Wn" = (
+/obj/machinery/portable_atmospherics/canister,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"WL" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/machinery/firealarm/directional/north,
+/obj/machinery/suit_storage_unit/alliance_modular/cerberus,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/suit)
+"WO" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Xf" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/medkit/o2{
+	pixel_y = 10
+	},
+/obj/item/storage/medkit/regular{
+	pixel_y = 5
+	},
+/obj/item/storage/medkit/regular,
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Xm" = (
+/obj/machinery/atmospherics/pipe/smart/simple/green/visible,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Xo" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 8
+	},
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/item/bedsheet/black{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"Xs" = (
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
+	},
+/obj/structure/rack{
+	dir = 8
+	},
+/obj/item/stack/sheet/mineral/gold{
+	amount = 25
+	},
+/obj/item/stack/sheet/mineral/silver{
+	amount = 25
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Xv" = (
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/structure/cable,
+/obj/machinery/chem_master/condimaster{
+	desc = "Used to separate out liquids - useful for purifying botanical extracts. Also dispenses condiments.";
+	name = "SapMaster XP"
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"XD" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"XF" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"XP" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"XU" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/machinery/shower{
+	pixel_y = 19
+	},
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"XW" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"XX" = (
+/obj/effect/turf_decal/tile/yellow/anticorner,
+/obj/item/kirbyplants{
+	icon_state = "plant-21"
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"Yc" = (
+/obj/machinery/atmospherics/components/trinary/filter/atmos/n2{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Yj" = (
+/obj/effect/turf_decal/tile/yellow/half,
+/obj/structure/railing,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Yk" = (
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 1;
+	name = "N2 to Airmix"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Yz" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"YJ" = (
+/obj/structure/table/reinforced,
+/obj/item/food/grown/banana,
+/obj/item/clothing/glasses/science,
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"YS" = (
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"Zf" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow/half,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"Zi" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/command_room)
+"Zj" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/dormitories)
+"Zl" = (
+/obj/structure/table/glass,
+/obj/item/storage/pill_bottle{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/obj/item/storage/pill_bottle,
+/obj/item/storage/pill_bottle{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/medics_room)
+"Zr" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hydroponics)
+"ZA" = (
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 4
+	},
+/obj/structure/sign/departments/medbay/alt/directional/east,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"ZF" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"ZK" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/hall)
+"ZQ" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/storage_room)
+"ZU" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 1
+	},
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/engineers_room)
+"ZV" = (
+/turf/closed/wall/r_wall/rust,
+/area/ruin/space/has_grav/alliance_modular/cerberus_operations_post/coldroom)
+
+(1,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(2,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(3,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+XP
+sV
+sV
+sV
+XP
+XP
+XP
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(4,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+XP
+ny
+oC
+XP
+AF
+ap
+XP
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(5,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+Fa
+XP
+ap
+uj
+XP
+Rm
+ap
+sV
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(6,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+NT
+NT
+uM
+uM
+uM
+NT
+XP
+Qs
+oU
+XP
+XU
+Fl
+sV
+XP
+XP
+XP
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(7,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+NT
+RV
+RV
+RV
+RV
+RV
+XP
+XP
+SS
+XP
+SS
+XP
+sV
+Vn
+Xo
+XP
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(8,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+ei
+Rh
+mk
+RV
+RV
+Ks
+XP
+wv
+OP
+fC
+tJ
+OB
+VP
+eC
+os
+XP
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(9,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+cG
+pB
+pB
+pB
+pB
+pB
+pB
+pB
+oM
+oM
+oM
+oM
+oM
+pB
+pB
+pB
+pB
+pB
+pB
+XD
+XD
+XD
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+ei
+RV
+mk
+RV
+RV
+RV
+XP
+OK
+Ng
+UU
+Ng
+TC
+sV
+XP
+XP
+XP
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(10,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+mr
+mr
+oM
+mr
+mr
+pg
+pg
+pg
+pg
+pg
+pg
+XD
+CA
+lS
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+ei
+RV
+mk
+RV
+RV
+RV
+sV
+ce
+Nm
+qf
+Ng
+TC
+XP
+Vn
+Xo
+XP
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(11,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+mr
+mr
+oM
+mr
+mr
+pg
+pg
+pg
+pg
+pg
+pg
+XD
+PG
+Zf
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+ei
+RV
+mk
+RV
+RV
+RV
+sV
+UE
+Ae
+UU
+Ng
+TC
+VP
+eC
+os
+XP
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(12,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+cG
+pB
+pB
+pB
+pB
+pB
+oM
+oM
+oM
+oM
+oM
+pB
+pB
+pB
+pB
+pB
+pB
+XD
+Tz
+tL
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+ei
+RV
+mk
+RV
+RV
+RV
+sV
+Wf
+Ng
+UU
+Ng
+CS
+XP
+XP
+XP
+XP
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(13,1,1) = {"
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+mr
+mr
+oM
+mr
+mr
+pg
+pg
+pg
+pg
+pg
+XD
+XD
+XD
+qj
+XD
+XD
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+NT
+lI
+mk
+RV
+RV
+Ks
+XP
+nB
+lz
+lp
+aw
+TC
+XP
+Vn
+Xo
+XP
+pB
+HF
+HF
+HF
+HF
+pg
+"}
+(14,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+mr
+mr
+oM
+mr
+mr
+pg
+XD
+XD
+XD
+XD
+XD
+so
+oa
+Iz
+qv
+XD
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+IN
+NT
+ZQ
+mp
+mp
+RV
+RV
+XP
+pk
+Zj
+lW
+Zj
+Ba
+VP
+eC
+os
+XP
+pg
+pB
+pg
+pg
+HF
+pg
+"}
+(15,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+cG
+pB
+pB
+pB
+oM
+oM
+oM
+oM
+oM
+pB
+XD
+BN
+cg
+KC
+XD
+Hi
+oY
+cc
+Lt
+XD
+MY
+MY
+MY
+XD
+MY
+MY
+MY
+XD
+MY
+MY
+MY
+XD
+MY
+MY
+MY
+NT
+NT
+my
+ON
+my
+NT
+NT
+Zi
+Zi
+Tr
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Qo
+Qo
+Zi
+pg
+HF
+pg
+"}
+(16,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+mr
+mr
+oM
+mr
+mr
+pg
+XD
+DS
+MB
+zd
+lP
+AU
+fy
+QQ
+SG
+XD
+Hx
+Hx
+Hx
+xB
+Hx
+Hx
+Hx
+NP
+Hx
+Hx
+Hx
+jH
+Hx
+Hx
+Hx
+NT
+ml
+sZ
+bg
+ml
+iy
+ml
+Zi
+Ec
+tP
+hv
+gj
+Zi
+iO
+wt
+iT
+JS
+CP
+Qo
+pB
+HF
+pg
+"}
+(17,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+mr
+mr
+oM
+mr
+mr
+pg
+XD
+pH
+hD
+Ju
+XD
+DO
+eq
+ba
+cu
+Ic
+yh
+yh
+yh
+GQ
+yh
+yh
+yh
+yh
+yh
+yh
+yh
+dj
+yh
+yh
+yh
+aU
+dt
+kW
+dt
+dt
+sU
+ml
+pp
+SN
+VH
+nA
+xF
+Jv
+nA
+aJ
+Br
+lC
+MM
+Qo
+pg
+HF
+pg
+"}
+(18,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+cG
+pB
+pB
+pB
+oM
+oM
+oM
+oM
+oM
+pB
+XD
+tN
+jl
+hQ
+XD
+su
+Up
+TM
+AL
+XD
+Hx
+Hx
+Hx
+Kt
+Hx
+Hx
+Hx
+oB
+Hx
+Hx
+Hx
+uZ
+Hx
+Hx
+Hx
+NT
+ml
+ij
+Ee
+Lx
+Aq
+ml
+pp
+Qb
+Qt
+Gb
+uQ
+tC
+pO
+pO
+pO
+pO
+TT
+Qo
+pg
+HF
+pg
+"}
+(19,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+oM
+pg
+pg
+pg
+XD
+XD
+td
+XD
+XD
+XD
+eM
+XD
+XD
+XD
+MY
+MY
+MY
+XD
+MY
+MY
+MY
+XD
+MY
+MY
+MY
+XD
+MY
+MY
+MY
+NT
+NT
+NT
+NT
+NT
+wM
+NT
+Zi
+yF
+cf
+mx
+gY
+Zi
+OO
+Qz
+zy
+gy
+XX
+Qo
+pB
+HF
+pg
+"}
+(20,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+oM
+pg
+pg
+pg
+pg
+XD
+as
+Wn
+nH
+Vp
+gg
+AG
+XD
+IN
+IN
+IN
+IN
+Zr
+Zr
+Zr
+es
+es
+es
+Zr
+Zr
+rY
+rY
+rY
+rY
+rY
+Bm
+mL
+GJ
+SW
+hk
+Kh
+Zi
+Zi
+cn
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Qo
+Qo
+Zi
+pg
+HF
+pg
+"}
+(21,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+oM
+pg
+XD
+XD
+XD
+XD
+sD
+vb
+rl
+gU
+Pe
+tn
+XD
+XD
+XD
+XD
+XD
+Zr
+nD
+MA
+Pm
+Fn
+bo
+Xv
+ED
+EY
+NJ
+SC
+xK
+oK
+Ow
+uR
+uR
+uR
+ZK
+pj
+MW
+MW
+Kc
+rY
+pg
+pg
+pB
+pB
+pg
+pg
+pB
+pg
+pg
+HF
+pg
+"}
+(22,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+HF
+HF
+HF
+HF
+HF
+oM
+oM
+nr
+gn
+oG
+jL
+Rb
+Av
+pa
+mM
+dl
+fU
+XD
+Xs
+In
+Ln
+XD
+Zr
+FM
+YS
+Ka
+hT
+hT
+zh
+bQ
+uH
+zg
+uv
+hJ
+GG
+hJ
+gP
+hJ
+hJ
+Ch
+LX
+eU
+hJ
+Yz
+rY
+pB
+pB
+HF
+HF
+HF
+HF
+HF
+HF
+HF
+HF
+pg
+"}
+(23,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+kl
+kK
+of
+rM
+kK
+gV
+yi
+rS
+CR
+vU
+BJ
+zo
+iW
+AA
+kU
+XD
+Zr
+dp
+xV
+xV
+KY
+bP
+GP
+Rs
+rY
+DB
+Er
+uR
+Vz
+dQ
+ca
+uR
+uR
+ZK
+uR
+ca
+OZ
+Mu
+rY
+pg
+pg
+HF
+pg
+pg
+pg
+pg
+pg
+HF
+pg
+pg
+"}
+(24,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+cG
+pB
+pB
+pB
+pB
+pB
+pB
+pB
+XD
+XD
+XD
+XD
+zs
+CR
+GM
+ia
+eS
+Ek
+XD
+Eo
+CY
+hQ
+XD
+Zr
+Zr
+es
+es
+es
+vR
+sN
+Ms
+rY
+eT
+Er
+uR
+Vz
+dQ
+uR
+uR
+uR
+ZK
+uR
+uR
+OZ
+be
+rY
+pg
+pg
+HF
+pg
+pg
+pg
+pg
+pg
+HF
+pg
+pg
+"}
+(25,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+XD
+zs
+df
+GS
+ea
+Sz
+hQ
+XD
+XD
+XD
+XD
+XD
+Fa
+Fa
+Fa
+Fa
+es
+es
+es
+Zr
+rY
+Me
+Ap
+dP
+oA
+Ft
+uR
+uR
+uR
+ZK
+uR
+uR
+OZ
+Mu
+rY
+pg
+pg
+HF
+pg
+pg
+pg
+pg
+pg
+HF
+pg
+pg
+"}
+(26,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+XD
+fg
+BL
+pW
+CX
+rE
+Xm
+PC
+Ep
+pY
+pY
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+gD
+gD
+sx
+gD
+ZV
+CV
+Js
+uR
+uR
+ZK
+uR
+uR
+OZ
+Mu
+rY
+vS
+vS
+rY
+pg
+pg
+pg
+pg
+pg
+HF
+pg
+pg
+"}
+(27,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+XD
+zs
+dC
+gc
+SK
+gc
+Kt
+zH
+kD
+pY
+pY
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+gD
+ku
+Vg
+Ny
+gD
+MI
+Js
+OZ
+OZ
+gS
+hJ
+zr
+bA
+EM
+BW
+Hy
+Pj
+HZ
+pg
+pg
+pg
+pg
+pg
+HF
+pg
+pg
+"}
+(28,1,1) = {"
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+XD
+zs
+Te
+gc
+wo
+lL
+mN
+pS
+rQ
+pY
+pY
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+ZV
+dW
+BH
+MG
+gD
+MI
+Js
+nO
+ZF
+IR
+vw
+IT
+zO
+rC
+VM
+Dh
+dL
+HZ
+RJ
+pg
+pg
+pg
+pg
+HF
+pg
+pg
+"}
+(29,1,1) = {"
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+cG
+pB
+pB
+pB
+pB
+pB
+pB
+pB
+pB
+pB
+cG
+Fa
+XD
+ZU
+mZ
+gc
+SK
+gc
+Og
+XD
+XD
+XD
+XD
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+ZV
+Ij
+zQ
+ha
+gD
+vg
+sY
+zO
+ZA
+VT
+rY
+rY
+HA
+rY
+rY
+rY
+rY
+rY
+pg
+pg
+pg
+pg
+pg
+HF
+pg
+pg
+"}
+(30,1,1) = {"
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+XD
+zs
+Lo
+gc
+SK
+Yc
+qL
+PC
+bh
+qX
+qX
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+gD
+ZV
+ZV
+ZV
+ZV
+vS
+rY
+Vy
+rY
+rY
+Rr
+pF
+EK
+Ta
+Rr
+pg
+pg
+HF
+pg
+pg
+pg
+pg
+pg
+HF
+pg
+pg
+"}
+(31,1,1) = {"
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+XD
+zs
+Yj
+gc
+SK
+gc
+Kt
+zH
+hn
+qX
+qX
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+tx
+fn
+dT
+Ul
+tx
+pg
+pg
+HF
+pg
+pg
+pg
+pg
+pg
+HF
+pg
+pg
+"}
+(32,1,1) = {"
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+XD
+zs
+Yj
+gc
+mf
+lL
+Yk
+pS
+DW
+qX
+qX
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+tx
+Fs
+vN
+Ul
+tx
+pg
+pg
+HF
+pg
+pg
+pg
+pg
+pg
+HF
+pg
+pg
+"}
+(33,1,1) = {"
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+XD
+zs
+Yj
+GH
+qL
+OR
+Og
+XD
+XD
+XD
+XD
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+tx
+WL
+vN
+LO
+tx
+pg
+pg
+HF
+pg
+pg
+pg
+pg
+pg
+HF
+pg
+pg
+"}
+(34,1,1) = {"
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+XD
+zs
+Yj
+Kt
+Kt
+Kt
+Kt
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+GN
+iz
+cZ
+hr
+GN
+tx
+Of
+Eu
+Ul
+tx
+pB
+pB
+HF
+HF
+HF
+HF
+HF
+HF
+HF
+pg
+pg
+"}
+(35,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+XD
+On
+lq
+Kt
+Kt
+Kt
+Kt
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+Rr
+uh
+iK
+pK
+tx
+pg
+pg
+pB
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(36,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+XD
+XD
+XD
+XD
+XD
+XD
+XD
+XD
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+Rr
+tx
+tx
+tx
+tx
+MH
+MH
+MH
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(37,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+IN
+IN
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(38,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+cG
+pB
+pB
+pB
+pB
+pB
+pB
+pB
+pB
+pB
+pB
+pB
+pB
+pB
+cG
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+GN
+XW
+Ue
+Il
+GN
+IN
+IN
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(39,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+IN
+IN
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(40,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+IN
+IN
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(41,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+IN
+IN
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(42,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+GN
+FY
+cZ
+hr
+GN
+IN
+IN
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(43,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+IN
+IN
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(44,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+IN
+IN
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(45,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+IN
+IN
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(46,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+GN
+XW
+Ue
+iz
+GN
+Cv
+GN
+GN
+GN
+GN
+GN
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(47,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+Cv
+Ll
+SB
+SB
+oL
+Cv
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(48,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+Cv
+um
+SB
+IV
+oL
+Cv
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(49,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+IN
+IN
+qT
+fG
+ct
+fG
+qT
+GN
+Ma
+SB
+cC
+oL
+Cv
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(50,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+GN
+Cv
+Cv
+Cv
+Cv
+Cv
+GN
+GN
+gZ
+GN
+GN
+GN
+Lw
+SB
+cC
+BP
+Cv
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(51,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+GN
+Zl
+gB
+NM
+wR
+SB
+Fi
+Ad
+cN
+kH
+CG
+SB
+SB
+SB
+cC
+Bv
+Cv
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(52,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+GN
+dy
+mG
+RK
+em
+xh
+gG
+xh
+EJ
+xh
+Jq
+xh
+xh
+XF
+WO
+SB
+GN
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(53,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+GN
+xU
+Vm
+qx
+mY
+kz
+GN
+ov
+xq
+Mz
+GN
+xT
+ts
+Xf
+uw
+UQ
+GN
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(54,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+GN
+mS
+SB
+wz
+Cv
+GN
+GN
+GN
+ms
+GN
+GN
+GN
+Cv
+Cv
+Cv
+Cv
+GN
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(55,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+GN
+Cv
+Cv
+Cv
+Cv
+Fa
+GN
+LD
+rk
+SB
+GN
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(56,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+GN
+aj
+rD
+iX
+Cv
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(57,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+GN
+te
+rk
+SB
+Cv
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(58,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Cv
+GN
+wT
+GN
+Cv
+GN
+GN
+GN
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(59,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Cv
+ND
+FZ
+AZ
+ps
+FX
+Nd
+Cv
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(60,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Cv
+xO
+tM
+SB
+xA
+NS
+BE
+Cv
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(61,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Cv
+YJ
+Ce
+RK
+tF
+ua
+eN
+Cv
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(62,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Cv
+dn
+yY
+SB
+SB
+SB
+SB
+GN
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(63,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Cv
+BM
+SB
+FR
+lM
+mI
+yD
+GN
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(64,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+GN
+Cv
+Cv
+Cv
+Cv
+Cv
+GN
+GN
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(65,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(66,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(67,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(68,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(69,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(70,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(71,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(72,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+Fa
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(73,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(74,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}
+(75,1,1) = {"
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+pg
+"}

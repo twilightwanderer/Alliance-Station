@@ -304,6 +304,8 @@
 	//Antagonists
 	parts += antag_report()
 
+	parts += opfor_report() // ALLIANCE EDIT ADD
+
 	parts += hardcore_random_report()
 
 	CHECK_TICK

@@ -1,5 +1,5 @@
 /datum/outfit/job/hos
-	uniform = /obj/item/clothing/under/rank/security/uni/n7
+	uniform = /obj/item/clothing/under/rank/security/alliance_modular/uni/n7
 	suit = /obj/item/clothing/suit/armor/hos/trenchcoat
 	suit_store = /obj/item/gun/energy/e_gun
 	backpack_contents = list(

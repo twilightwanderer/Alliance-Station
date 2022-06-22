@@ -76,7 +76,7 @@
 	desc = "Used to control the UT-47 Kodiak"
 	circuit = /obj/item/circuitboard/computer/ruin/kodiak_cerberus
 	shuttleId = "ruin_kodiak_cerberus"
-	possible_destinations = "ruin_kodiak_cerberus_custom;whiteship_home"
+	possible_destinations = "ruin_kodiak_cerberus_custom;cerberus_home;whiteship_home"
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/ruin/kodiak/alliance
 	name = "UT-47 Kodiak Navigation Computer"
@@ -93,7 +93,7 @@
 	shuttleId = "ruin_kodiak_cerberus"
 	lock_override = NONE
 	shuttlePortId = "ruin_kodiak_cerberus_custom"
-	jump_to_ports = list("whiteship_home" = 1)
+	jump_to_ports = list("cerberus_home" = 1, "whiteship_home" = 1)
 	view_range = 0
 
 /obj/item/circuitboard/computer/ruin/kodiak_alliance
@@ -115,7 +115,7 @@
 /datum/map_template/shuttle/labour/modular_shuttle/kodiak/alliance
 	suffix = "kodiak_alliance"
 	name = "Alliance UT-47 Kodiak"
-	shuttle_id = "kodiak_alliance"
+	shuttle_id = "labour_kodiak_alliance"
 
 /obj/machinery/computer/shuttle/modular_shuttle/labour/kodiak/alliance
 	name = "UT-47 Kodiak Control"
@@ -131,27 +131,12 @@
 	shuttleId = "labour_kodiak_alliance"
 	lock_override = NONE
 	shuttlePortId = "labour_kodiak_alliance_custom"
-	jump_to_ports = list("whiteship_home" = 1)
+	jump_to_ports = list("labourcamp_home" = 1, "labourcamp_away" = 1)
 	view_range = 0
 
 /obj/item/circuitboard/computer/labour/kodiak_alliance
 	name = "UT-47 Kodiak Control Console (Computer Board)"
 	build_path = /obj/machinery/computer/shuttle/modular_shuttle/labour/kodiak/alliance
-
-/obj/item/circuitboard/computer/labour/kodiak_alliance
-	name = "UT-47 Kodiak Control Console (Computer Board)"
-
-/obj/item/circuitboard/computer/labour/kodiak_alliance
-	name = "UT-47 Kodiak Control Console (Computer Board)"
-
-/datum/map_template/shuttle/arrival/modular_shuttle/kodiak
-	prefix = "modular_alliance/modules/modular_shuttles/maps/"
-
-/datum/map_template/shuttle/arrival/modular_shuttle/kodiak/alliance
-	suffix = "kodiak_alliance"
-	name = "Alliance UT-47 Kodiak"
-	shuttle_id = "arrival_kodiak_alliance"
-
 
 #undef ICON_KODIAK_ALLIANCE_TEXTURES_PATH
 #undef ICON_KODIAK_CERBERUS_TEXTURES_PATH

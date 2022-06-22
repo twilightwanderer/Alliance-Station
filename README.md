@@ -2,17 +2,11 @@
 
 ![logo](https://user-images.githubusercontent.com/88540658/171432143-c605ba88-d399-4a08-8409-1edb92eac04b.png)
 
-Alliance Station is a fork of tgstation [/tg/station](https://github.com/tgstation/tgstation) whose goal is to create a Space Station 13 build in the style of the Mass Effect universe. 
+Alliance Station is a fork of [/tg/station](https://github.com/tgstation/tgstation) whose goal is to create a Space Station 13 build in the style of the Mass Effect universe. 
 
-## Development status
+## Community
 
-There is a lot of work to be done to achieve the goal.
-At this point, the following things need to be done:
-- [ ] Adapt menus and other UI elements.
-- [ ] Work on sprites.
-- [ ] Develop your own map.
-- [ ] Rework the game factions.
-- [ ] Work on the soundtrack.
+- Russian Community Discord: https://discord.gg/v5KdbKYZvs
 
 ## DOWNLOADING
 [Downloading](.github/guides/DOWNLOADING.md)

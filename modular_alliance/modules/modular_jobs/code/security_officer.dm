@@ -1,5 +1,5 @@
 /datum/outfit/job/security
-	uniform = /obj/item/clothing/under/rank/security/uni
+	uniform = /obj/item/clothing/under/rank/security/alliance_modular/uni
 	belt = /obj/item/modular_computer/tablet/pda/security
 	ears = /obj/item/radio/headset/headset_sec/alt
 	gloves = /obj/item/clothing/gloves/color/black

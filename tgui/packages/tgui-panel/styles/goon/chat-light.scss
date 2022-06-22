@@ -364,11 +364,13 @@ em {
 }
 
 .secradio {
-  color: #a30000;
+  color: #337296; // ALLIANCE EDIT
+  //color: #a30000; ORIGINAL TG
 }
 
 .medradio {
-  color: #337296;
+  color: #a30000; // ALLIANCE EDIT
+  //color: #337296; ORIGINAL TG
 }
 
 .engradio {
@@ -414,6 +416,12 @@ em {
 .yellowteamradio {
   color: #d1ba22;
 }
+
+// ALLIANCE EDIT ADD BEGIN
+.cerberusradio {
+  color: #f8de00;
+}
+// ALLIANCE EDIT ADD END
 
 .yell {
   font-weight: bold;
@@ -936,4 +944,9 @@ h1.alert, h2.alert {
 .tooltip {
   font-style: italic;
   border-bottom: 1px dashed #000;
+}
+
+.pink {
+  color: #ff00ff;
+  font-weight: bold;
 }

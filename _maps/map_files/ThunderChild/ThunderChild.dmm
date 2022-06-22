@@ -447,11 +447,8 @@
 /turf/open/floor/engine,
 /area/station/science/mixing/launch)
 "rj" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/plaque/modular_alliance/alliance/bottom/center{
-	dir = 8
-	},
-/turf/open/floor/iron,
+/obj/machinery/recycler,
+/turf/open/floor/plating,
 /area/space)
 "rk" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -552,10 +549,13 @@
 /turf/open/floor/plating,
 /area/station/cargo/lobby)
 "vH" = (
-/obj/effect/turf_decal/plaque/modular_alliance/alliance/top/left{
-	dir = 8
+/obj/structure/disposaloutlet{
+	dir = 4
 	},
-/turf/open/floor/iron,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/turf/open/floor/plating,
 /area/space)
 "vT" = (
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
@@ -580,13 +580,6 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/kitchen/herringbone,
 /area/station/service/kitchen)
-"xy" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/plaque/modular_alliance/alliance/middle/left{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/space)
 "xA" = (
 /obj/structure/closet/secure_closet/quartermaster,
 /turf/open/floor/iron,
@@ -739,13 +732,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/cargo/lobby)
-"Fo" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/plaque/modular_alliance/alliance/top/center{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/space)
 "Fv" = (
 /obj/structure/fluff/tram_rail/anchor{
 	name = "mass accelerator rails";
@@ -763,24 +749,6 @@
 "FB" = (
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/space)
-"FM" = (
-/obj/effect/turf_decal/plaque/modular_alliance/alliance/middle/right{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/space)
-"FN" = (
-/obj/effect/turf_decal/plaque/modular_alliance/alliance/bottom/left{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/space)
-"Gm" = (
-/obj/effect/turf_decal/plaque/modular_alliance/alliance/bottom/right{
-	dir = 8
-	},
-/turf/open/floor/iron,
 /area/space)
 "Gq" = (
 /obj/machinery/modular_computer/console/preset/engineering,
@@ -1176,13 +1144,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
-"XX" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/plaque/modular_alliance/alliance/middle/center{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/space)
 "Yf" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/iron,
@@ -1198,12 +1159,6 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/tiled/yellow,
-/area/space)
-"YC" = (
-/obj/effect/turf_decal/plaque/modular_alliance/alliance/top/right{
-	dir = 8
-	},
-/turf/open/floor/iron,
 /area/space)
 "YJ" = (
 /obj/structure/closet/secure_closet/bar,
@@ -14491,7 +14446,7 @@ fH
 fH
 fH
 Px
-Px
+fH
 Px
 Px
 Px
@@ -14752,7 +14707,7 @@ fH
 fH
 fH
 fH
-fH
+vH
 eq
 XE
 XE
@@ -15523,7 +15478,7 @@ fH
 fH
 Zx
 fH
-fH
+rj
 eq
 XE
 XE
@@ -17327,9 +17282,9 @@ qs
 qs
 qs
 qs
-FN
-rj
-Gm
+qs
+rU
+qs
 qs
 qs
 qs
@@ -17584,9 +17539,9 @@ rU
 rU
 rU
 rU
-xy
-XX
-FM
+rU
+rU
+qs
 qs
 qs
 qs
@@ -17841,9 +17796,9 @@ qs
 qs
 qs
 qs
-vH
-Fo
-YC
+qs
+rU
+qs
 qs
 qs
 qs

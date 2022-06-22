@@ -61,8 +61,8 @@
 	default_priority = 0
 
 /datum/language/monkey
-	key = ""
-	default_priority = 0
+	key = "m"
+	default_priority = 90
 
 /datum/language/mushroom
 	key = ""
@@ -85,8 +85,8 @@
 	default_priority = 0
 
 /datum/language/slime
-	key = ""
-	default_priority = 0
+	key = "s"
+	default_priority = 90
 
 /datum/language/sylvan
 	key = ""
