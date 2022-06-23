@@ -4558,7 +4558,7 @@
 #include "modular_alliance\modules\original_editing\code\techfab.dm"
 #include "modular_alliance\modules\original_editing\code\terminals.dm"
 #include "modular_alliance\modules\original_editing\code\vendings.dm"
-#include "modular_alliance\modules\original_editing\code\wallframes.dm"
+#include "modular_alliance\modules\original_editing\code\wallmount.dm"
 #include "modular_alliance\modules\original_editing\code\walls.dm"
 #include "modular_alliance\modules\original_editing\code\windows.dm"
 #include "modular_alliance\modules\modular_antagonists\equip.dm"
