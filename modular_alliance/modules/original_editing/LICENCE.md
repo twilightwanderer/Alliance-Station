@@ -24,5 +24,7 @@ modular_alliance\modules\original_editing\icons\obj\clothing\under\storages.dmi 
 modular_alliance\modules\original_editing\icons\mob\clothing\suits.dmi - vest_blue, vest_black, vest_white
 modular_alliance\modules\original_editing\icons\obj\clothing\under\back.dmi - securitypack, satchel-sec, duffel-sec
 modular_alliance\modules\original_editing\icons\obj\closet.dmi - secure lock
+modular_alliance\modules\original_editing\icons\obj\power.dmi - apc
+modular_alliance\modules\original_editing\icons\obj\wallframe.dmi - apc
 modular_alliance\modules\modular_objects\code\large_doors.dm
 modular_alliance\modules\modular_objects\icons\large_doors\
