@@ -34,4 +34,9 @@
 	desc = "Cerberus clearly loves the color white. Does this mean that Illusive Man is a Good Man?"
 	icon_state = "cerberus"
 
+/obj/structure/sign/poster/modular_alliance/russia
+	name = "Mother Russia"
+	desc = "This poster radiates frostiness."
+	icon_state = "russia"
+
 #undef ICON_CONTRABANDS_PATH
