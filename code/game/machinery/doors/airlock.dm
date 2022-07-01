@@ -1098,6 +1098,11 @@
 				playsound(src, 'sound/machines/airlock_alien_prying.ogg', 100, TRUE) //is it aliens or just the CE being a dick?
 				prying_so_hard = TRUE
 				if(do_after(user, time_to_open, src))
+					// ALLIANCE ADD BEGIN
+					if(ispath(I.type,/obj/item/crowbar/power/modular_alliance/medical))
+						var/obj/item/crowbar/power/modular_alliance/medical/crowbar_medical = I
+						crowbar_medical.radio_report(user)
+					// ALLIANCE ADD END
 					if(check_electrified && shock(user,100))
 						prying_so_hard = FALSE
 						return
