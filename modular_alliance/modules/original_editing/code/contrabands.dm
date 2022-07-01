@@ -39,4 +39,9 @@
 	desc = "This poster radiates frostiness."
 	icon_state = "russia"
 
+/obj/structure/sign/poster/modular_alliance/monkey_front
+	name = "Monkey Front!"
+	desc = "Freedom Monkey! Bananas or death! Down with the dictatorship of the genetics gang!"
+	icon_state = "monkey_front"
+
 #undef ICON_CONTRABANDS_PATH
