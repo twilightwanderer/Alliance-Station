@@ -6,8 +6,7 @@
 	var/closed_turf_types = list(/turf/closed/mineral/random/stationside/asteroid = 1)
 
 	///Weighted list of mobs that can spawn in the area.
-	var/list/mob_spawn_list = list(/mob/living/simple_animal/hostile/carp/megacarp = 25, /mob/living/simple_animal/hostile/carp = 50, \
-		/mob/living/simple_animal/hostile/giant_spider = 10,
+	var/list/mob_spawn_list = list(/mob/living/carbon/human/species/monkey/modular_alliance/monkey_front = 30
 	)
 	// Weighted list of Megafauna that can spawn in the caves
 	var/list/megafauna_spawn_list

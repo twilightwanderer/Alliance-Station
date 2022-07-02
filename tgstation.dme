@@ -4593,4 +4593,5 @@
 #include "modular_alliance\modules\modular_shuttles\code\shuttle.dm"
 #include "modular_alliance\modules\modular_races\code\asari\asari.dm"
 #include "modular_alliance\modules\modular_races\code\asari\bodyparts.dm"
+#include "modular_alliance\modules\modular_races\code\monkey.dm"
 // END INCLUDE MODULES
