@@ -1,0 +1,30 @@
+{
+	"version": 1,
+	"map_name": "SSV Thunder Child",
+	"map_path": "map_files/ThunderChild",
+	"map_file": "ThunderChild.dmm",
+	"shuttles": {
+		"cargo": "cargo_box",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_box",
+		"emergency": "emergency_kilo"
+	},
+	"traits": [
+		{
+			"Up": 1,
+			"Baseturf": "/turf/open/floor/iron/dark",
+			"Linkage": null
+		},
+		{
+			"Down": -1,
+			"Up": 1,
+			"Baseturf": "/turf/open/floor/iron/dark",
+			"Linkage": null
+		},
+		{
+			"Down": -1,
+			"Baseturf": "/turf/open/floor/mineral/titanium/tiled/yellow",
+			"Linkage": null
+		}
+	]
+}

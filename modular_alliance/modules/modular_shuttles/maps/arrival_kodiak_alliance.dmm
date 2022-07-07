@@ -1,0 +1,469 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"cS" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 10
+	},
+/obj/machinery/door/airlock/titanium{
+	name = "Arrivals Shuttle Airlock"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/arrival)
+"ev" = (
+/obj/docking_port/mobile/arrivals{
+	dwidth = 2;
+	width = 5;
+	height = 13
+	},
+/turf/open/space/basic,
+/area/shuttle/arrival)
+"eE" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "3,1";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"hd" = (
+/obj/effect/turf_decal/siding/blue/corner,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/arrival)
+"iL" = (
+/obj/effect/turf_decal/siding/blue,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"jz" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "2,10";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"kF" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,8";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"ll" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,3";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"lo" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,7";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"lV" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 1
+	},
+/obj/structure/chair/comfy/shuttle,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"mO" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,4";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"nK" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,9";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"pW" = (
+/obj/effect/turf_decal/siding/blue,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"qj" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 5
+	},
+/obj/structure/chair/comfy/shuttle,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"qQ" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,10";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"qU" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"rb" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,10";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"sd" = (
+/obj/effect/turf_decal/siding/blue/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/arrival)
+"td" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "3,10";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"tq" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"tA" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,7";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"tP" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 5
+	},
+/obj/machinery/door/airlock/titanium{
+	name = "Arrivals Shuttle Airlock"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/arrival)
+"wd" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,4";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"wK" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,8";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"xT" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 4
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/arrival)
+"ya" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,3";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"zo" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"zy" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,5";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"Bu" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 9
+	},
+/obj/machinery/door/airlock/titanium{
+	name = "Arrivals Shuttle Airlock"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/arrival)
+"CG" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,9";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"Ds" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "2,1";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"Dy" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 9
+	},
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"Em" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "3,2";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"EI" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "3,0";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"Fd" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 8
+	},
+/obj/machinery/computer/old{
+	dir = 4;
+	name = "Shuttle Controls"
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"Fr" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,0";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"Hw" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "2,2";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"HH" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,1";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"Km" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 10
+	},
+/obj/structure/table,
+/obj/item/storage/toolbox/emergency,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"KJ" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 6
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"Od" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "4,2";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"Oz" = (
+/obj/effect/turf_decal/siding/blue/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/arrival)
+"Pa" = (
+/obj/effect/turf_decal/siding/blue,
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"Pb" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,5";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"PI" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 6
+	},
+/obj/machinery/door/airlock/titanium{
+	name = "Arrivals Shuttle Airlock"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/arrival)
+"QX" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 1
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"QZ" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,1";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"Rw" = (
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/arrival)
+"RH" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "1,0";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"SP" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,2";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"Uf" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "1,10";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"Vb" = (
+/obj/effect/turf_decal/siding/blue,
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"Vg" = (
+/obj/effect/turf_decal/siding/blue/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/arrival)
+"VF" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 1
+	},
+/obj/structure/chair/comfy/shuttle,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/arrival)
+"Wi" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "0,0";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"Yh" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "1,1";
+	dir = 4
+	},
+/area/shuttle/arrival)
+"ZK" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/kodiak/alliance{
+	icon_state = "1,2";
+	dir = 4
+	},
+/area/shuttle/arrival)
+
+(1,1,1) = {"
+rb
+td
+jz
+Uf
+qQ
+"}
+(2,1,1) = {"
+nK
+Dy
+Fd
+Km
+CG
+"}
+(3,1,1) = {"
+kF
+qU
+tq
+iL
+wK
+"}
+(4,1,1) = {"
+lo
+QX
+zo
+pW
+tA
+"}
+(5,1,1) = {"
+Bu
+Vg
+Rw
+Oz
+cS
+"}
+(6,1,1) = {"
+tP
+sd
+Rw
+hd
+PI
+"}
+(7,1,1) = {"
+wd
+lV
+Rw
+Pa
+mO
+"}
+(8,1,1) = {"
+ll
+VF
+Rw
+Vb
+ya
+"}
+(9,1,1) = {"
+zy
+VF
+Rw
+Vb
+Pb
+"}
+(10,1,1) = {"
+zy
+qj
+xT
+KJ
+Pb
+"}
+(11,1,1) = {"
+Od
+Em
+Hw
+ZK
+SP
+"}
+(12,1,1) = {"
+HH
+eE
+Ds
+Yh
+QZ
+"}
+(13,1,1) = {"
+Fr
+EI
+ev
+RH
+Wi
+"}
