@@ -55,12 +55,18 @@
 #define RADIO_CHANNEL_CERBERUS "Cerberus"
 #define RADIO_KEY_CERBERUS "f"
 #define RADIO_TOKEN_CERBERUS ":f"
+#define RADIO_CHANNEL_TV "Alliance TV"
+#define RADIO_KEY_TV "r"
+#define RADIO_TOKEN_TV ":r"
 // ALLIANCE EDIT ADD END
 
 #define MIN_FREE_FREQ 1201 // -------------------------------------------------
 // Frequencies are always odd numbers and range from 1201 to 1599.
 
-#define FREQ_CERBERUS 1211 // ALLIANCE EDIT ADD
+// ALLIANCE EDIT ADD BEGIN
+#define FREQ_TV 1209
+#define FREQ_CERBERUS 1211
+// ALLIANCE EDIT ADD END
 
 #define FREQ_SYNDICATE 1213  // Nuke op comms frequency, dark brown
 #define FREQ_CTF_RED 1215  // CTF red team comms frequency, red

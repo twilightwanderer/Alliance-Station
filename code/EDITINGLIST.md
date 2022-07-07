@@ -15,8 +15,8 @@
 **code\modules\admin\sql_ban_system.dm** - Add Alliance Ban Options
 **code\modules\admin\verbs\adminhelp.dm**
 
-**code\ __DEFINES\radio.dm** - Add Cerberus radio
-**code\ __DEFINES\span.dm** - Add Cerberus radio span
+**code\ __DEFINES\radio.dm** - Add radio
+**code\ __DEFINES\span.dm** - Add radio span
 **code\game\communications.dm**
 **code\game\say.dm**
 **code\game\objects\items\devices\radio\headset.dm**

@@ -26,6 +26,18 @@
 	name = "\improper Hydroponics Lower"
 	icon_state = "hydro"
 
+/area/station/modular_alliance/service/tv/tv_lobby
+	name = "\improper TV Show Lobby"
+	icon_state = "library"
+
+/area/station/modular_alliance/service/tv/radio_room
+	name = "\improper Radio Show Room"
+	icon_state = "library"
+
+/area/station/modular_alliance/service/tv/tv_room
+	name = "\improper TV Show Room"
+	icon_state = "library"
+
 /area/station/modular_alliance/science/research_lower
 	name = "\improper Research Division Lower"
 	icon_state = "science"
@@ -33,3 +45,19 @@
 /area/station/modular_alliance/command/shelter
 	name = "Shelter"
 	icon_state = "bridge"
+
+/area/station/modular_alliance/security/brig_lower
+	name = "\improper Brig Lower"
+	icon_state = "brig"
+
+/area/station/modular_alliance/security/brig_port
+	name = "\improper Brig Shuttle Port"
+	icon_state = "security"
+
+/area/station/modular_alliance/medical/medbay_lower
+	name = "\improper Medbay Lower"
+	icon_state = "med_office"
+
+/area/station/modular_alliance/medical/psychiatric_hospital
+	name = "\improper Psychiatric Hospital "
+	icon_state = "psychology"
