@@ -22,6 +22,7 @@
 **code\game\objects\items\devices\radio\headset.dm**
 **code\game\objects\items\devices\radio\radio.dm**
 **code\game\machinery\telecomms\machines\hub.dm** - ADD "c_relay"
+**code\game\machinery\computer\camera.dm** - Editing the entertainment monitor
 **code\game\machinery\doors\airlock.dm** - Add medical jaws of life
 **code\modules\mob\living\living_say.dm** 
 

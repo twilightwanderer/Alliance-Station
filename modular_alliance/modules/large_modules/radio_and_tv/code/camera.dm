@@ -1,17 +1,41 @@
+/obj/machinery/camera/modular_alliance/tv_camera
+	name = "TV Show Camera"
+	network = list("tv")
+	c_tag = "TV Show"
+	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF | FREEZE_PROOF
+	var/obj/item/radio/internal_radio
+	var/radio_key = /obj/item/encryptionkey/modular_alliance/tv
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/modular_alliance/camera/tv_camera, 32)
+
+/obj/machinery/camera/modular_alliance/tv_camera/Initialize(mapload)
+	. = ..()
+	internal_radio = new /obj/item/radio(src)
+	internal_radio.keyslot = new radio_key
+	internal_radio.set_frequency(FREQ_TV)
+	internal_radio.canhear_range = 10
+	internal_radio.set_broadcasting(TRUE)
+	internal_radio.set_listening(FALSE)
+
+/obj/machinery/camera/modular_alliance/tv_camera/Destroy()
+	. = ..()
+	QDEL_NULL(internal_radio)
+
 /obj/item/device/modular_alliance/pocket_tvcamera
 	name = "camera drone"
 	desc = "A Ward-Takahashi EyeBuddy media streaming hovercam. Weapon of choice for war correspondents and reality show cameramen."
-	icon = 'modular_alliance/modules/modular_outfit/icons/obj/devices.dmi'
-	worn_icon = 'modular_alliance/modules/modular_outfit/icons/mob/clothings/devices.dmi'
-	lefthand_file = 'modular_alliance/modules/modular_outfit/icons/mob/inhands/equipment/devices_lefthand.dmi'
-	righthand_file = 'modular_alliance/modules/modular_outfit/icons/mob/inhands/equipment/devices_righthand.dmi'
+	icon = 'modular_alliance/modules/large_modules/radio_and_tv/icons/obj/devices.dmi'
+	worn_icon = 'modular_alliance/modules/large_modules/radio_and_tv/icons/mob/devices.dmi'
+	lefthand_file = 'modular_alliance/modules/large_modules/radio_and_tv/icons/mob/inhands/equipment/devices_lefthand.dmi'
+	righthand_file = 'modular_alliance/modules/large_modules/radio_and_tv/icons/mob/inhands/equipment/devices_righthand.dmi'
 	inhand_icon_state = "camcorder"
 	icon_state = "camcorder"
 	w_class = WEIGHT_CLASS_BULKY
 	slot_flags = ITEM_SLOT_BELT
+	custom_materials = list(/datum/material/iron = 200, /datum/material/glass = 50, /datum/material/gold=100, /datum/material/plastic = 800, /datum/material/bluespace = 50)
 	var/obj/machinery/camera/tv_camera = null
 	var/obj/item/radio/internal_radio = null
-	var/radio_key = /obj/item/encryptionkey/alliance_modular/tv
+	var/radio_key = /obj/item/encryptionkey/modular_alliance/tv
 	var/updating = FALSE
 	var/on = FALSE
 	var/sensitivity = 3
@@ -29,6 +53,7 @@
 	. += "Alt + click allows you to make an announcement about the start of a broadcast."
 
 /obj/item/device/modular_alliance/pocket_tvcamera/Destroy()
+	. = ..()
 	QDEL_NULL(tv_camera)
 	QDEL_NULL(internal_radio)
 
@@ -119,14 +144,17 @@
 /obj/item/device/modular_alliance/pocket_tvcamera/AltClick(mob/user)
 	if(check_id(user))
 		if (!annonceReload)
-			for(var/obj/machinery/computer/security/telescreen/modular_alliance/tv/TV in GLOB.machines)
-				var/str = tgui_input_text(user, "Enter an announcement about the beginning of the TV show.", "Announcement", , 128)
-				if(!str)
-					to_chat(user, span_warning("Invalid text!"))
-					return
-				TV.announcement(str)
+			var/str = tgui_input_text(user, "Enter an announcement about the beginning of the TV show.", "Announcement", , 128)
+			if(!str)
+				to_chat(user, span_warning("Invalid text!"))
+				return
+			else
+				for(var/obj/machinery/computer/security/telescreen/entertainment/TV in GLOB.machines)
+					TV.announcement(str)
+				for(var/obj/machinery/computer/security/wooden_tv/modular_alliance/tv/TV_WOODEN in GLOB.machines)
+					TV_WOODEN.announcement(str)
 				to_chat(user, "Announcement successfully completed")
-			annonceReload = TRUE
+				annonceReload = TRUE
 			addtimer(VARSET_CALLBACK(src, annonceReload, FALSE), 256 SECONDS)
 		else
 			to_chat(user, span_warning("You can't make announcements that often!"))
@@ -134,6 +162,7 @@
 		to_chat(user, span_warning("You don't have access to do that."))
 
 /obj/item/device/modular_alliance/pocket_tvcamera/update_icon()
+	. = ..()
 	if(on)
 		inhand_icon_state = "camcorder_on"
 		icon_state = "camcorder_on"
@@ -180,32 +209,3 @@
 	for(var/content in user.contents)
 		if(istype(content, /obj/item/device/modular_alliance/pocket_tvcamera))
 			return TRUE
-
-/obj/item/modular_alliance/tv_radio
-	icon = 'modular_alliance/modules/modular_outfit/icons/radio.dmi'
-	icon_state = "tv_radio"
-	name = "Pocket Radio"
-	desc = "A very old radio that still works. Someone stole the frequency knob from it."
-	var/obj/item/radio/internal_radio = null
-	var/radio_key = /obj/item/encryptionkey/alliance_modular/tv
-	var/sound = TRUE
-
-/obj/item/modular_alliance/tv_radio/Initialize(mapload)
-	. = ..()
-	internal_radio = new /obj/item/radio(src)
-	internal_radio.keyslot = new radio_key
-	internal_radio.set_frequency(FREQ_TV)
-
-/obj/item/modular_alliance/tv_radio/examine()
-	. = ..()
-	. += "Sound indicator lights [sound ? "green" : "red"]"
-
-/obj/item/modular_alliance/tv_radio/attack_self(mob/user)
-	. = ..()
-	sound = !sound
-	internal_radio.set_on(sound)
-	internal_radio.set_frequency(FREQ_TV)
-	to_chat(user, "You have turned [sound ? "on" : "off"] the sound")
-
-/obj/item/modular_alliance/tv_radio/Destroy()
-	QDEL_NULL(internal_radio)

@@ -15,12 +15,6 @@
 	channels = list(RADIO_CHANNEL_CERBERUS = 1)
 	independent = TRUE
 
-/obj/item/encryptionkey/alliance_modular/tv
-	name = "alliance tv encryption key"
-	icon_state = "cerberus_cypherkey"
-	channels = list(RADIO_CHANNEL_TV = 1)
-	independent = TRUE
-
 /obj/item/radio/headset/alliance_modular
 	icon = ICON_RADIO_PATH
 
