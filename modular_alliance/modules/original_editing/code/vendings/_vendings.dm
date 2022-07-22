@@ -3,6 +3,9 @@
 /obj/machinery/vending
 	icon = ICON_VENDINGS_PATH
 
+/obj/machinery/vending/modular_alliance
+	icon = ICON_VENDINGS_PATH
+
 /obj/machinery/vending/medical
 	name = "\improper MediGel Plus"
 

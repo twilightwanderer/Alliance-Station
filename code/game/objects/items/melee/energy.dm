@@ -154,6 +154,7 @@
 	name = "energy sword"
 	desc = "May the force be within you."
 	icon_state = "e_sword"
+	sword_color_icon = "red" // ALLIANCE FIX
 	lefthand_file = 'icons/mob/inhands/weapons/swords_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
 	hitsound = SFX_SWING_HIT

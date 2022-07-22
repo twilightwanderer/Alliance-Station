@@ -60,6 +60,32 @@
 	name = "The Circus"
 	icon_state = "theatre"
 
+/area/station/modular_alliance/commons/boxing_arena
+	name = "Boxing Arena"
+	icon_state = "fitness"
+
+/area/station/modular_alliance/commons/entertainment_center
+	name = "Entertainment Center"
+	icon = 'icons/area/areas_centcom.dmi'
+	icon_state = "thunder_observe"
+
+/area/station/modular_alliance/commons/warzone
+	name = "Warzone"
+	icon = 'icons/area/areas_centcom.dmi'
+	icon_state = "thunder"
+
+/area/station/modular_alliance/commons/store
+	name = "Store"
+	icon_state = "cafeteria"
+
+/area/station/modular_alliance/commons/firingrange
+	name = "Public Firingrange"
+	icon_state = "firingrange"
+
+/area/station/modular_alliance/commons/basketball_court
+	name = "Basketball Сourt"
+	icon_state = "fitness"
+
 /area/station/modular_alliance/engineering/break_room_lower
 	name = "\improper Engineering Foyer Lower"
 	icon_state = "engine_break"

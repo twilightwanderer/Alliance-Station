@@ -564,7 +564,15 @@
 		/obj/machinery/vending/security = "SecTech",
 		/obj/machinery/vending/modularpc = "Deluxe Silicate Selections",
 		/obj/machinery/vending/tool = "YouTool",
-		/obj/machinery/vending/custom = "Custom Vendor")
+		/obj/machinery/vending/custom = "Custom Vendor",
+		// ALLIANCE EDIT ADDITION BEGIN
+		/obj/machinery/vending/modular_alliance/public_engineering = "Public Robco Tool Maker",
+		/obj/machinery/vending/modular_alliance/public_engivend = "Public Engi-Vend",
+		/obj/machinery/vending/wardrobe/modular_alliance/public_chef_wardrobe = "Public Robco Tool Maker",
+		/obj/machinery/vending/wardrobe/modular_alliance/public_science_wardrobe = "Public SciDrobe",
+		/obj/machinery/vending/wardrobe/modular_alliance/public_cargo_wardrobe = "Public CargoDrobe"
+		// ALLIANCE EDIT ADDITION END
+		)
 
 /obj/item/circuitboard/machine/vendor/screwdriver_act(mob/living/user, obj/item/tool)
 	var/static/list/display_vending_names_paths
