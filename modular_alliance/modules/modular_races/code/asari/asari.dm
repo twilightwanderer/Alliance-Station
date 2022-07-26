@@ -19,7 +19,12 @@
 	payday_modifier = 0.75
 
 	bodypart_overrides = list(
+		BODY_ZONE_L_ARM = /obj/item/bodypart/l_arm,
+		BODY_ZONE_R_ARM = /obj/item/bodypart/r_arm,
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/asari,
+		BODY_ZONE_L_LEG = /obj/item/bodypart/l_leg,
+		BODY_ZONE_R_LEG = /obj/item/bodypart/r_leg,
+		BODY_ZONE_CHEST = /obj/item/bodypart/chest,
 	)
 
 /datum/species/asari/prepare_human_for_preview(mob/living/carbon/human/human)
@@ -62,7 +67,7 @@
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "0",
+			SPECIES_PERK_ICON = "bolt",
 			SPECIES_PERK_NAME = "Born to be biotic.",
 			SPECIES_PERK_DESC = "The main thing is not to forget to wear an oxygen mask.",
 		),
