@@ -87,3 +87,7 @@
 	/// When an braindead player has their equipment fiddled with, we log that info here for when they come back so they know who took their ID while they were DC'd for 30 seconds
 	var/list/afk_thefts
 
+	//ALLIANCE ADDITION EDIT BEGIN
+	//This parameter is responsible for tracking the removal of a Quarian's clothes, so as not to re-create the infestation procedure.
+	var/qwarian_clothing_removed = FALSE
+	//ALLIANCE ADDITION EDIT END

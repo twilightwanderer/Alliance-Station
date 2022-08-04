@@ -6,7 +6,10 @@
 	icon_state = "helmet-0-0"
 	base_icon_state = "helmet"
 	inhand_icon_state = "helmet-0-0"
-	visor_vars_to_toggle = VISOR_FLASHPROTECT | VISOR_TINT
+	//visor_vars_to_toggle = VISOR_FLASHPROTECT | VISOR_TINT
+	clothing_flags = STOPSPRESSUREDAMAGE
+	armor = list(MELEE = 0, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 100, FIRE = 50, ACID = 65)
+
 	var/welding_mask = FALSE
 	var/welding_on = FALSE
 
@@ -23,17 +26,19 @@
 		return FALSE
 	return ..()
 
-/obj/item/clothing/head/helmet/space/modular_alliance/quarian/pickup(mob/user)
+/obj/item/clothing/head/helmet/space/modular_alliance/quarian/pickup(mob/living/carbon/human/user)
 	. = ..()
 	if(is_species(user, /datum/species/quarian))
 		if(!check_tightness_quarian(user))
 			to_chat(user, span_warning("Breach of tightness of the suit!"))
+			user.quarian_disease()
 
-/obj/item/clothing/head/helmet/space/modular_alliance/quarian/dropped(mob/user, silent = FALSE)
+/obj/item/clothing/head/helmet/space/modular_alliance/quarian/dropped(mob/living/carbon/human/user, silent = FALSE)
 	. = ..()
 	if(is_species(user, /datum/species/quarian))
 		if(!check_tightness_quarian(user))
 			to_chat(user, span_warning("Breach of tightness of the suit!"))
+			user.quarian_disease()
 
 /obj/item/clothing/head/helmet/space/modular_alliance/quarian/equipped(mob/user, slot, initial = FALSE)
 	. = ..()

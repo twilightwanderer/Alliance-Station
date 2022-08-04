@@ -15,6 +15,9 @@
 **code\modules\admin\sql_ban_system.dm** - Add Alliance Ban Options
 **code\modules\admin\verbs\adminhelp.dm**
 
+**code\datums\diseases\ _disease.dm**
+**code\datums\diseases\ _MobProcs.dm**
+
 **code\ __DEFINES\radio.dm** - Add radio
 **code\ __DEFINES\span.dm** - Add radio span
 **code\game\communications.dm**
@@ -26,7 +29,8 @@
 **code\game\machinery\doors\airlock.dm** - Add medical jaws of life
 **code\modules\mob\living\living_say.dm** 
 
-**code\modules\mob\living\carbon\human\human.dm** - Add give opfor button
+**code\modules\mob\living\carbon\human\human_defines.dm**
+**code\modules\mob\living\carbon\human\human.dm**
 **code\modules\mob\living\carbon\human\species.dm** - Disabling mention of the bonus language
 
 **code\modules\mob\mob.dm** - Edit hub from modular_alliance\modules\original_editing\icons\mob\huds\hud.dmi

@@ -30,7 +30,12 @@
 		COMSIG_ATOM_ENTERED = .proc/on_entered,
 	)
 	AddElement(/datum/element/connect_loc, loc_connections)
-	SSopposing_force.give_opfor_button(src) // ALLIANCE ADD
+	// ALLIANCE ADDITION EDIT BEGIN
+	SSopposing_force.give_opfor_button(src)
+	if(is_species(src, /datum/species/quarian))
+		if (!check_tightness_quarian(src))
+			quarian_disease()
+	// ALLIANCE ADDITION EDIT END
 
 /mob/living/carbon/human/proc/setup_human_dna()
 	//initialize dna. for spawned humans; overwritten by other code
@@ -996,6 +1001,35 @@
 	if(mind.assigned_role.title in SSjob.name_occupations)
 		.[mind.assigned_role.title] = minutes
 
+// ALLIANCE ADDITION EDIT BEGIN
+/mob/living/carbon/human/proc/quarian_disease()
+	if(is_species(src, /datum/species/quarian))
+		if(!qwarian_clothing_removed)
+			qwarian_clothing_removed = TRUE
+			calculating_disease()
+
+/mob/living/carbon/human/proc/calculating_disease()
+	if(!check_tightness_quarian(src))
+		var/probability_infection = 0
+		if(src.has_reagent(/datum/reagent/medicine/modular_alliance/quarian_antibodies))
+			probability_infection = 1
+		else
+			probability_infection = 15
+			/******
+				In the future there will be a calculation of the probability of infection depending on the things near the mob.
+			*******/
+		if(prob(probability_infection))
+			//var/datum/disease/advance/A = random_quarian_virus(pick(2,6),6)
+			var/datum/disease/advance/A = new /datum/disease/advance/random(3,3)
+			A.carrier = TRUE
+			A.viable_speciestypes = list(/datum/species/quarian)
+			ForceContractDisease(A, FALSE, TRUE)
+		addtimer(CALLBACK(src, .proc/calculating_disease), 10 SECONDS)
+	else
+		qwarian_clothing_removed = FALSE
+
+// ALLIANCE ADDITION EDIT END
+
 /mob/living/carbon/human/monkeybrain
 	ai_controller = /datum/ai_controller/monkey
 
@@ -1158,3 +1192,11 @@
 
 /mob/living/carbon/human/species/zombie/infectious
 	race = /datum/species/zombie/infectious
+
+// ALLIANCE ADDITION EDIT BEGIN
+/mob/living/carbon/human/species/asari
+	race = /datum/species/asari
+
+/mob/living/carbon/human/species/quarian
+	race = /datum/species/quarian
+// ALLIANCE ADDITION EDIT END

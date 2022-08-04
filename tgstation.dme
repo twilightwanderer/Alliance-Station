@@ -4605,6 +4605,7 @@
 #include "modular_alliance\modules\modular_races\code\asari\bodyparts.dm"
 #include "modular_alliance\modules\modular_races\code\quarian\bodyparts.dm"
 #include "modular_alliance\modules\modular_races\code\quarian\jobs.dm"
+#include "modular_alliance\modules\modular_races\code\quarian\medicine.dm"
 #include "modular_alliance\modules\modular_races\code\quarian\outfits.dm"
 #include "modular_alliance\modules\modular_races\code\quarian\quarian.dm"
 #include "modular_alliance\modules\modular_races\code\quarian\clothing\gloves.dm"

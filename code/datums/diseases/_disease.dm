@@ -37,6 +37,10 @@
 	var/process_dead = FALSE //if this ticks while the host is dead
 	var/copy_type = null //if this is null, copies will use the type of the instance being copied
 
+	// ALLIANCE ADDITION EDIT BEGIN
+	var/list/viable_speciestypes = list() //typepaths of viable species. Example Quarian.
+	// ALLIANCE ADDITION EDIT END
+
 /datum/disease/Destroy()
 	. = ..()
 	if(affected_mob)
@@ -204,3 +208,12 @@
 			return 6
 		if(DISEASE_SEVERITY_BIOHAZARD)
 			return 7
+
+// ALLIANCE ADDITION EDIT BEGIN
+/datum/disease/proc/is_viable_speciestypes(mob/living/carbon/human/H)
+	if(viable_speciestypes != list())
+		for(var/species_type in viable_speciestypes)
+			if(is_species(H, species_type))
+				return TRUE
+	return FALSE
+// ALLIANCE ADDITION EDIT END

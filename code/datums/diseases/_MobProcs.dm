@@ -23,6 +23,12 @@
 	if(!D.is_viable_mobtype(type))
 		return FALSE
 
+	// ALLIANCE ADDITION EDIT BEGIN
+	if(istype(src, /mob/living/carbon/human))
+		if(!D.is_viable_speciestypes(src))
+			return FALSE
+	// ALLIANCE ADDITION EDIT END
+
 	return TRUE
 
 
