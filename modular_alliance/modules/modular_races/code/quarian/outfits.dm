@@ -1,3 +1,18 @@
+/obj/item/storage/box/alliance_modular/quarian
+	name = "Quarian Survival Kit"
+	desc = "A special kit designed for surviving quarian outside of worlds-ships."
+	icon_state = "internals"
+	illustration = "heart"
+
+/obj/item/storage/box/alliance_modular/quarian/PopulateContents()
+	var/static/items_inside = list(
+		/obj/item/clothing/mask/breath=1,\
+		/obj/item/tank/internals/emergency_oxygen=1, \
+		/obj/item/reagent_containers/hypospray/medipen=1, \
+		/obj/item/reagent_containers/hypospray/medipen/modular_alliance/quarian_antibodies=2,
+		)
+	generate_items_inside(items_inside,src)
+
 /datum/outfit/modular_alliance/quarian
 	name = "Assistant Quarian"
 
@@ -6,6 +21,7 @@
 	head = /obj/item/clothing/head/helmet/space/modular_alliance/quarian/white
 	shoes = /obj/item/clothing/shoes/modular_alliance/quarian
 	mask = /obj/item/clothing/mask/breath
+	l_hand = /obj/item/storage/box/alliance_modular/quarian
 
 /datum/outfit/modular_alliance/quarian/lawyer
 	name = "Lawyer Quarian"
