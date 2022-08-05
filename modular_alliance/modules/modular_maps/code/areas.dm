@@ -122,6 +122,10 @@
 	name = "\improper Research Division Lower"
 	icon_state = "science"
 
+/area/station/modular_alliance/science/expedition_block
+	name = "\improper Expedition block"
+	icon_state = "science"
+
 /area/station/modular_alliance/command/shelter
 	name = "Shelter"
 	icon_state = "bridge"
