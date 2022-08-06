@@ -4589,6 +4589,8 @@
 #include "modular_alliance\modules\modular_maps\code\maps.dm"
 #include "modular_alliance\modules\modular_maps\code\cerberus_operations_post\areas.dm"
 #include "modular_alliance\modules\modular_maps\code\cerberus_operations_post\map.dm"
+#include "modular_alliance\modules\modular_objects\code\mining\mineral.dm"
+#include "modular_alliance\modules\modular_objects\code\mining\ores.dm"
 #include "modular_alliance\modules\modular_objects\code\decals.dm"
 #include "modular_alliance\modules\modular_objects\code\floors.dm"
 #include "modular_alliance\modules\modular_objects\code\large_doors.dm"

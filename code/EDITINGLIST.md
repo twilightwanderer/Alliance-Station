@@ -42,3 +42,4 @@
 **code\modules\antagonists\traitor\datum_traitor.dm**  - Changing antagonists
 **code\ __DEFINES\antagonists.dm** - Shutting down organizations
 
+**code\game\turfs\closed\minerals.dm** - Add Zero Element
