@@ -2,7 +2,7 @@
 /turf/closed/mineral/alliance_modular/zero_element
 	mineralAmt = 1
 	scan_state = "rock_Zero"
-	icon = 'modular_alliance/modules/modular_objects/icons/mining.dmi'
+	icon = 'modular_alliance/modules/modular_objects/icons/obj/mining.dmi'
 	smooth_icon = 'modular_alliance/modules/modular_objects/icons/turf/smoothrocks.dmi'
 	var/det_time = 8 //Countdown till explosion, but also rewards the player for how close you were to detonation when you defuse it
 	var/stage = GIBTONITE_UNSTRUCK //How far into the lifecycle of gibtonite we are
