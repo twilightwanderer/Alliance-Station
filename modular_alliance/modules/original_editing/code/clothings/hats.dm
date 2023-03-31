@@ -16,6 +16,6 @@
 	icon_state = "secsoft"
 	worn_icon = ICON_MOB_HEADS_PATH
 
+#undef ICON_MOB_HEADS_PATH
 #undef ICON_OBJECT_HATS_PATH
-#undef ICON_MOB_HANDS_PATH
 

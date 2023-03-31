@@ -13,5 +13,5 @@
 	icon = 'modular_alliance/modules/original_editing/icons/obj/storage.dmi'
 	worn_icon = ICON_MOB_BACKS_PATH
 
+#undef ICON_MOB_BACKS_PATH
 #undef ICON_STORAGES_PATH
-#undef ICON_OBJECT_BACKS_PATH

@@ -5,12 +5,6 @@
 #define AIRLOCK_ACCESS_LIGHT_COLOR "#57e69c"
 #define AIRLOCK_EMERGENCY_LIGHT_COLOR "#d1d11d"
 #define AIRLOCK_DENY_LIGHT_COLOR "#c23b23"
-#define AIRLOCK_CLOSED	1
-#define AIRLOCK_CLOSING	2
-#define AIRLOCK_OPEN	3
-#define AIRLOCK_OPENING	4
-#define AIRLOCK_DENY	5
-#define AIRLOCK_EMAG	6
 
 #define AIRLOCK_CLOSED 1
 #define AIRLOCK_CLOSING 2
@@ -18,17 +12,6 @@
 #define AIRLOCK_OPENING 4
 #define AIRLOCK_DENY 5
 #define AIRLOCK_EMAG 6
-
-#define AIRLOCK_FRAME_CLOSED "closed"
-#define AIRLOCK_FRAME_CLOSING "closing"
-#define AIRLOCK_FRAME_OPEN "open"
-#define AIRLOCK_FRAME_OPENING "opening"
-
-#define AIRLOCK_LIGHT_BOLTS "bolts"
-#define AIRLOCK_LIGHT_EMERGENCY "emergency"
-#define AIRLOCK_LIGHT_DENIED "denied"
-#define AIRLOCK_LIGHT_CLOSING "closing"
-#define AIRLOCK_LIGHT_OPENING "opening"
 
 #define AIRLOCK_SECURITY_NONE 0 //Normal airlock //Wires are not secured
 #define AIRLOCK_SECURITY_IRON 1 //Medium security airlock //There is a simple iron plate over wires (use welder)
@@ -627,13 +610,6 @@
 #undef AIRLOCK_ACCESS_LIGHT_COLOR
 #undef AIRLOCK_EMERGENCY_LIGHT_COLOR
 #undef AIRLOCK_DENY_LIGHT_COLOR
-
-#undef AIRLOCK_CLOSED
-#undef AIRLOCK_CLOSING
-#undef AIRLOCK_OPEN
-#undef AIRLOCK_OPENING
-#undef AIRLOCK_DENY
-#undef AIRLOCK_EMAG
 
 #undef AIRLOCK_CLOSED
 #undef AIRLOCK_CLOSING
